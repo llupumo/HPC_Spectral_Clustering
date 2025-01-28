@@ -188,7 +188,7 @@ np.fill_diagonal(W, 0)
 imshow(W)
 cb=plt.colorbar()
 if geodesic==True:
-    cb.set_label("Km^{-1}")
+    cb.set_label("m^{-1}")
 else:
     cb.set_label("deg^{-1}")
 plt.title("Similarity matrix")
