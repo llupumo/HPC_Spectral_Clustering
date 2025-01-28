@@ -1,0 +1,10 @@
+netCDF4==1.7.1.post2
+numpy==2.0.0
+matplotlib==3.9.2
+scikit-learn==1.5.2
+scipy==1.14.1
+joblib==1.4.2
+ipykernel==6.25.2
+ipynb==0.5.1
+geopy==2.4.1
+pyproj==3.7.0
