@@ -6,6 +6,7 @@
 *.png
 *.pdf
 
+# Omit the Data folder containing NetCDF and results
 Data/
 
 # Byte-compiled / optimized / DLL files
