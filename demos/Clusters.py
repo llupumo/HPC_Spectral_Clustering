@@ -160,7 +160,7 @@ W_path = file_path+'/W_matrix_'+W_params+'.npy'
 
 # Load the Fmap array from the file
 Fmap = np.load(Fmap_path)  # ntime [lon,lat] ntrajectories
-Fmap=Fmap[:,:,::100]
+#Fmap=Fmap[:,:,::100]
 # Load the time_adv_mod array from the file
 time_adv_mod = np.load(time_path)
 # Load the similarity matrix

@@ -53,8 +53,6 @@ parser.add_argument("geodesic", type=lambda x: x.lower() == 'true', help="Geodes
 # Add optional argument with a default value
 parser.add_argument("--freq", type=int, default=10, help="Frequency (default: 10)")
 parser.add_argument("--K", type=int, default=1000, help="K similarity diagonal (default: 1000)")
-parser.add_argument("--n_clusters", type=int, default=0, help="Number of clusters (default: 0 which gives the default number)")
-parser.add_argument("--e", type=float, default=0, help="Sparsification parameter (default: 0 which translates to standard deviation)")
 # Parse the arguments
 args = parser.parse_args()
 
@@ -125,7 +123,7 @@ Fmap = np.load(Fmap_path)  # ntime [lon,lat] ntrajectories
 # Load the time_adv_mod array from the file
 time_adv_mod = np.load(time_path)
 
-Fmap=Fmap[:,:,::100]
+#Fmap=Fmap[:,:,::100]
 
 
 # In[63]:

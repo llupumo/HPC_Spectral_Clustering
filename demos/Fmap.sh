@@ -11,10 +11,10 @@ results_directory="${parent_directory}/Data/"
 
 tmin=0
 tmax=360
-lat_resolution=0.25
-lon_resolution=0.25
-dt=1
-DT=10
+lat_resolution=1
+lon_resolution=1
+dt=0.1
+DT=2
 freq=10
 
 Fmap_params="tmin${tmin}_"

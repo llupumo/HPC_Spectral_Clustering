@@ -164,11 +164,15 @@ print("Interpolating to a regular grid")
 lat_min, lat_max = latitude.min(), latitude.max()
 lon_min, lon_max = longitude.min(), longitude.max()
 
+latitude_resolution = 0.25
+longitude_resolution = 0.25
+
 # Generate the latitude and longitude values
-latitudes = np.arange(lat_min, lat_max + lat_resolution, lat_resolution)
-longitudes = np.arange(lon_min, lon_max + lon_resolution, lon_resolution)
+latitudes = np.arange(lat_min, lat_max + latitude_resolution, latitude_resolution)
+longitudes = np.arange(lon_min, lon_max + longitude_resolution, longitude_resolution)
 # Create a meshgrid
 lon_grid, lat_grid = np.meshgrid(longitudes, latitudes)
+
 # Print the shapes of the grids
 print(f"Latitude grid shape: {lat_grid.shape}")
 print(f"Longitude grid shape: {lon_grid.shape}")
@@ -312,9 +316,18 @@ del interpolated_siv
 
 
 print("Advecting")
+
+
+# Generate the latitude and longitude values
+IC_lat = np.arange(lat_min, lat_max + lat_resolution, lat_resolution)
+IC_lon = np.arange(lon_min, lon_max + lon_resolution, lon_resolution)
+# Create a meshgrid
+IC_lon_grid, IC_lat_grid = np.meshgrid(IC_lon,IC_lat)
+# Print the shapes of the grids
+
 # vectorize initial conditions
-lon0 = lon_grid.ravel() # array (Nx*Ny, )
-lat0 = lat_grid.ravel() # array (Nx*Ny, )
+lon0 = IC_lon_grid.ravel() # array (Nx*Ny, )
+lat0 = IC_lat_grid.ravel() # array (Nx*Ny, )
 
 IC = np.array([lat0, lon0]) # array (2, Nx*Ny)
 #Initial conditions over the whole domain
@@ -492,7 +505,7 @@ np.save(results_directory+'/advection_time.npy', time_adv_mod)
 
 
 print("Ploting the advected trajectories")
-time_filter = 100
+ntraj_filter = 10
 
 DFDt = DFDt[:-1,:,:]
 # Trajectories which velocities vanish to zero
@@ -500,7 +513,7 @@ nulvel_trajectories_idx = np.unique(np.where((abs(DFDt[:-1,0,:]) < 1e-8) & (abs(
 print("The number of trajectories with vanishing velocity is "+str(len(nulvel_trajectories_idx)))
 
 #plot less trajectories than the ones we have
-Fmap_filtered = Fmap[:,:,::time_filter]
+Fmap_filtered = Fmap[:,:,::ntraj_filter]
 
 #Delete trajectories with vanishing velocities
 Fmap = np.delete(Fmap,nulvel_trajectories_idx,axis=2)
