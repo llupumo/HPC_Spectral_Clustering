@@ -1,69 +1,56 @@
 # Spectral clustering for Sea Ice
 
-This Python script analyzes and visualizes ice flow patterns using scientific datasets. It supports tasks such as grid interpolation, trajectory computation, and clustering analysis.
+This Python script analyzes and visualizes ice flow patterns using sea ice velocity from the NextSIM model. 
 
-## Features
-
-- Handles large datasets in NetCDF format.
-- Computes trajectories and interpolates irregular grids.
-- Supports spectral clustering for data analysis.
-- Visualizes results with custom plots and animations.
 
 ## Prerequisites
 
-Before running the script, ensure you have the following installed: Python 3.8 or higher, and optionally a virtual environment.
+Before running the script, ensure you have the following installed: Python 3.8 or higher. 
+See requirements.txt file for necessary libraries 
+- netCDF4==1.7.1.post2
+- numpy==2.0.0
+- matplotlib==3.9.2
+- scikit-learn==1.5.2
+- scipy==1.14.1
+- joblib==1.4.2
+- ipykernel==6.25.2
+- ipynb==0.5.1
+- geopy==2.4.1
+- pyproj==3.7.0
 
 ## Installation
 
 Clone this repository: `git clone <repository-url>`
 
-Navigate to the project directory: `cd ice-grid-analysis`
-
 Create and activate a virtual environment:
-    For Linux/macOS: `python3 -m venv venv` followed by `source venv/bin/activate`
-    For Windows: `python -m venv venv` followed by `venv\Scripts\activate`
-
+    `python3 -m venv venv` followed by `source venv/bin/activate`
+    
 Install dependencies: `pip install -r requirements.txt`
-
-Run the script: `python ice_grid.py`
-
-Deactivate the virtual environment when done: `deactivate`
 
 ## Usage
 
-Prepare the necessary datasets:
+Place the following dataset in the directory HPC_Spectral_Clustering/Data/
+- OPA-neXtSIM_CREG025_ILBOXE140_2010_ice_latlon_rot_jacob.nc
 
-- `OPA-neXtSIM_CREG025_ILBOXE140_2010_ice.nc`
-- `OPA-neXtSIM_CREG025_ILBOXE140_2010_gridU_oce.nc`
-- `mesh_mask_CREG025_3.6_NoMed.nc`
+Run the following executables in the following order:
 
-These should be placed in the appropriate directories specified in the script.
+- /home/llu/Programs/HPC_Spectral_Clustering/demos/Fmap.sh
+- /home/llu/Programs/HPC_Spectral_Clustering/demos/W.sh
+- /home/llu/Programs/HPC_Spectral_Clustering/demos/Clusters.sh
 
-Run the script: `python ice_grid.py`
-Results will be saved in the specified results directory.
-
-## File Structure
-
-project/
-├── ice_grid.py               # Main script
-├── requirements.txt          # Python dependencies
-├── README.md                 # Documentation
-├── data/                     # Datasets (not included in the repository)
-│   ├── OPA-neXtSIM_CREG025_ILBOXE140_2010_ice.nc
-│   ├── OPA-neXtSIM_CREG025_ILBOXE140_2010_gridU_oce.nc
-│   └── mesh_mask_CREG025_3.6_NoMed.nc
-├── results/                  # Output results
-└── utils/                    # Additional utility functions
+Results will be saved in the HPC_Spectral_Clustering/Data/ directory
 
 
 ## Notes
 
-- The script is optimized for parallel processing; ensure sufficient computational resources.
-- Configurations like dataset paths or parameters should be updated in the script as needed.
+- The script is optimized for parallel processing
+- Configurations like dataset paths or parameters should be updated in the script as needed. You can do that by modifying the executable scripts
+    - /home/llu/Programs/HPC_Spectral_Clustering/demos/Fmap.sh
+    - /home/llu/Programs/HPC_Spectral_Clustering/demos/W.sh
+    - /home/llu/Programs/HPC_Spectral_Clustering/demos/Clusters.sh
 - We use seed 563 for demos
 
 ## Contributing
 
 Feel free to open issues or submit pull requests to enhance the project.
 
-## License
