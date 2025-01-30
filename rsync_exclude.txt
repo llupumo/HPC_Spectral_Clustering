@@ -1,4 +1,4 @@
 requirements.txt
 rsync_exclude.txt
 rsync_exclude.sh
-
+Data/
