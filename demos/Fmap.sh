@@ -10,7 +10,7 @@ file_path="${parent_directory}/Data/OPA-neXtSIM_CREG025_ILBOXE140_2010_ice_latlo
 results_directory="${parent_directory}/Data/"
 
 tmin=0
-tmax=360
+tmax=25
 lat_resolution=1
 lon_resolution=1
 dt=0.1
@@ -38,3 +38,4 @@ python Fmap.py \
   "$dt" \
   "$DT" \
   --freq "$freq"
+echo hola
