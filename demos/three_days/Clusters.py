@@ -41,11 +41,13 @@ parser = argparse.ArgumentParser(description="Process some parameters for cluste
 # Add required arguments
 parser.add_argument("Ncores", type=int, help="Number of CPU's")
 parser.add_argument("file_path", type=str, help="Path to the file")
+parser.add_argument("geo_file_path", type=str, help="Path to the file")
 parser.add_argument("parent_directory", type=str, help="Parent directory")
 parser.add_argument("results_directory", type=str, help="Results directory")
 parser.add_argument("tmin", type=int, help="Minimum time")
 parser.add_argument("tmax", type=int, help="Maximum time")
-ment("ic_resolution", type=float, help="Lat and lon resolution for the IC ")
+parser.add_argument("lat_resolution", type=float, help="Lat resolution for the IC grid in degrees")
+parser.add_argument("lon_resolution", type=float, help="Lon resolution for the IC grid in degrees")
 parser.add_argument("dt", type=float, help="Time step size for Runge Kutta")
 parser.add_argument("DT", type=float, help="Time step size for Fmap")
 parser.add_argument("geodesic", type=lambda x: x.lower() == 'true', help="Geodesic boolean for trajectory distance")
@@ -65,7 +67,8 @@ parent_directory = args.parent_directory
 results_directory = args.results_directory
 tmin = args.tmin
 tmax = args.tmax
-ic_resolution = args.ic_resolution
+lat_resolution = args.lat_resolution
+lon_resolution = args.lon_resolution
 dt = args.dt
 DT = args.DT
 geodesic = args.geodesic
@@ -79,6 +82,37 @@ if not os.path.exists(results_directory):
     os.makedirs(results_directory)
 
 
+# In[ ]:
+
+
+"""
+K=1000
+Ncores = 10
+geo_file_path = "/home/llu/Data/OPA-neXtSIM_CREG025_ILBOXE140_2010_ice_latlon_rot_jacob.nc"
+parent_directory = "/home/llu/Programs/HPC_Spectral_Clustering/"
+tmin = 0
+tmax = 360
+lat_resolution = 0.25
+lon_resolution = 0.25
+dt = 1
+DT = 10
+freq = 1
+timemod = int(DT/dt) #10
+geodesic=False
+n_clusters=0
+e=0
+k_exp = 20
+
+# Initial file path
+file_path = "/home/llu/Data/Fmap_tmin0_tmax360_latlonres0.25x0.25_dt1_DT10/"
+# Construct results directory path
+results_directory = f"{file_path}/{Cluster_params}/"
+if not os.path.exists(results_directory):
+    os.makedirs(results_directory)
+    
+"""
+
+
 
 
 # In[67]:
@@ -87,7 +121,7 @@ if not os.path.exists(results_directory):
 Cluster_params = (
     f"geodesic_{geodesic}_"
     f"nclusters{n_clusters}_"
-    f"e{e:.2f}"
+    f"e{e}"
 )
 
 W_params = (

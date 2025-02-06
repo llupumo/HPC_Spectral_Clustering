@@ -36,7 +36,8 @@ parser.add_argument("parent_directory", type=str, help="Parent directory")
 parser.add_argument("results_directory", type=str, help="Results directory")
 parser.add_argument("tmin", type=int, help="Minimum time")
 parser.add_argument("tmax", type=int, help="Maximum time")
-parser.add_argument("ic_resolution", type=float, help="Lat and lon resolution for the IC ")
+parser.add_argument("lat_resolution", type=float, help="Lat resolution for the IC and the interpolator grid in degrees")
+parser.add_argument("lon_resolution", type=float, help="Lon resolution for the IC and the interpolator grid in degrees")
 parser.add_argument("dt", type=float, help="Time step size for Runge Kutta")
 parser.add_argument("DT", type=float, help="Time step size for Fmap")
 # Add optional argument with a default value
@@ -50,19 +51,47 @@ parent_directory = args.parent_directory
 results_directory = args.results_directory
 tmin = args.tmin
 tmax = args.tmax
-ic_resolution = args.ic_resolution
+lat_resolution = args.lat_resolution
+lon_resolution = args.lon_resolution
 dt = args.dt
 DT = args.DT
 freq = args.freq
 timemod = int(DT/dt) #10
-latitude_resolution = 0.15
-longitude_resolution = 0.15
 
+
+# In[34]:
+
+
+"""
+Ncores = 10
+file_path = "/home/llu/Data/OPA-neXtSIM_CREG025_ILBOXE140_2000_ice_90Rx.nc"
+parent_directory = "/home/llu/Programs/HPC_Spectral_Clustering/"
+results_directory = "/home/llu/Data/"
+tmin = 0
+tmax = 50
+lat_resolution = 0.25
+lon_resolution = 0.25
+dt = 0.3
+DT = 1
+freq = 1
+timemod = int(DT/dt) #10
+"""
+
+
+# In[35]:
 
 
 #Parameters for random IC
 Nt = 500 # Number of random trajectories
 seed = 365
+
+Fmap_params = (
+    f"tmin{tmin}_"
+    f"tmax{tmax}_"
+    f"latlonres{lat_resolution}x{lon_resolution}_"
+    f"dt{dt}_"
+    f"DT{DT}"
+)
 
 # Create the results directory if it doesn't exist
 try:
@@ -135,6 +164,8 @@ print("Interpolating to a regular grid")
 lat_min, lat_max = latitude.min(), latitude.max()
 lon_min, lon_max = longitude.min(), longitude.max()
 
+latitude_resolution = 0.25
+longitude_resolution = 0.25
 
 # Generate the latitude and longitude values
 latitudes = np.arange(lat_min, lat_max + latitude_resolution, latitude_resolution)
@@ -216,7 +247,7 @@ plt.colorbar(im)
 # want to have IC there.
 
 # Initialize the vel_land_mask array with False
-vel_land_mask = np.full(lat_grid.shape, False, dtype=bool)
+vel_land_mask = np.full((305, 270), False, dtype=bool)
 # Compute indices where the velocity is 0 
 zero_indices = np.where((interpolated_siu[:,:,0] == 0) & (interpolated_siv[:,:,0] == 0))
 # Set the specified indices to True
@@ -288,8 +319,8 @@ print("Advecting")
 
 
 # Generate the latitude and longitude values
-IC_lat = np.arange(lat_min, lat_max + ic_resolution, ic_resolution)
-IC_lon = np.arange(lon_min, lon_max + ic_resolution, ic_resolution)
+IC_lat = np.arange(lat_min, lat_max + lat_resolution, lat_resolution)
+IC_lon = np.arange(lon_min, lon_max + lon_resolution, lon_resolution)
 # Create a meshgrid
 IC_lon_grid, IC_lat_grid = np.meshgrid(IC_lon,IC_lat)
 # Print the shapes of the grids
@@ -338,6 +369,39 @@ IC = outflow_detector(IC,7,30,-68,-40)
 #Remove conditions in saint laurens sea
 IC = outflow_detector(IC,-40,-35,-70,-60)
 
+
+# In[ ]:
+
+
+# Plot the trajectories
+# Create a colormap from blue to red
+
+fig = plt.figure(figsize=(5, 5), dpi=200)
+# Define the colors: white for land and light blue for water
+ax = plt.axes()
+# Plot the land mask
+ax.scatter(lon_grid.ravel(), lat_grid.ravel(), marker=".", s=0.01, c=mask_interpol)
+# Plot initial and final positions
+ax.scatter(IC[1,:], IC[0, :], label="IC", c="blue", s=0.5)
+# Set axis labels and legend
+ax.set_xlim(lon_min - 0.05 * (lon_max - lon_min), lon_max + 0.05 * (lon_max - lon_min))
+ax.set_ylim(lat_min - 0.05 * (lat_max - lat_min), lat_max + 0.05 * (lat_max - lat_min))
+ax.set_xlabel("Longitude")
+ax.set_ylabel("Latitude")
+# Remove duplicate labels in the legend
+handles, labels = ax.get_legend_handles_labels()
+unique_labels = dict(zip(labels, handles))
+ax.legend(unique_labels.values(), unique_labels.keys(), loc="upper center", ncol=3, bbox_to_anchor=(0.5, 1.15), fancybox=True)
+plt.savefig(results_directory+'/IC.png')
+
+
+# In[108]:
+
+
+IC.shape
+
+
+# In[60]:
 
 
 # Plot the trajectories
@@ -496,7 +560,7 @@ ax.set_ylabel("Latitude")
 handles, labels = ax.get_legend_handles_labels()
 unique_labels = dict(zip(labels, handles))
 ax.legend(unique_labels.values(), unique_labels.keys(), loc="upper center", ncol=3, bbox_to_anchor=(0.5, 1.15), fancybox=True)
-plt.savefig(results_directory+'/Advected_trajectories.png')
+plt.savefig(results_directory+'/Advected_trajectories_.png')
 
 
 # #### Extra codes

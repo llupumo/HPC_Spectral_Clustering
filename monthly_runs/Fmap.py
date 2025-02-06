@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[32]:
-
-
 import sys, os, argparse
 import time
 import netCDF4 as nc
@@ -22,9 +16,6 @@ from scipy.interpolate import LinearNDInterpolator as LNDI
 
 # Import package for parallel computing
 from joblib import Parallel, delayed
-
-
-# In[33]:
 
 
 # Create the parser
@@ -59,10 +50,9 @@ latitude_resolution = 0.15
 longitude_resolution = 0.15
 
 
-
 #Parameters for random IC
-Nt = 500 # Number of random trajectories
-seed = 365
+#Nt = 500 # Number of random trajectories
+#seed = 365
 
 # Create the results directory if it doesn't exist
 try:
@@ -73,12 +63,6 @@ except Exception as e:
     sys.exit(1)
 
 
-# In[36]:
-
-
-# add utils folder to the TBarrier package
-#sys.path.append(T_Barrier_directory+"/subfunctions/utils")
-#sys.path.append(T_Barrier_directory+"/subfunctions/integration")
 # add utils folder to current working path
 sys.path.append(parent_directory+"/subfunctions/Similarity_matrix_clustering")
 sys.path.append(parent_directory+"/subfunctions/Similarity_matrix_construction")
@@ -86,17 +70,15 @@ sys.path.append(parent_directory+"/subfunctions/trajectory_advection")
 sys.path.append(parent_directory+"/utils")
 
 # Import linear interpolation function for unsteady flow field with irregular grid
-from ipynb.fs.defs.Interpolant import interpolant_unsteady
-from ipynb.fs.defs.Interpolant import regrid_unsteady
+from Interpolant import interpolant_unsteady
+from Interpolant import regrid_unsteady
 # Import function to compute flow map/particle trajectories
-from ipynb.fs.defs.integration_dFdt import integration_dFdt
+from integration_dFdt import integration_dFdt
+from outflow_detector import outflow_detector
 
+#########################################################################################
 
-# ### Read dataset
-
-# In[37]:
-
-
+# Read dataset
 print("Reading the input data")
 dataset = nc.Dataset(file_path, mode='r')
 
@@ -121,13 +103,11 @@ time_data = time_data[:,::freq]
 dataset.close()
 
 
-# # Interpolate to a regular grid to then generate the interpolator objects.
-# 
+# Interpolate to a regular grid to then generate the interpolator objects.
+
 # Note that we interpolate to a 0.1 degree which means that from a grid 493x500 we go to a grid of 761x674 but note that we also have more space in the boundaries
 
-# ##### Define a regular grid both for the IC and to use to generate the interpolators
-
-# In[38]:
+#### Define a regular grid both for the IC and to use to generate the interpolators
 
 
 print("Interpolating to a regular grid")
@@ -146,18 +126,11 @@ lon_grid, lat_grid = np.meshgrid(longitudes, latitudes)
 print(f"Latitude grid shape: {lat_grid.shape}")
 print(f"Longitude grid shape: {lon_grid.shape}")
 
-
-# #### Interpolate velocities and land_mask into the regular grid
-
-# In[39]:
-
+#### Interpolate velocities and land_mask into the regular grid
 
 #Land mask: water 0, land 1
 mask_interpolator = LNDI(list(zip(latitude.ravel(), longitude.ravel())), land_mask.ravel(),fill_value=1)
 mask_interpol=mask_interpolator(lat_grid, lon_grid)
-
-
-# In[40]:
 
 
 v = siu
@@ -169,30 +142,17 @@ interpolated_data = Parallel(n_jobs=Ncores)(delayed(interpolate_frame)(t) for t 
 interpolated_siu = np.array(interpolated_data).transpose(1, 2, 0)
 
 
-# In[41]:
-
-
 v = siv
-def interpolate_frame(t):
-    return griddata((latitude.ravel(), longitude.ravel()),v[:, :, t].ravel(),(lat_grid.ravel(), lon_grid.ravel()),method='linear',rescale=False).reshape(lon_grid.shape)
 # Parallelize the interpolation over the third dimension
 interpolated_data = Parallel(n_jobs=Ncores)(delayed(interpolate_frame)(t) for t in range(v.shape[2]))
 # Convert the list of arrays to a single numpy array and transpose
 interpolated_siv = np.array(interpolated_data).transpose(1, 2, 0)
 
 
-# In[42]:
-
-
 interpolated_siu = np.ma.masked_array(interpolated_siu, mask=np.repeat(mask_interpol[:, :, np.newaxis], interpolated_siu.shape[2], axis=2))
 interpolated_siv = np.ma.masked_array(interpolated_siv, mask=np.repeat(mask_interpol[:, :, np.newaxis], interpolated_siu.shape[2], axis=2))
 
-#At this point the land values are masked but we want to have 0 to be able to advect
-
-
-# #### Set to 0 the land_mask
-
-# In[ ]:
+#At this point the land values are masked but we want to have zeros instead of Nans to be able to advect
 
 
 # Set nan values to zero (in case there are any) so that we can apply interpolant. 
@@ -204,12 +164,6 @@ interpolated_siv = interpolated_siv.filled(0)
 
 np.save(results_directory+'/siu_regular_grid.npy', interpolated_siu)
 np.save(results_directory+'/siv_regular_grid.npy', interpolated_siv)
-
-im = imshow(interpolated_siu[:,:,0],cmap=cm.RdBu,origin="lower",vmin=-0.3,vmax=0.3)#,vmin=-0.000001,vmax=0.000001)
-plt.colorbar(im)
-
-
-# In[45]:
 
 
 # Find the points where the velocity arrays are 0. This means either land or null initial velocity and therefore we don't 
@@ -225,10 +179,7 @@ vel_land_mask[zero_indices] = True
 vel_land_interpolator = LNDI(list(zip(lat_grid.ravel(), lon_grid.ravel())), vel_land_mask.ravel(),fill_value=1)
 
 
-# #### Generate interpolators for advection
-
-# In[46]:
-
+### Generate interpolators for advection
 
 print("Generate interpolators for the advection")
 # split x0, y0 into 'Ncores' batches for parallel computing
@@ -243,7 +194,6 @@ siv_batch = list(split3D(interpolated_siv, Ncores)) # list (Nx*Ny)
 def parallel_interpolant_unsteady(siu_batch, siv_batch):
     # Compute trajectories
     Interpolant = interpolant_unsteady(lon_grid, lat_grid, siu_batch, siv_batch) # method = "linear" leads to linear interpolation
-
     return Interpolant
 
 start_time = time.time()
@@ -268,9 +218,6 @@ Interpolant_v = Interpolant_p[1] # Interpolant for V-array
 del(Interpolant_p)
 
 
-# In[47]:
-
-
 del siu_batch
 del siu
 del interpolated_siu
@@ -279,10 +226,7 @@ del siv
 del interpolated_siv
 
 
-# ### Define initial conditions for advection and keep only sea ice IC (not null velocity, over water)
-
-# In[111]:
-
+#### Define initial conditions for advection and keep only sea ice IC (not null velocity, over water)
 
 print("Advecting")
 
@@ -302,17 +246,12 @@ IC = np.array([lat0, lon0]) # array (2, Nx*Ny)
 #Initial conditions over the whole domain
 
 
-# In[112]:
-
 
 # Remove the points where the velocity arrays are 0. This means either land or null initial velocity and therefore we don't 
 # want to have IC there.
 mask_IC = vel_land_interpolator(np.transpose(IC))
 idx_mask_IC = np.where(mask_IC==0)[0]
 IC = IC[:,idx_mask_IC]
-
-
-# In[105]:
 
 
 lonmin = -65
@@ -323,21 +262,11 @@ mask = (IC[0, :] >= latmin) & (IC[0, :] <= latmax) & (IC[1, :] >= lonmin) & (IC[
 print(np.sum(mask==True))
 IC = IC[:, ~mask]
 
-#IC = outflow_detector(IC,7,10,-65,-50)
 
-
-# In[122]:
-
-
-def outflow_detector(IC,latmin,latmax,lonmin,lonmax):
-    mask = (IC[0, :] >= latmin) & (IC[0, :] <= latmax) & (IC[1, :] >= lonmin) & (IC[1, :] <= lonmax)
-    print("The number of trajectories leaving the domain is: "+str(np.sum(mask==True)))
-    return IC[:, ~mask]
 #Remove conditions in the baltic
 IC = outflow_detector(IC,7,30,-68,-40)
 #Remove conditions in saint laurens sea
 IC = outflow_detector(IC,-40,-35,-70,-60)
-
 
 
 # Plot the trajectories
@@ -362,9 +291,7 @@ ax.legend(unique_labels.values(), unique_labels.keys(), loc="upper center", ncol
 plt.savefig(results_directory+'/IC.png')
 
 
-# #### Start the velocity advection
-
-# In[52]:
+#### Start the velocity advection
 
 
 print("Advecting trajectories")
@@ -389,8 +316,6 @@ periodic = [periodic_x, periodic_y, periodic_t]
 bool_unsteady = True
 
 
-# In[53]:
-
 
 # split x0, y0 into 'Ncores' batches for parallel computing
 def split(a, n):
@@ -406,7 +331,7 @@ def parallel_Fmap(x0_batch, y0_batch):
     X0 = np.array([x0_batch, y0_batch]) # array (2, Nx*Ny)
     
     # Compute trajectories
-    I = integration_dFdt(time_adv, X0, lon_grid, lat_grid, Interpolant_u, Interpolant_v, periodic, bool_unsteady, time_data, verbose = True, linear=False, timemod=timemod) # array (Nt, 2, Nx*Ny)
+    I = integration_dFdt(time_adv, X0, lon_grid, lat_grid, Interpolant_u, Interpolant_v, periodic, bool_unsteady, time_data, verbose = False, linear=False, timemod=timemod) # array (Nt, 2, Nx*Ny)
 
     return I
 
@@ -417,9 +342,6 @@ results = Parallel(n_jobs=Ncores, verbose = 0)(delayed(parallel_Fmap)(x0_batch[i
 time_adv_mod = time_adv[::timemod]
 
 
-# In[54]:
-
-
 Fmap = results[0][0]
 DFDt = results[0][1]
 
@@ -428,16 +350,11 @@ for res in results[1:]:
     DFDt = np.append(DFDt, res[1], axis = 2)
 
 
-# In[55]:
-
-
 np.save(results_directory+'/Fmap_matrix.npy', Fmap)
 np.save(results_directory+'/advection_time.npy', time_adv_mod)
 
 
-# #### Plot some of the advected trajectories
-
-# In[56]:
+### Plot some of the advected trajectories
 
 
 print("Ploting the advected trajectories")
@@ -499,9 +416,7 @@ ax.legend(unique_labels.values(), unique_labels.keys(), loc="upper center", ncol
 plt.savefig(results_directory+'/Advected_trajectories.png')
 
 
-# #### Extra codes
 
-# In[57]:
 
 
 '''
@@ -515,9 +430,6 @@ print(f"Time taken for advecting trajectories with the RK solver not parallelize
 
 time_adv = time_adv[::timemod]
 '''
-
-
-# In[58]:
 
 
 """
@@ -537,7 +449,6 @@ IC = generate_random_tuples(Nt, lat_min, lat_max, lon_min, lon_max,seed).transpo
 """
 
 
-# In[ ]:
 
 
 

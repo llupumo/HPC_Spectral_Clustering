@@ -1,0 +1,50 @@
+Starting job 6083569 on c43-6 on fram at Wed Feb 5 12:29:32 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Reading data
+Traceback (most recent call last):
+  File "/cluster/work/users/llpui9007/monthly_runs/Clusters.py", line 107, in <module>
+    Fmap = np.load(Fmap_path)  # ntime [lon,lat] ntrajectories
+  File "/cluster/home/llpui9007/venvs/Spectral_clustering_venv/lib64/python3.9/site-packages/numpy/lib/_npyio_impl.py", line 455, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cluster/projects/nn8008k/lluisa/NextSIM/rotated_ice_velocities/seas/OND/Fmap_tests/IC_res0.5_dt0.0010_DT0.1000//Fmap_matrix.npy'
+srun: error: c43-6: task 0: Exited with exit code 1
+srun: Terminating StepId=6083569.0
+
+real	0m44.576s
+user	0m0.017s
+sys	0m0.004s
+
+Job 6083569 consumed 0.4 billing hours from project nn8008k.
+
+Submitted 2025-02-05T12:29:26; waited 6.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   46.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6083569           32            0.0 %  2025-02-05T12:29:32   46.0 s  1
+6083569.batch     32      1     0.0 %  2025-02-05T12:29:32   46.0 s  1
+6083569.python    10      1     1.2 %  2025-02-05T12:29:33   45.0 s  1
+
+Used CPU time:   5.7 CPU seconds
+Unused CPU time: 24.4 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6083569           59.0        
+6083569.batch     59.0     0.0
+6083569.python    59.0     0.2
+
+Job 6083569 completed at Wed Feb 5 12:30:18 CET 2025

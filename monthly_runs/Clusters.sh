@@ -1,11 +1,14 @@
 #!/bin/bash
 # Define the parameters
 #SBATCH --account=nn8008k
-#SBATCH --job-name= Sim_mat
+#SBATCH --job-name=cluTest
 #SBATCH --time=1-0:0:0
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=10
+Ncores=10
+year="2010"
+season="OND"
 
 ## Set up job environment:
 set -o errexit  # Exit the script on any error
@@ -18,19 +21,13 @@ module list
 source /cluster/home/llpui9007/venvs/Spectral_clustering_venv/bin/activate
 
 
-
-current_directory=$(pwd)
-# Get the parent directory
-parent_directory=$(dirname "$current_directory")
-
-Ncores=10
-tmin=0
-tmax=None
 IC_resolution=0.5
 dt=0.001
 DT=0.1
 freq=10
-geodesic=True
+geodesic=False
+e=0
+n_clusters=0
 
 formatted_e=$(printf "%.2f" "$e")
 formatted_DT=$(printf "%.4f" "$DT")
@@ -41,24 +38,28 @@ Fmap_params="IC_res${IC_resolution}_"
 Fmap_params+="dt${formatted_dt}_"
 Fmap_params+="DT${formatted_DT}"
 
+Cluster_params="geodesic_${geodesic}_nclusters${n_clusters}_e${formatted_e}"
 
-file_path="${parent_directory}/Data/Fmap_${Fmap_params}/"
-results_directory="${file_path}"
+directory="/cluster/projects/nn8008k/lluisa/NextSIM/rotated_ice_velocities/seas/${season}/"
+input_files_directory="${directory}Fmap_tests/${Fmap_params}/"
+parent_directory="/cluster/home/llpui9007/Programs/HPC_Spectral_Clustering"
+results_directory=${input_files_directory}
+filename="OPA-neXtSIM_CREG025_ILBOXE140_${year}_ice_90Rx_${season}.nc"
+velocities_file_path="${directory}${filename}" 
+
+#######################################################################################################################
+
 
 # Run the Python script
-time srun python W.py \
+time srun python /cluster/work/users/llpui9007/monthly_runs/Clusters.py \
   "$Ncores" \
+  "$input_files_directory" \
   "$velocities_file_path" \
   "$parent_directory" \
-  "$Fmap_file_path" \
-  "$tmin" \
-  "$tmax" \
-  "$IC_resolution" \
-  "$dt" \
-  "$DT" \
+  "$results_directory" \
   "$geodesic" \
-  --freq "$freq"
+  --e "$e"\
+  --n_clusters "$n_clusters"
+
 env | grep NUM_THREADS
-
-
 

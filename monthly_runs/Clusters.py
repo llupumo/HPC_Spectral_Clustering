@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[65]:
 
 
 import netCDF4 as nc
@@ -40,18 +39,12 @@ from joblib import Parallel, delayed
 parser = argparse.ArgumentParser(description="Process some parameters for clustering.")
 # Add required arguments
 parser.add_argument("Ncores", type=int, help="Number of CPU's")
-parser.add_argument("file_path", type=str, help="Path to the file")
+parser.add_argument("input_file_directory", type=str, help="Path to the file")
+parser.add_argument("geo_file_path", type=str, help="Path to the velocity field")
 parser.add_argument("parent_directory", type=str, help="Parent directory")
 parser.add_argument("results_directory", type=str, help="Results directory")
-parser.add_argument("tmin", type=int, help="Minimum time")
-parser.add_argument("tmax", type=int, help="Maximum time")
-ment("ic_resolution", type=float, help="Lat and lon resolution for the IC ")
-parser.add_argument("dt", type=float, help="Time step size for Runge Kutta")
-parser.add_argument("DT", type=float, help="Time step size for Fmap")
 parser.add_argument("geodesic", type=lambda x: x.lower() == 'true', help="Geodesic boolean for trajectory distance")
 # Add optional argument with a default value
-parser.add_argument("--freq", type=int, default=10, help="Frequency (default: 10)")
-parser.add_argument("--K", type=int, default=1000, help="K similarity diagonal (default: 1000)")
 parser.add_argument("--n_clusters", type=int, default=0, help="Number of clusters (default: 0 which gives the default number)")
 parser.add_argument("--e", type=float, default=0, help="Sparsification parameter (default: 0 which translates to standard deviation)")
 # Parse the arguments
@@ -59,29 +52,18 @@ args = parser.parse_args()
 
 
 Ncores = args.Ncores
-file_path = args.file_path
+file_path = args.input_file_directory
 geo_file_path = args.geo_file_path
 parent_directory = args.parent_directory
 results_directory = args.results_directory
-tmin = args.tmin
-tmax = args.tmax
-ic_resolution = args.ic_resolution
-dt = args.dt
-DT = args.DT
 geodesic = args.geodesic
-freq = args.freq
-K = args.K
 n_clusters = args.n_clusters
 e = args.e
+
 k_exp = 20
 
 if not os.path.exists(results_directory):
     os.makedirs(results_directory)
-
-
-
-
-# In[67]:
 
 
 Cluster_params = (
@@ -96,9 +78,6 @@ W_params = (
 
 
 
-# In[68]:
-
-
 # add utils folder to the TBarrier package
 #sys.path.append(T_Barrier_directory+"/subfunctions/utils")
 #sys.path.append(T_Barrier_directory+"/subfunctions/integration")
@@ -107,12 +86,12 @@ sys.path.append(parent_directory+"/subfunctions/Similarity_matrix_clustering")
 sys.path.append(parent_directory+"/utils")
 
 
-from ipynb.fs.defs.from_similarity_to_eigen import from_similarity_to_eigen
+from from_similarity_to_eigen import from_similarity_to_eigen
 
-from ipynb.fs.defs.ploters import ini_final_clusters
-from ipynb.fs.defs.ploters import gif_clusters
-from ipynb.fs.defs.ploters import ini_final_clusters_landmask
-from ipynb.fs.defs.ploters import gif_clusters_landmask
+from ploters import ini_final_clusters
+from ploters import gif_clusters
+from ploters import ini_final_clusters_landmask
+from ploters import gif_clusters_landmask
 
 
 # In[69]:
@@ -173,31 +152,42 @@ plt.savefig(results_directory+"eigenvalues_"+Cluster_params+".png")
 
 # ### Clustering
 
-# In[71]:
-
-
 print("Applying k-means to define the clusters")
 if n_clusters==0:
     n_clusters = n_clusters_def  
-l_vect = l_vect[:,0:n_clusters]
-kmeans = KMeans(init="random",n_clusters=n_clusters,n_init=100,max_iter=1000)
-kmeans.fit(l_vect)
+l_vect_cut = l_vect[:,0:n_clusters]
+kmeans = KMeans(init="random",n_clusters=n_clusters,n_init=1000,max_iter=10000)
+kmeans.fit(l_vect_cut)
 labels = kmeans.labels_
 
 np.save(results_directory+'/Clusters_labels_'+Cluster_params+'.npy', labels)
 np.save(results_directory+'/Fmap_'+Cluster_params+'.npy', Fmap)
 
 
-# In[72]:
+print("Plotting the clusters")
+#ini_final_clusters(Fmap, n_clusters, labels, results_directory, "", e)
+ini_final_clusters_landmask(Fmap, n_clusters, labels, results_directory+"clusters"+Cluster_params+"_0.png", e, longitude, latitude, land_mask)
+
+#############################################################################################################################################
+kmeans = KMeans(init="random",n_clusters=n_clusters,n_init=1000,max_iter=10000)
+kmeans.fit(l_vect_cut)
+labels = kmeans.labels_
 
 
 print("Plotting the clusters")
 #ini_final_clusters(Fmap, n_clusters, labels, results_directory, "", e)
-ini_final_clusters_landmask(Fmap, n_clusters, labels, results_directory+"clusters"+Cluster_params+".png", e, longitude, latitude, land_mask)
+ini_final_clusters_landmask(Fmap, n_clusters, labels, results_directory+"clusters"+Cluster_params+"_1.png", e, longitude, latitude, land_mask)
 
+#############################################################################################################################################
 
-# In[73]:
+kmeans = KMeans(init="random",n_clusters=n_clusters,n_init=1000,max_iter=10000)
+kmeans.fit(l_vect_cut)
+labels = kmeans.labels_
+print("Plotting the clusters")
+#ini_final_clusters(Fmap, n_clusters, labels, results_directory, "", e)
+ini_final_clusters_landmask(Fmap, n_clusters, labels, results_directory+"clusters"+Cluster_params+"_2.png", e, longitude, latitude, land_mask)
 
+#############################################################################################################################################
 
 print("Ploting the cluster's gif")
 #gif_clusters_landmask(Fmap, n_clusters, labels, results_directory+"clusters"+Cluster_params+".gif", e, longitude, latitude, land_mask,10)

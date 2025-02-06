@@ -1,0 +1,56 @@
+Starting job 6075437 on c44-4 on fram at Tue Feb 4 10:56:26 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Directory '/cluster/projects/nn8008k/lluisa/NextSIM/rotated_ice_velocities/seas/OND/Fmap/2009_OND_ic0.5_dt0.0010_DT0.1000/' is ready.
+Reading the input data
+Interpolating to a regular grid
+Latitude grid shape: (507, 449)
+Longitude grid shape: (507, 449)
+Generate interpolators for the advection
+Time taken for parallel computation to generate the velocity interpolator objects: 4.04 seconds
+Advecting
+0
+The number of trajectories leaving the domain is: 0
+The number of trajectories leaving the domain is: 0
+Advecting trajectories
+Ploting the advected trajectories
+The number of trajectories with vanishing velocity is 5
+
+real	32m14.405s
+user	0m0.010s
+sys	0m0.010s
+OMP_NUM_THREADS=32
+
+Job 6075437 consumed 17.2 billing hours from project nn8008k.
+
+Submitted 2025-02-04T10:56:16; waited 10.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   32.2 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+6075437           32            0.0 %  2025-02-04T10:56:26  1935.0 s  0
+6075437.batch     32      1     0.0 %  2025-02-04T10:56:26  1935.0 s  0
+6075437.python    32      1    13.0 %  2025-02-04T10:56:27  1934.0 s  0
+
+Used CPU time:   2.2 CPU hours
+Unused CPU time: 15.0 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6075437           59.0        
+6075437.batch     59.0     0.0
+6075437.python    59.0    38.8
+
+Job 6075437 completed at Tue Feb 4 11:28:41 CET 2025
