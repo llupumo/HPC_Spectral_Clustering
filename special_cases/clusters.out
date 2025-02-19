@@ -1,0 +1,41 @@
+Starting job 6109704 on c85-4 on fram at Sat Feb 15 19:39:05 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+real	0m14.020s
+user	0m0.011s
+sys	0m0.006s
+
+Job 6109704 consumed 0.1 billing hours from project nn8008k.
+
+Submitted 2025-02-15T19:39:04; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   15.0 seconds
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109704           32            0.0 %  2025-02-15T19:39:05   15.0 s  0
+6109704.batch     32      1     0.1 %  2025-02-15T19:39:05   15.0 s  0
+6109704.python     1      1    65.1 %  2025-02-15T19:39:06   14.0 s  0
+
+Used CPU time:   9.4 CPU seconds
+Unused CPU time: 7.8 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109704           59.0        
+6109704.batch     59.0     0.0
+6109704.python    59.0     0.2
+
+Job 6109704 completed at Sat Feb 15 19:39:20 CET 2025

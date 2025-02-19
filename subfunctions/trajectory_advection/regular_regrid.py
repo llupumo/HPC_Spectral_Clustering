@@ -70,3 +70,42 @@ def regular_grid_interpolation(latitude, longitude, siu, siv,latitude_resolution
     return interpolated_siu, interpolated_siv, lat_grid, lon_grid, mask_interpol
 
 
+def regular_grid_interpolation_scalar(latitude, longitude, scalar, latitude_resolution,longitude_resolution, land_mask, Ncores):
+
+    start_time = time.time()
+    print("Interpolating to a regular grid")
+    # Define the bounds of the grid
+    lat_min, lat_max = latitude.min(), latitude.max()
+    lon_min, lon_max = longitude.min(), longitude.max()
+
+    # Generate the latitude and longitude values
+    latitudes = np.arange(lat_min, lat_max + latitude_resolution, latitude_resolution)
+    longitudes = np.arange(lon_min, lon_max + longitude_resolution, longitude_resolution)
+    # Create a meshgrid
+    lon_grid, lat_grid = np.meshgrid(longitudes, latitudes)
+
+    # Print the shapes of the grids
+    print(f"Latitude grid shape: {lat_grid.shape}")
+    print(f"Longitude grid shape: {lon_grid.shape}")
+
+    #### Interpolate velocities and land_mask into the regular grid
+
+    #Land mask: water 0, land 1
+    mask_interpolator = LNDI(list(zip(latitude.ravel(), longitude.ravel())), land_mask.ravel(),fill_value=1)
+    mask_interpol=mask_interpolator(lat_grid, lon_grid)
+
+
+    # Parallelize the interpolation over the third dimension
+    interpolated_data = Parallel(n_jobs=Ncores)(delayed(interpolate_frame)(latitude, longitude, lat_grid, lon_grid, scalar, t) for t in range(scalar.shape[2]))
+    # Convert the list of arrays to a single numpy array and transpose
+    interpolated_scalar = np.array(interpolated_data).transpose(1, 2, 0)
+    interpolated_scalar = np.ma.masked_array(interpolated_scalar, mask=np.repeat(mask_interpol[:, :, np.newaxis], interpolated_scalar.shape[2], axis=2))
+
+
+    # Calculate the elapsed time
+    elapsed_time = time.time() - start_time
+    print(f"Time taken for regriding the velocity field: {elapsed_time:.2f} seconds")
+
+    return interpolated_scalar, lat_grid, lon_grid
+
+

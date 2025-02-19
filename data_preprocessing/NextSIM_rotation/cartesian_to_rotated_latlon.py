@@ -62,9 +62,14 @@ siu = np.transpose(siu, axes=(1, 2, 0))
 siv = np.transpose(siv, axes=(1, 2, 0))
 siu = siu[:,:,::freq]
 siv = siv[:,:,::freq]
+sic = dataset.variables['sic'][tmin:tmax,ycut_min:,xcut_min:xcut_max]
+sit = dataset.variables['sit'][tmin:tmax,ycut_min:,xcut_min:xcut_max]
+sic = sic[::freq,:,:]
+sit = sit[::freq,:,:]
 
 # Access specific variables
 time_data = dataset.variables['time'][tmin:tmax]
+time_bnds_data = dataset.variables['time_bnds'][tmin:tmax,:]
 time_data= np.reshape(time_data, (1,-1))
 time_data = time_data[0,::freq]
 
@@ -119,6 +124,8 @@ e1t = e1t[1:493,1:500]
 e2t = e2t[1:493,1:500]
 siu = siu[1:493,1:500]
 siv = siv[1:493,1:500]
+sic = sic[:,1:493,1:500]
+sit = sit[:,1:493,1:500]
 
 latitude_u_r = latitude_u_r[1:493,1:500]
 longitude_u_r = longitude_u_r[1:493,1:500]
@@ -193,7 +200,70 @@ dlonydy_r[masked_array_dlonydy] = dlonydy_r_interpolated[masked_array_dlonydy]
 vlat_r = np.multiply(dlatxdx_r[:, :, np.newaxis],siu) + np.multiply(dlatydy_r[:, :, np.newaxis],siv)
 vlon_r = np.multiply(dlonxdx_r[:, :, np.newaxis],siu) + np.multiply(dlonydy_r[:, :, np.newaxis],siv)
 
+# Save sea ice concentration and sea ice thickness
+out_path = results_directory + file_name[:-3] + '_90Rx.nc'
+# Create a new NetCDF file
+ncfile = Dataset(out_path, 'w', format='NETCDF4')
+y_size = latitude_t_r.shape[0]
+x_size = latitude_t_r.shape[1]
+time_size = time_data.shape[0]
+# Create dimensions
+ncfile.createDimension('time', None)
+ncfile.createDimension('nv', 2)
+ncfile.createDimension('y', y_size)
+ncfile.createDimension('x', x_size)
+# Create variables
+time_var = ncfile.createVariable('time', np.float64, ('time',))
+time_var.standard_name = "time"
+time_var.long_name = "simulation time"
+time_var.units = "days since 1900-01-01 00:00:00"
+time_var.calendar = "standard"
+time_var.bounds = "time_bnds"
+time_bnds_var = ncfile.createVariable('time_bnds', np.float64, ('time','nv'))
+time_bnds_var.units = "days since 1900-01-01 00:00:00"
+latitude_var = ncfile.createVariable('rot_lat', np.float32, ('y', 'x'), fill_value=latitude_t.fill_value)
+latitude_var.standard_name = "rotated latitude"
+latitude_var.long_name = "latitude wrt the coordinate system rotated 90⁰ clockwise around the x axis. NP in y=-1, z=0"
+longitude_var = ncfile.createVariable('rot_lon', np.float32, ('y', 'x'), fill_value=longitude_t.fill_value)
+longitude_var.standard_name = "rotated longitude"
+longitude_var.long_name = "longitude wrt the coordinate system rotated 90⁰ clockwise around the x axis. NP in y=-1, z=0"
+vlon_var = ncfile.createVariable('vlon', np.float32, ('time', 'y', 'x'), fill_value=vlon_r.fill_value)
+vlon_var.standard_name = "sea_ice_lon_velocity"
+vlon_var.long_name = "Sea Ice Lon Velocity"
+vlon_var.units = "deg day-1"
+vlon_var.cell_methods = "time: mean (interval: 6 hours) area: mean"
+vlat_var = ncfile.createVariable('vlat', np.float32, ('time', 'y', 'x'), fill_value=vlat_r.fill_value)
+vlat_var.standard_name = "sea_ice_lat_velocity"
+vlat_var.long_name = "Sea Ice Lat Velocity"
+vlat_var.units = "deg day-1"
+vlat_var.cell_methods = "time: mean (interval: 6 hours) area: mean"
+# Create sea ice concentration and thickness variables
+sic_var = ncfile.createVariable('sic', np.float32, ('time', 'y', 'x'), fill_value=sic.fill_value)
+sic_var.standard_name = "sea_ice_concentration"
+sic_var.long_name = "Sea Ice Concentration"
+sic_var.units = "1"  # Dimensionless
+sit_var = ncfile.createVariable('sit', np.float32, ('time', 'y', 'x'), fill_value=sit.fill_value)
+sit_var.standard_name = "sea_ice_thickness"
+sit_var.long_name = "Sea Ice Thickness"
+sit_var.units = "m"  # Meters
+# Assign data to variables
+latitude_var[:, :] = latitude_t_r
+longitude_var[:, :] = longitude_t_r
+time_var[:] = time_data
+time_bnds_var[:,:] = time_bnds_data
+vlat_var[:, :, :] = np.transpose(vlat_r, axes=(2, 0, 1))
+vlon_var[:, :, :] = np.transpose(vlon_r, axes=(2, 0, 1))
+sic_var[:, :, :] = sic
+sit_var[:, :, :] = sit
+# Add global attributes
+ncfile.Conventions = "CF-1.6"
+ncfile.institution = "UiT, Institute of Mathematics and Statistics, Tromsø"
+ncfile.source = "neXtSIM model fields + cartesian_to_rotated_latlon.ipynb"
+# Close the file
+ncfile.close()
+print("NetCDF file created successfully.")
 
+'''
 #Save the results in a NetCDF
 out_path = results_directory+file_name[:-3]+'_90Rx.nc'
 # Create a new NetCDF file
@@ -244,4 +314,4 @@ ncfile.source = "neXtSIM model fields + cartesian_to_rotated_latlon.ipynb"
 # Close the file
 ncfile.close()
 print("NetCDF file created successfully.")
-
+'''

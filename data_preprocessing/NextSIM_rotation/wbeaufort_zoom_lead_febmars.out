@@ -1,0 +1,43 @@
+Starting job 6110991 on c12-8 on fram at Mon Feb 17 19:36:20 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Processing file for year: 2010
+
+real	1m41.321s
+user	0m0.011s
+sys	0m0.008s
+OMP_NUM_THREADS=2
+
+Job 6110991 consumed 0.9 billing hours from project nn8008k.
+
+Submitted 2025-02-17T19:36:19; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   1.7 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6110991           32            0.0 %  2025-02-17T19:36:20  102.0 s  0
+6110991.batch     32      1     0.0 %  2025-02-17T19:36:20  102.0 s  0
+6110991.python     2      1    41.0 %  2025-02-17T19:36:20  102.0 s  0
+
+Used CPU time:   1.4 CPU minutes
+Unused CPU time: 53.0 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6110991           59.0        
+6110991.batch     59.0     0.0
+6110991.python    59.0    19.5
+
+Job 6110991 completed at Mon Feb 17 19:38:02 CET 2025

@@ -1,15 +1,15 @@
 #!/bin/bash
 # Define the parameters
 #SBATCH --account=nn8008k
-#SBATCH --job-name=falseW1tasks
+#SBATCH --job-name=W3daysAMJ2009
 #SBATCH --time=3-0:0:0
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=32
-#SBATCH --output=WNdays2009AMJ_false1tasks.out
+#SBATCH --output=W3days2009AMJ_false79.out
 # Define variables for easy modification
 Ncores=32
-year="2010"
+year="2009"
 season="AMJ"
 ndays=3
 
@@ -31,7 +31,7 @@ source /cluster/home/llpui9007/venvs/Spectral_clustering_venv/bin/activate
 formatted_DT=$(printf "%.4f" "$DT")
 formatted_dt=$(printf "%.4f" "$dt")
 #######################################################################################################################
-for tmin in $(seq 0 4 $((30 - ndays * 4))); do
+for tmin in $(seq 204 4 $((360 - ndays * 4-10))); do
   tmax=$((tmin + ndays * 4))
   echo "$tmax"
   Fmap_params="${year}_${season}_"
@@ -51,7 +51,7 @@ for tmin in $(seq 0 4 $((30 - ndays * 4))); do
     "$parent_directory" \
     "$results_directory" \
     "$geodesic"\
-    "$tmin"  >> WNdays2009AMJ_false1tasks.txt
+    "$tmin"  >> W3days2009AMJ_79.txt
 done
 env | grep NUM_THREADS
 

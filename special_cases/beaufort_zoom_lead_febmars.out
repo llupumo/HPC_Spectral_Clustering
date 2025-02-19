@@ -1,0 +1,540 @@
+Starting job 6109638 on c3-8 on fram at Sat Feb 15 16:35:06 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+real	0m18.584s
+user	0m0.015s
+sys	0m0.006s
+OMP_NUM_THREADS=32
+
+Job 6109638 consumed 0.2 billing hours from project nn8008k.
+
+Submitted 2025-02-15T16:35:05; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   19.0 seconds
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109638           32            0.0 %  2025-02-15T16:35:06   19.0 s  0
+6109638.batch     32      1     0.0 %  2025-02-15T16:35:06   19.0 s  0
+6109638.python    32      1    34.3 %  2025-02-15T16:35:06   19.0 s  0
+
+Used CPU time:   3.5 CPU minutes
+Unused CPU time: 6.7 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109638           59.0        
+6109638.batch     59.0     0.0
+6109638.python    59.0     0.1
+
+Job 6109638 completed at Sat Feb 15 16:35:26 CET 2025
+Starting job 6109646 on c14-11 on fram at Sat Feb 15 16:47:11 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Traceback (most recent call last):
+  File "/cluster/work/users/llpui9007/special_cases/W.py", line 68, in <module>
+    Fmap = np.load(Fmap_path)  # ntime [lon,lat] ntrajectories
+  File "/cluster/home/llpui9007/venvs/Spectral_clustering_venv/lib64/python3.9/site-packages/numpy/lib/_npyio_impl.py", line 455, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cluster/projects/nn8008k/lluisa/NextSIM/rotated_ice_velocities/special_cases/beaufort_zoom_lead_febmars/Fmap/ic0.5_dt0.0010_DT0.1000//Fmap_matrix.npy'
+srun: error: c14-11: task 0: Exited with exit code 1
+srun: Terminating StepId=6109646.0
+
+real	0m24.434s
+user	0m0.013s
+sys	0m0.007s
+
+Job 6109646 consumed 0.2 billing hours from project nn8008k.
+
+Submitted 2025-02-15T16:47:10; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   25.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109646           32            0.0 %  2025-02-15T16:47:11   25.0 s  1
+6109646.batch     32      1     0.0 %  2025-02-15T16:47:11   25.0 s  1
+6109646.python    32      1     1.3 %  2025-02-15T16:47:11   25.0 s  1
+
+Used CPU time:   10.6 CPU seconds
+Unused CPU time: 13.2 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109646           59.0        
+6109646.batch     59.0     0.0
+6109646.python    59.0     0.1
+
+Job 6109646 completed at Sat Feb 15 16:47:36 CET 2025
+Starting job 6109654 on c5-12 on fram at Sat Feb 15 16:52:52 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+real	0m19.225s
+user	0m0.012s
+sys	0m0.007s
+OMP_NUM_THREADS=32
+
+Job 6109654 consumed 0.2 billing hours from project nn8008k.
+
+Submitted 2025-02-15T16:52:51; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   20.0 seconds
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109654           32            0.0 %  2025-02-15T16:52:52   20.0 s  0
+6109654.batch     32      1     0.0 %  2025-02-15T16:52:52   20.0 s  0
+6109654.python    32      1    35.3 %  2025-02-15T16:52:53   19.0 s  0
+
+Used CPU time:   3.6 CPU minutes
+Unused CPU time: 7.1 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109654           59.0        
+6109654.batch     59.0     0.0
+6109654.python    59.0     0.1
+
+Job 6109654 completed at Sat Feb 15 16:53:12 CET 2025
+Starting job 6109656 on c40-6 on fram at Sat Feb 15 16:53:52 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Traceback (most recent call last):
+  File "/cluster/work/users/llpui9007/special_cases/W.py", line 68, in <module>
+    Fmap = np.load(Fmap_path)  # ntime [lon,lat] ntrajectories
+  File "/cluster/home/llpui9007/venvs/Spectral_clustering_venv/lib64/python3.9/site-packages/numpy/lib/_npyio_impl.py", line 455, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cluster/projects/nn8008k/lluisa/NextSIM/rotated_ice_velocities/special_cases/beaufort_zoom_lead_febmars/Fmap/ic0.5_dt0.0250_DT0.1000//Fmap_matrix.npy'
+srun: error: c40-6: task 0: Exited with exit code 1
+srun: Terminating StepId=6109656.0
+
+real	0m5.367s
+user	0m0.011s
+sys	0m0.011s
+
+Job 6109656 consumed 0.1 billing hours from project nn8008k.
+
+Submitted 2025-02-15T16:53:51; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   6.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109656           32            0.0 %  2025-02-15T16:53:52    6.0 s  1
+6109656.batch     32      1     0.2 %  2025-02-15T16:53:52    6.0 s  1
+6109656.python    32      1     6.2 %  2025-02-15T16:53:53    5.0 s  1
+
+Used CPU time:   10.3 CPU seconds
+Unused CPU time: 3.0 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109656           59.0        
+6109656.batch     59.0     0.0
+6109656.python    59.0     0.1
+
+Job 6109656 completed at Sat Feb 15 16:53:58 CET 2025
+Starting job 6109689 on c9-6 on fram at Sat Feb 15 18:46:58 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Traceback (most recent call last):
+  File "/cluster/work/users/llpui9007/special_cases/W.py", line 68, in <module>
+    Fmap = np.load(Fmap_path)  # ntime [lon,lat] ntrajectories
+  File "/cluster/home/llpui9007/venvs/Spectral_clustering_venv/lib64/python3.9/site-packages/numpy/lib/_npyio_impl.py", line 455, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/cluster/projects/nn8008k/lluisa/NextSIM/rotated_ice_velocities/special_cases/beaufort_zoom_lead_febmars/Fmap/ic0.5_dt0.0250_DT0.1000//Fmap_matrix.npy'
+srun: error: c9-6: task 0: Exited with exit code 1
+srun: Terminating StepId=6109689.0
+
+real	0m43.304s
+user	0m0.011s
+sys	0m0.009s
+
+Job 6109689 consumed 0.4 billing hours from project nn8008k.
+
+Submitted 2025-02-15T18:46:57; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   44.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109689           32            0.0 %  2025-02-15T18:46:58   44.0 s  1
+6109689.batch     32      1     0.0 %  2025-02-15T18:46:58   44.0 s  1
+6109689.python    32      1     0.8 %  2025-02-15T18:46:59   43.0 s  1
+
+Used CPU time:   10.9 CPU seconds
+Unused CPU time: 23.3 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109689           59.0        
+6109689.batch     59.0     0.0
+6109689.python    59.0     0.2
+
+Job 6109689 completed at Sat Feb 15 18:47:42 CET 2025
+Starting job 6109696 on c59-4 on fram at Sat Feb 15 18:51:52 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+Starting job 6109697 on c59-5 on fram at Sat Feb 15 18:52:13 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+Starting job 6109698 on c3-8 on fram at Sat Feb 15 18:52:50 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+real	1m13.255s
+user	0m0.011s
+sys	0m0.009s
+OMP_NUM_THREADS=32
+
+Job 6109698 consumed 0.7 billing hours from project nn8008k.
+
+Submitted 2025-02-15T18:52:49; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   1.2 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109698           32            0.0 %  2025-02-15T18:52:50   74.0 s  0
+6109698.batch     32      1     0.0 %  2025-02-15T18:52:50   74.0 s  0
+6109698.python    32      1    33.3 %  2025-02-15T18:52:51   73.0 s  0
+
+Used CPU time:   13.0 CPU minutes
+Unused CPU time: 26.5 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109698           59.0        
+6109698.batch     59.0     0.0
+6109698.python    59.0     3.5
+
+Job 6109698 completed at Sat Feb 15 18:54:04 CET 2025
+Starting job 6109699 on c9-6 on fram at Sat Feb 15 18:54:31 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done   5 out of  32 | elapsed:  7.7min remaining: 41.4min
+[Parallel(n_jobs=32)]: Done   9 out of  32 | elapsed:  7.7min remaining: 19.8min
+[Parallel(n_jobs=32)]: Done  13 out of  32 | elapsed:  7.8min remaining: 11.4min
+[Parallel(n_jobs=32)]: Done  17 out of  32 | elapsed:  7.9min remaining:  7.0min
+[Parallel(n_jobs=32)]: Done  21 out of  32 | elapsed:  8.1min remaining:  4.2min
+[Parallel(n_jobs=32)]: Done  25 out of  32 | elapsed:  8.1min remaining:  2.3min
+[Parallel(n_jobs=32)]: Done  29 out of  32 | elapsed:  8.1min remaining:   50.5s
+[Parallel(n_jobs=32)]: Done  32 out of  32 | elapsed:  8.2min finished
+
+real	8m16.674s
+user	0m0.010s
+sys	0m0.011s
+OMP_NUM_THREADS=32
+
+Job 6109697 consumed 4.4 billing hours from project nn8008k.
+
+Submitted 2025-02-15T18:52:12; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   8.3 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109697           32            0.0 %  2025-02-15T18:52:13  497.0 s  0
+6109697.batch     32      1     0.0 %  2025-02-15T18:52:13  497.0 s  0
+6109697.python    32      1   190.0 %  2025-02-15T18:52:14  496.0 s  0
+
+Used CPU time:   8.4 CPU hours
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109697           59.0        
+6109697.batch     59.0     0.0
+6109697.python    59.0     1.7
+
+Job 6109697 completed at Sat Feb 15 19:00:31 CET 2025
+[Parallel(n_jobs=32)]: Done   5 out of  32 | elapsed: 14.7min remaining: 79.4min
+[Parallel(n_jobs=32)]: Done   9 out of  32 | elapsed: 14.7min remaining: 37.7min
+[Parallel(n_jobs=32)]: Done  13 out of  32 | elapsed: 14.8min remaining: 21.6min
+[Parallel(n_jobs=32)]: Done  17 out of  32 | elapsed: 14.8min remaining: 13.1min
+[Parallel(n_jobs=32)]: Done  21 out of  32 | elapsed: 14.9min remaining:  7.8min
+[Parallel(n_jobs=32)]: Done  25 out of  32 | elapsed: 14.9min remaining:  4.2min
+[Parallel(n_jobs=32)]: Done  29 out of  32 | elapsed: 15.0min remaining:  1.6min
+[Parallel(n_jobs=32)]: Done  32 out of  32 | elapsed: 15.1min finished
+
+real	15m11.577s
+user	0m0.013s
+sys	0m0.008s
+OMP_NUM_THREADS=32
+
+Job 6109696 consumed 8.1 billing hours from project nn8008k.
+
+Submitted 2025-02-15T18:51:51; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   15.2 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109696           32            0.0 %  2025-02-15T18:51:52  912.0 s  0
+6109696.batch     32      1     0.0 %  2025-02-15T18:51:52  912.0 s  0
+6109696.python    32      1   192.5 %  2025-02-15T18:51:53  911.0 s  0
+
+Used CPU time:   15.6 CPU hours
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109696           59.0        
+6109696.batch     59.0     0.0
+6109696.python    59.0     2.4
+
+Job 6109696 completed at Sat Feb 15 19:07:05 CET 2025
+Starting job 6109701 on c10-2 on fram at Sat Feb 15 19:34:27 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done   5 out of  32 | elapsed:    1.1s remaining:    6.0s
+[Parallel(n_jobs=32)]: Done   9 out of  32 | elapsed:    1.1s remaining:    2.9s
+[Parallel(n_jobs=32)]: Done  13 out of  32 | elapsed:    1.2s remaining:    1.7s
+[Parallel(n_jobs=32)]: Done  17 out of  32 | elapsed:    1.2s remaining:    1.0s
+[Parallel(n_jobs=32)]: Done  21 out of  32 | elapsed:    1.2s remaining:    0.6s
+[Parallel(n_jobs=32)]: Done  25 out of  32 | elapsed:    1.6s remaining:    0.5s
+[Parallel(n_jobs=32)]: Done  29 out of  32 | elapsed:    1.7s remaining:    0.2s
+[Parallel(n_jobs=32)]: Done  32 out of  32 | elapsed:    1.9s finished
+
+real	0m11.321s
+user	0m0.009s
+sys	0m0.015s
+OMP_NUM_THREADS=32
+
+Job 6109701 consumed 0.1 billing hours from project nn8008k.
+
+Submitted 2025-02-15T19:34:26; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   12.0 seconds
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109701           32            0.0 %  2025-02-15T19:34:27   12.0 s  0
+6109701.batch     32      1     0.1 %  2025-02-15T19:34:27   12.0 s  0
+6109701.python    32      1    16.6 %  2025-02-15T19:34:28   11.0 s  0
+
+Used CPU time:   58.7 CPU seconds
+Unused CPU time: 5.4 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109701           59.0        
+6109701.batch     59.0     0.0
+6109701.python    59.0     0.2
+
+Job 6109701 completed at Sat Feb 15 19:34:40 CET 2025
+Starting job 6109702 on c10-2 on fram at Sat Feb 15 19:36:02 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done   5 out of  32 | elapsed:    1.4s remaining:    7.4s
+[Parallel(n_jobs=32)]: Done   9 out of  32 | elapsed:    1.4s remaining:    3.5s
+[Parallel(n_jobs=32)]: Done  13 out of  32 | elapsed:    1.4s remaining:    2.1s
+[Parallel(n_jobs=32)]: Done  17 out of  32 | elapsed:    1.5s remaining:    1.3s
+[Parallel(n_jobs=32)]: Done  21 out of  32 | elapsed:    1.8s remaining:    1.0s
+[Parallel(n_jobs=32)]: Done  25 out of  32 | elapsed:    2.1s remaining:    0.6s
+[Parallel(n_jobs=32)]: Done  29 out of  32 | elapsed:    2.2s remaining:    0.2s
+[Parallel(n_jobs=32)]: Done  32 out of  32 | elapsed:    2.3s finished
+
+real	0m8.966s
+user	0m0.010s
+sys	0m0.013s
+OMP_NUM_THREADS=32
+
+Job 6109702 consumed 0.1 billing hours from project nn8008k.
+
+Submitted 2025-02-15T19:36:01; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   9.0 seconds
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6109702           32            0.0 %  2025-02-15T19:36:02    9.0 s  0
+6109702.batch     32      1     0.1 %  2025-02-15T19:36:02    9.0 s  0
+6109702.python    32      1    28.0 %  2025-02-15T19:36:03    8.0 s  0
+
+Used CPU time:   1.2 CPU minutes
+Unused CPU time: 3.6 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109702           59.0        
+6109702.batch     59.0     0.0
+6109702.python    59.0     0.2
+
+Job 6109702 completed at Sat Feb 15 19:36:12 CET 2025
+Starting job 6109703 on c10-2 on fram at Sat Feb 15 19:36:24 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+[Parallel(n_jobs=32)]: Using backend LokyBackend with 32 concurrent workers.
+[Parallel(n_jobs=32)]: Done   5 out of  32 | elapsed: 35.5min remaining: 191.7min
+[Parallel(n_jobs=32)]: Done   9 out of  32 | elapsed: 35.7min remaining: 91.2min
+[Parallel(n_jobs=32)]: Done  13 out of  32 | elapsed: 35.8min remaining: 52.4min
+[Parallel(n_jobs=32)]: Done  17 out of  32 | elapsed: 36.0min remaining: 31.8min
+[Parallel(n_jobs=32)]: Done  21 out of  32 | elapsed: 36.1min remaining: 18.9min
+[Parallel(n_jobs=32)]: Done  25 out of  32 | elapsed: 36.2min remaining: 10.1min
+[Parallel(n_jobs=32)]: Done  29 out of  32 | elapsed: 36.4min remaining:  3.8min
+[Parallel(n_jobs=32)]: Done  32 out of  32 | elapsed: 36.5min finished
+
+real	36m40.830s
+user	0m0.013s
+sys	0m0.011s
+OMP_NUM_THREADS=32
+
+Job 6109703 consumed 19.6 billing hours from project nn8008k.
+
+Submitted 2025-02-15T19:36:23; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   36.7 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+6109703           32            0.0 %  2025-02-15T19:36:24  2201.0 s  0
+6109703.batch     32      1     0.0 %  2025-02-15T19:36:24  2201.0 s  0
+6109703.python    32      1    97.5 %  2025-02-15T19:36:24  2201.0 s  0
+
+Used CPU time:   19.1 CPU hours
+Unused CPU time: 29.7 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6109703           59.0        
+6109703.batch     59.0     0.0
+6109703.python    59.0     2.8
+
+Job 6109703 completed at Sat Feb 15 20:13:06 CET 2025

@@ -1,0 +1,164 @@
+Starting job 6110978 on c10-1 on fram at Mon Feb 17 19:15:18 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+real	1m37.703s
+user	0m0.010s
+sys	0m0.009s
+OMP_NUM_THREADS=2
+
+Job 6110978 consumed 0.9 billing hours from project nn8008k.
+
+Submitted 2025-02-17T19:15:17; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   1.6 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6110978           32            0.0 %  2025-02-17T19:15:18   98.0 s  0
+6110978.batch     32      1     0.0 %  2025-02-17T19:15:18   98.0 s  0
+6110978.python     2      1    43.3 %  2025-02-17T19:15:19   97.0 s  0
+
+Used CPU time:   1.4 CPU minutes
+Unused CPU time: 50.9 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6110978           59.0        
+6110978.batch     59.0     0.0
+6110978.python    59.0    20.8
+
+Job 6110978 completed at Mon Feb 17 19:16:57 CET 2025
+Starting job 6110989 on c10-9 on fram at Mon Feb 17 19:32:09 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+Processing file for year: 2000
+Starting job 6110990 on c12-8 on fram at Mon Feb 17 19:33:05 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+/var/spool/slurmd/job6110990/slurm_script: line 22: year: command not found
+
+
+Job 6110990 completed at Mon Feb 17 19:33:06 CET 2025
+
+real	1m41.886s
+user	0m0.016s
+sys	0m0.004s
+OMP_NUM_THREADS=2
+Processing file for year: 2001
+
+real	1m36.285s
+user	0m0.009s
+sys	0m0.010s
+OMP_NUM_THREADS=2
+Processing file for year: 2002
+
+real	1m42.109s
+user	0m0.010s
+sys	0m0.009s
+OMP_NUM_THREADS=2
+Processing file for year: 2003
+
+real	1m34.326s
+user	0m0.010s
+sys	0m0.009s
+OMP_NUM_THREADS=2
+Processing file for year: 2004
+
+real	1m44.080s
+user	0m0.011s
+sys	0m0.009s
+OMP_NUM_THREADS=2
+Processing file for year: 2005
+
+real	1m46.743s
+user	0m0.009s
+sys	0m0.010s
+OMP_NUM_THREADS=2
+Processing file for year: 2006
+
+real	1m45.966s
+user	0m0.011s
+sys	0m0.007s
+OMP_NUM_THREADS=2
+Processing file for year: 2007
+
+real	1m35.755s
+user	0m0.012s
+sys	0m0.007s
+OMP_NUM_THREADS=2
+Processing file for year: 2008
+
+real	1m36.353s
+user	0m0.009s
+sys	0m0.010s
+OMP_NUM_THREADS=2
+
+Job 6110989 consumed 8.0 billing hours from project nn8008k.
+
+Submitted 2025-02-17T19:32:08; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   15.1 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6110989           32            0.0 %  2025-02-17T19:32:09  904.0 s  0
+6110989.batch     32      1     0.0 %  2025-02-17T19:32:09  904.0 s  0
+6110989.python     2      1    41.0 %  2025-02-17T19:32:09  102.0 s  0
+6110989.python     2      1    43.2 %  2025-02-17T19:33:51   97.0 s  0
+6110989.python     2      1    41.9 %  2025-02-17T19:35:28  102.0 s  0
+6110989.python     2      1    44.9 %  2025-02-17T19:37:10   94.0 s  0
+6110989.python     2      1    40.4 %  2025-02-17T19:38:44  104.0 s  0
+6110989.python     2      1    38.9 %  2025-02-17T19:40:28  107.0 s  0
+6110989.python     2      1    39.4 %  2025-02-17T19:42:15  106.0 s  0
+6110989.python     2      1    43.8 %  2025-02-17T19:44:01   96.0 s  0
+6110989.python     2      1    43.8 %  2025-02-17T19:45:37   96.0 s  0
+
+Used CPU time:   12.6 CPU minutes
+Unused CPU time: 7.8 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6110989           59.0        
+6110989.batch     59.0     0.0
+6110989.python    59.0    18.1
+6110989.python    59.0    21.4
+6110989.python    59.0    18.1
+6110989.python    59.0    22.4
+6110989.python    59.0    22.1
+6110989.python    59.0    21.3
+6110989.python    59.0    18.1
+6110989.python    59.0    19.9
+6110989.python    59.0    20.9
+
+Job 6110989 completed at Mon Feb 17 19:47:13 CET 2025

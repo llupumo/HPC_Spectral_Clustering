@@ -6,11 +6,11 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
-#SBATCH --output=slurm_clusters_OND2010.out
+#SBATCH --output=slurm_clusters_AMJ2010.out
 
 Ncores=1
 year="2010"
-season="OND"
+season="AMJ"
 
 ## Set up job environment:
 set -o errexit  # Exit the script on any error
@@ -24,12 +24,12 @@ source /cluster/home/llpui9007/venvs/Spectral_clustering_venv/bin/activate
 
 
 IC_resolution=0.5
-dt=0.001
+dt=0.0025
 DT=0.1
-freq=10
+freq=1
 geodesic=False
-e=0.01
-n_clusters=12
+e=0
+n_clusters=0
 
 formatted_e=$(printf "%.2f" "$e")
 formatted_DT=$(printf "%.4f" "$DT")
@@ -63,7 +63,98 @@ time srun python Clusters.py \
   "$results_directory" \
   "$geodesic" \
   --e "$e"\
-  --n_clusters "$n_clusters" > clusters_OND2010.txt
+  --n_clusters "$n_clusters" > Clusters_${year}_${season}.txt
+
+
+n_clusters=12
+# Run the Python script
+time srun python Clusters.py \
+  "$Ncores" \
+  "$input_files_directory" \
+  "$velocities_file_path" \
+  "$parent_directory" \
+  "$results_directory" \
+  "$geodesic" \
+  --e "$e"\
+  --n_clusters "$n_clusters" >> Clusters_${year}_${season}.txt
+
+e=1.9
+n_clusters=0
+# Run the Python script
+time srun python Clusters.py \
+  "$Ncores" \
+  "$input_files_directory" \
+  "$velocities_file_path" \
+  "$parent_directory" \
+  "$results_directory" \
+  "$geodesic" \
+  --e "$e"\
+  --n_clusters "$n_clusters" > Clusters_${year}_${season}.txt
+
+
+n_clusters=12
+# Run the Python script
+time srun python Clusters.py \
+  "$Ncores" \
+  "$input_files_directory" \
+  "$velocities_file_path" \
+  "$parent_directory" \
+  "$results_directory" \
+  "$geodesic" \
+  --e "$e"\
+  --n_clusters "$n_clusters" >> Clusters_${year}_${season}.txt
+
+e=1.5
+n_clusters=0
+# Run the Python script
+time srun python Clusters.py \
+  "$Ncores" \
+  "$input_files_directory" \
+  "$velocities_file_path" \
+  "$parent_directory" \
+  "$results_directory" \
+  "$geodesic" \
+  --e "$e"\
+  --n_clusters "$n_clusters" > Clusters_${year}_${season}.txt
+
+
+n_clusters=12
+# Run the Python script
+time srun python Clusters.py \
+  "$Ncores" \
+  "$input_files_directory" \
+  "$velocities_file_path" \
+  "$parent_directory" \
+  "$results_directory" \
+  "$geodesic" \
+  --e "$e"\
+  --n_clusters "$n_clusters" >> Clusters_${year}_${season}.txt
+
+e=0.1
+n_clusters=0
+# Run the Python script
+time srun python Clusters.py \
+  "$Ncores" \
+  "$input_files_directory" \
+  "$velocities_file_path" \
+  "$parent_directory" \
+  "$results_directory" \
+  "$geodesic" \
+  --e "$e"\
+  --n_clusters "$n_clusters" > Clusters_${year}_${season}.txt
+
+
+n_clusters=12
+# Run the Python script
+time srun python Clusters.py \
+  "$Ncores" \
+  "$input_files_directory" \
+  "$velocities_file_path" \
+  "$parent_directory" \
+  "$results_directory" \
+  "$geodesic" \
+  --e "$e"\
+  --n_clusters "$n_clusters" >> Clusters_${year}_${season}.txt
 
 env | grep NUM_THREADS
 

@@ -9,8 +9,8 @@
 #SBATCH --output=slurm_clusters_OND2010.out
 
 Ncores=1
-year="2010"
-season="OND"
+year="2009"
+season="AMJ"
 
 ## Set up job environment:
 set -o errexit  # Exit the script on any error

@@ -28,8 +28,6 @@ parser.add_argument("results_directory", type=str, help="Results directory")
 parser.add_argument("ic_resolution", type=float, help="Lat and lon resolution for the IC ")
 parser.add_argument("dt", type=float, help="Time step size for Runge Kutta")
 parser.add_argument("DT", type=float, help="Time step size for Fmap")
-# Add optional argument with a default value
-parser.add_argument("--freq", type=int, default=10, help="Frequency (default: 10)")
 # Parse the arguments
 args = parser.parse_args()
 
@@ -40,7 +38,6 @@ results_directory = args.results_directory
 ic_resolution = args.ic_resolution
 dt = args.dt
 DT = args.DT
-freq = args.freq
 timemod = int(DT/dt) #10
 latitude_resolution = 0.15
 longitude_resolution = 0.15
