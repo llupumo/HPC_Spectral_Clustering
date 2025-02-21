@@ -7,6 +7,26 @@ from joblib import Parallel, delayed
 # Import package for interpolation
 from scipy.interpolate import griddata
 
+##################################### new version directly computing the gradient in x, y directions ######################################
+def borders_binary(grid_labels):
+    """
+    input: regried version of the labels at each point of a regular mesh
+    output: regrided version of borders at each point of a regular mesh with 0 in the non-boundary regions and 1 in the boundary regions 
+    """
+    dy = np.abs(np.diff(grid_labels, axis=0))
+    dx = np.abs(np.diff(grid_labels, axis=1))
+    # Initialize borders matrix directly
+    borders = np.zeros(grid_labels.shape)
+    borders[:dy.shape[0], :] += dy
+    borders[1:, :] += dy
+    borders[:, :dx.shape[1]] += dx
+    borders[:, 1:] += dx
+    # Set all non-zero elements to 1
+    borders[borders != 0] = 1
+    return borders
+
+##################################### old version with assessing distances between pairs of points ########################################
+
 def gradient_matrix(IC,labels,i_batch,j_batch,geodesic=False,thereshold=1.5):
     w =  []
     for k in range(len(i_batch)):

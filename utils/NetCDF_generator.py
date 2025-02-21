@@ -1,6 +1,14 @@
 import netCDF4 as nc
 from netCDF4 import Dataset
 import numpy as np
+import sys, os
+
+# get current directory
+path = os.getcwd()
+# get parent directory
+parent_directory = os.path.sep.join(path.split(os.path.sep)[:-2])
+sys.path.append(parent_directory+"/subfunctions/trajectory_advection")
+from regular_regrid import regular_grid_interpolation, regular_grid_interpolation_scalar
 
 def save_velocities_to_netCDF(out_path,time_data,interpolated_siu,interpolated_siv,regrided_land_mask,lon_grid,lat_grid,coord_fillvalue,vel_fillvalue):
     #Save the results in a NetCDF
@@ -59,7 +67,7 @@ def save_velocities_to_netCDF(out_path,time_data,interpolated_siu,interpolated_s
     print("NetCDF file created successfully.")
     return 0
 
-def save_velocities_sicsit_to_netCDF(out_path,time_data,interpolated_siu,interpolated_siv, interpolated_sic, interpolated_sit,regrided_land_mask,lon_grid,lat_grid, coord_fillvalue, vel_fillvalue, sic_fillvalue, sit_fillvalue):
+def save_velocities_sicsit_to_netCDF(out_path,time_data,interpolated_siu,interpolated_siv, interpolated_sic, interpolated_sit,regrided_land_mask,lon_grid,lat_grid, coord_fillvalue, vel_fillvalue, sic_fillvalue, sit_fillvalue, time_bnds_data):
     # Create a new NetCDF file
     ncfile = Dataset(out_path, 'w', format='NETCDF4')
     y_size = lat_grid.shape[0]
@@ -67,6 +75,7 @@ def save_velocities_sicsit_to_netCDF(out_path,time_data,interpolated_siu,interpo
     time_size = time_data.shape[0]
     # Create dimensions
     ncfile.createDimension('time', None)
+    ncfile.createDimension('nv', 2)
     ncfile.createDimension('y', y_size)
     ncfile.createDimension('x', x_size)
     # Create variables
@@ -76,6 +85,8 @@ def save_velocities_sicsit_to_netCDF(out_path,time_data,interpolated_siu,interpo
     time_var.units = "days since 1900-01-01 00:00:00"
     time_var.calendar = "standard"
     time_var.bounds = "time_bnds"
+    time_bnds_var = ncfile.createVariable('time_bnds', np.float64, ('time','nv'))
+    time_bnds_var.units = "days since 1900-01-01 00:00:00"
     latitude_var = ncfile.createVariable('regrided_rot_lat', np.float32, ('y', 'x'), fill_value=coord_fillvalue)
     latitude_var.standard_name = "Regrided rotated latitude"
     latitude_var.long_name = "Regrided latitude wrt the coordinate system rotated 90⁰ clockwise around the x axis. NP in y=-1, z=0"
@@ -111,6 +122,7 @@ def save_velocities_sicsit_to_netCDF(out_path,time_data,interpolated_siu,interpo
     latitude_var[:, :] = lat_grid
     longitude_var[:, :] = lon_grid
     time_var[:] = time_data
+    time_bnds_var[:,:] = time_bnds_data
     vlat_var[:, :, :] = np.transpose(interpolated_siv, axes=(2, 0, 1))
     vlon_var[:, :, :] = np.transpose(interpolated_siu, axes=(2, 0, 1))
     land_mask_var[:, :] = regrided_land_mask
@@ -124,3 +136,37 @@ def save_velocities_sicsit_to_netCDF(out_path,time_data,interpolated_siu,interpo
     ncfile.close()
     print("NetCDF file created successfully.")
     return 0
+
+def generate_regrided(reg_vel_file_path,velocities_file_path,latitude_resolution,longitude_resolution,Ncores):
+    # Read dataset
+    print("Reading the input data")
+    dataset = nc.Dataset(velocities_file_path, mode='r')
+    #from m/s to m/day
+    siu = dataset.variables['vlon'][:,:,:]
+    siv = dataset.variables['vlat'][:,:,:]
+    siu = np.transpose(siu, axes=(1, 2, 0))
+    siv = np.transpose(siv, axes=(1, 2, 0))
+    sic = dataset.variables['sic'][:,:,:]
+    sit = dataset.variables['sit'][:,:,:]
+    sic = np.transpose(sic, axes=(1, 2, 0))
+    sit = np.transpose(sit, axes=(1, 2, 0))
+    land_mask=siv[:,:,0].mask
+    # Access coordinates
+    latitude = dataset.variables['rot_lat'][:]  
+    longitude = dataset.variables['rot_lon'][:]
+    # Access specific variables
+    time_data = dataset.variables['time'][:] 
+    time_bnds_data = dataset.variables['time_bnds'][:,:]
+    dataset.close()
+
+    #### Define a regular grid both for the IC and to use to generate the interpolators
+    interpolated_siu, interpolated_siv, lat_grid, lon_grid, regrided_land_mask = regular_grid_interpolation(latitude, longitude, siu, siv,latitude_resolution,longitude_resolution,land_mask,Ncores)
+    interpolated_sic, lat_grid, lon_grid = regular_grid_interpolation_scalar(latitude, longitude, sic,latitude_resolution,longitude_resolution,land_mask,Ncores)
+    interpolated_sit, lat_grid, lon_grid = regular_grid_interpolation_scalar(latitude, longitude, sit,latitude_resolution,longitude_resolution,land_mask,Ncores)
+    vel_fillvalue = siu.fill_value
+    coord_fillvalue = latitude.fill_value
+    sic_fillvalue = -1.e+14
+    sit_fillvalue = -1.e+14
+    save_velocities_sicsit_to_netCDF(reg_vel_file_path,time_data,interpolated_siu,interpolated_siv, interpolated_sic, interpolated_sit, regrided_land_mask, lon_grid,lat_grid,coord_fillvalue,vel_fillvalue,sic_fillvalue,sit_fillvalue, time_bnds_data)
+    
+    print(f"Regrided velocity created.")
