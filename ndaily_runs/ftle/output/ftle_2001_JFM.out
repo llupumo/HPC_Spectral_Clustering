@@ -1,0 +1,793 @@
+Starting job 6233410 on c60-1 on fram at Tue May 13 10:35:58 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0100_FTLE.npy
+
+real	2m39.052s
+user	0m0.020s
+sys	0m0.046s
+4
+44
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0101_FTLE.npy
+
+real	2m6.991s
+user	0m0.022s
+sys	0m0.074s
+8
+48
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0102_FTLE.npy
+
+real	2m5.823s
+user	0m0.021s
+sys	0m0.070s
+12
+52
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0103_FTLE.npy
+
+real	2m5.600s
+user	0m0.027s
+sys	0m0.061s
+16
+56
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0104_FTLE.npy
+
+real	2m5.378s
+user	0m0.020s
+sys	0m0.063s
+20
+60
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0105_FTLE.npy
+
+real	2m5.984s
+user	0m0.023s
+sys	0m0.070s
+24
+64
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0106_FTLE.npy
+
+real	2m5.217s
+user	0m0.017s
+sys	0m0.072s
+28
+68
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0107_FTLE.npy
+
+real	2m5.307s
+user	0m0.021s
+sys	0m0.069s
+32
+72
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0108_FTLE.npy
+
+real	2m5.119s
+user	0m0.017s
+sys	0m0.064s
+36
+76
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.0109_FTLE.npy
+
+real	2m4.938s
+user	0m0.024s
+sys	0m0.059s
+40
+80
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01010_FTLE.npy
+
+real	2m5.387s
+user	0m0.020s
+sys	0m0.059s
+44
+84
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01011_FTLE.npy
+
+real	2m6.625s
+user	0m0.020s
+sys	0m0.057s
+48
+88
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01012_FTLE.npy
+
+real	2m4.135s
+user	0m0.020s
+sys	0m0.059s
+52
+92
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01013_FTLE.npy
+
+real	2m5.687s
+user	0m0.020s
+sys	0m0.060s
+56
+96
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01014_FTLE.npy
+
+real	2m8.462s
+user	0m0.017s
+sys	0m0.060s
+60
+100
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01015_FTLE.npy
+
+real	2m5.847s
+user	0m0.021s
+sys	0m0.056s
+64
+104
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01016_FTLE.npy
+
+real	2m5.975s
+user	0m0.018s
+sys	0m0.059s
+68
+108
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01017_FTLE.npy
+
+real	2m4.624s
+user	0m0.017s
+sys	0m0.061s
+72
+112
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01018_FTLE.npy
+
+real	2m5.488s
+user	0m0.024s
+sys	0m0.056s
+76
+116
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01019_FTLE.npy
+
+real	2m5.265s
+user	0m0.017s
+sys	0m0.062s
+80
+120
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01020_FTLE.npy
+
+real	2m4.364s
+user	0m0.015s
+sys	0m0.071s
+84
+124
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01021_FTLE.npy
+
+real	2m4.976s
+user	0m0.021s
+sys	0m0.065s
+88
+128
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01022_FTLE.npy
+
+real	2m4.824s
+user	0m0.019s
+sys	0m0.072s
+92
+132
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01023_FTLE.npy
+
+real	2m5.183s
+user	0m0.020s
+sys	0m0.070s
+96
+136
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01024_FTLE.npy
+
+real	2m4.889s
+user	0m0.021s
+sys	0m0.066s
+100
+140
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01025_FTLE.npy
+
+real	2m4.572s
+user	0m0.017s
+sys	0m0.076s
+104
+144
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01026_FTLE.npy
+
+real	2m4.803s
+user	0m0.022s
+sys	0m0.068s
+108
+148
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01027_FTLE.npy
+
+real	2m5.058s
+user	0m0.013s
+sys	0m0.079s
+112
+152
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01028_FTLE.npy
+
+real	2m5.640s
+user	0m0.021s
+sys	0m0.061s
+116
+156
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01029_FTLE.npy
+
+real	2m5.328s
+user	0m0.018s
+sys	0m0.073s
+120
+160
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01030_FTLE.npy
+
+real	2m6.617s
+user	0m0.024s
+sys	0m0.068s
+124
+164
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01031_FTLE.npy
+
+real	2m5.632s
+user	0m0.016s
+sys	0m0.072s
+128
+168
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01032_FTLE.npy
+
+real	2m4.698s
+user	0m0.019s
+sys	0m0.068s
+132
+172
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01033_FTLE.npy
+
+real	2m5.831s
+user	0m0.021s
+sys	0m0.069s
+136
+176
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01034_FTLE.npy
+
+real	2m5.154s
+user	0m0.021s
+sys	0m0.059s
+140
+180
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01035_FTLE.npy
+
+real	2m5.131s
+user	0m0.020s
+sys	0m0.060s
+144
+184
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01036_FTLE.npy
+
+real	2m6.108s
+user	0m0.022s
+sys	0m0.061s
+148
+188
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01037_FTLE.npy
+
+real	2m4.987s
+user	0m0.021s
+sys	0m0.062s
+152
+192
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01038_FTLE.npy
+
+real	2m5.536s
+user	0m0.020s
+sys	0m0.064s
+156
+196
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01039_FTLE.npy
+
+real	2m5.248s
+user	0m0.021s
+sys	0m0.059s
+160
+200
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01040_FTLE.npy
+
+real	2m5.540s
+user	0m0.025s
+sys	0m0.053s
+164
+204
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01041_FTLE.npy
+
+real	2m4.513s
+user	0m0.019s
+sys	0m0.060s
+168
+208
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01042_FTLE.npy
+
+real	2m4.726s
+user	0m0.018s
+sys	0m0.060s
+172
+212
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01043_FTLE.npy
+
+real	2m5.255s
+user	0m0.019s
+sys	0m0.076s
+176
+216
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01044_FTLE.npy
+
+real	2m4.878s
+user	0m0.023s
+sys	0m0.065s
+180
+220
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01045_FTLE.npy
+
+real	2m5.793s
+user	0m0.021s
+sys	0m0.067s
+184
+224
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01046_FTLE.npy
+
+real	2m5.968s
+user	0m0.022s
+sys	0m0.070s
+188
+228
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01047_FTLE.npy
+
+real	2m5.275s
+user	0m0.022s
+sys	0m0.067s
+192
+232
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01048_FTLE.npy
+
+real	2m5.164s
+user	0m0.018s
+sys	0m0.068s
+196
+236
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01049_FTLE.npy
+
+real	2m6.420s
+user	0m0.014s
+sys	0m0.077s
+200
+240
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01050_FTLE.npy
+
+real	2m6.928s
+user	0m0.021s
+sys	0m0.070s
+204
+244
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01051_FTLE.npy
+
+real	2m4.680s
+user	0m0.019s
+sys	0m0.074s
+208
+248
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01052_FTLE.npy
+
+real	2m5.573s
+user	0m0.023s
+sys	0m0.067s
+212
+252
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01053_FTLE.npy
+
+real	2m5.779s
+user	0m0.017s
+sys	0m0.076s
+216
+256
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01054_FTLE.npy
+
+real	2m4.822s
+user	0m0.017s
+sys	0m0.068s
+220
+260
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01055_FTLE.npy
+
+real	2m5.811s
+user	0m0.020s
+sys	0m0.071s
+224
+264
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01056_FTLE.npy
+
+real	2m4.919s
+user	0m0.016s
+sys	0m0.070s
+228
+268
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01057_FTLE.npy
+
+real	2m5.329s
+user	0m0.016s
+sys	0m0.072s
+232
+272
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01058_FTLE.npy
+
+real	2m4.888s
+user	0m0.023s
+sys	0m0.070s
+236
+276
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01059_FTLE.npy
+
+real	2m7.320s
+user	0m0.019s
+sys	0m0.071s
+240
+280
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01060_FTLE.npy
+
+real	2m5.145s
+user	0m0.019s
+sys	0m0.071s
+244
+284
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01061_FTLE.npy
+
+real	2m5.522s
+user	0m0.019s
+sys	0m0.073s
+248
+288
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01062_FTLE.npy
+
+real	2m6.413s
+user	0m0.020s
+sys	0m0.071s
+252
+292
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01063_FTLE.npy
+
+real	2m5.190s
+user	0m0.017s
+sys	0m0.068s
+256
+296
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01064_FTLE.npy
+
+real	2m5.481s
+user	0m0.024s
+sys	0m0.062s
+260
+300
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01065_FTLE.npy
+
+real	2m5.331s
+user	0m0.021s
+sys	0m0.059s
+264
+304
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01066_FTLE.npy
+
+real	2m5.251s
+user	0m0.023s
+sys	0m0.057s
+268
+308
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01067_FTLE.npy
+
+real	2m4.758s
+user	0m0.017s
+sys	0m0.063s
+272
+312
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01068_FTLE.npy
+
+real	2m4.882s
+user	0m0.019s
+sys	0m0.059s
+276
+316
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01069_FTLE.npy
+
+real	2m5.427s
+user	0m0.019s
+sys	0m0.059s
+280
+320
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01070_FTLE.npy
+
+real	2m5.934s
+user	0m0.020s
+sys	0m0.071s
+284
+324
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01071_FTLE.npy
+
+real	2m4.883s
+user	0m0.017s
+sys	0m0.073s
+288
+328
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01072_FTLE.npy
+
+real	2m6.054s
+user	0m0.021s
+sys	0m0.070s
+292
+332
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01073_FTLE.npy
+
+real	2m5.944s
+user	0m0.019s
+sys	0m0.070s
+296
+336
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01074_FTLE.npy
+
+real	2m4.614s
+user	0m0.019s
+sys	0m0.066s
+300
+340
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01075_FTLE.npy
+
+real	2m5.672s
+user	0m0.020s
+sys	0m0.071s
+304
+344
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01076_FTLE.npy
+
+real	2m6.963s
+user	0m0.020s
+sys	0m0.069s
+308
+348
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01077_FTLE.npy
+
+real	2m7.405s
+user	0m0.025s
+sys	0m0.056s
+312
+352
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01078_FTLE.npy
+
+real	2m4.752s
+user	0m0.022s
+sys	0m0.056s
+316
+356
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01079_FTLE.npy
+
+real	2m5.780s
+user	0m0.015s
+sys	0m0.062s
+320
+360
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2001_JFM_dx0.100_dy0.100_dt0.100_grid_ratio0.01080_FTLE.npy
+
+real	2m4.933s
+user	0m0.022s
+sys	0m0.058s
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=32
+
+Job 6233410 consumed 90.7 billing hours from project nn8008k.
+
+Submitted 2025-05-13T10:35:53; waited 4.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   2.8 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6233410           32            0.0 %  2025-05-13T10:35:57    2.8 h  0
+6233410.batch     32      1     0.0 %  2025-05-13T10:35:57    2.8 h  0
+6233410.python    32      1    46.1 %  2025-05-13T10:36:03    0.0 h  0
+6233410.python    32      1    58.4 %  2025-05-13T10:38:43    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T10:40:50    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T10:42:55    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T10:45:01    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T10:47:06    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T10:49:12    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T10:51:18    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T10:53:23    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T10:55:28    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T10:57:33    0.0 h  0
+6233410.python    32      1    57.8 %  2025-05-13T10:59:38    0.0 h  0
+6233410.python    32      1    59.1 %  2025-05-13T11:01:45    0.0 h  0
+6233410.python    32      1    58.1 %  2025-05-13T11:03:49    0.0 h  0
+6233410.python    32      1    57.4 %  2025-05-13T11:05:55    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T11:08:03    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T11:10:09    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T11:12:15    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T11:14:20    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T11:16:25    0.0 h  0
+6233410.python    32      1    59.0 %  2025-05-13T11:18:31    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T11:20:35    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T11:22:40    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T11:24:45    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T11:26:50    0.0 h  0
+6233410.python    32      1    59.1 %  2025-05-13T11:28:55    0.0 h  0
+6233410.python    32      1    59.1 %  2025-05-13T11:31:00    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T11:33:04    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T11:35:10    0.0 h  0
+6233410.python    32      1    58.8 %  2025-05-13T11:37:15    0.0 h  0
+6233410.python    32      1    58.3 %  2025-05-13T11:39:21    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T11:41:27    0.0 h  0
+6233410.python    32      1    59.3 %  2025-05-13T11:43:33    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T11:45:38    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T11:47:43    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T11:49:49    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T11:51:54    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T11:54:00    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T11:56:05    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T11:58:10    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T12:00:16    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T12:02:21    0.0 h  0
+6233410.python    32      1    59.1 %  2025-05-13T12:04:26    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T12:06:30    0.0 h  0
+6233410.python    32      1    59.1 %  2025-05-13T12:08:36    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T12:10:41    0.0 h  0
+6233410.python    32      1    58.3 %  2025-05-13T12:12:46    0.0 h  0
+6233410.python    32      1    58.3 %  2025-05-13T12:14:52    0.0 h  0
+6233410.python    32      1    58.8 %  2025-05-13T12:16:58    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T12:19:03    0.0 h  0
+6233410.python    32      1    57.8 %  2025-05-13T12:21:09    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T12:23:16    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T12:25:21    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T12:27:27    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T12:29:32    0.0 h  0
+6233410.python    32      1    58.4 %  2025-05-13T12:31:37    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T12:33:43    0.0 h  0
+6233410.python    32      1    58.8 %  2025-05-13T12:35:48    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T12:37:53    0.0 h  0
+6233410.python    32      1    57.8 %  2025-05-13T12:39:58    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T12:42:06    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T12:44:11    0.0 h  0
+6233410.python    32      1    57.8 %  2025-05-13T12:46:16    0.0 h  0
+6233410.python    32      1    58.9 %  2025-05-13T12:48:23    0.0 h  0
+6233410.python    32      1    58.8 %  2025-05-13T12:50:28    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T12:52:33    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T12:54:39    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T12:56:44    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T12:58:49    0.0 h  0
+6233410.python    32      1    58.8 %  2025-05-13T13:00:54    0.0 h  0
+6233410.python    32      1    58.3 %  2025-05-13T13:02:59    0.0 h  0
+6233410.python    32      1    58.6 %  2025-05-13T13:05:05    0.0 h  0
+6233410.python    32      1    58.2 %  2025-05-13T13:07:10    0.0 h  0
+6233410.python    32      1    58.4 %  2025-05-13T13:09:16    0.0 h  0
+6233410.python    32      1    59.1 %  2025-05-13T13:11:22    0.0 h  0
+6233410.python    32      1    58.7 %  2025-05-13T13:13:27    0.0 h  0
+6233410.python    32      1    57.9 %  2025-05-13T13:15:32    0.0 h  0
+6233410.python    32      1    57.6 %  2025-05-13T13:17:39    0.0 h  0
+6233410.python    32      1    59.1 %  2025-05-13T13:19:47    0.0 h  0
+6233410.python    32      1    58.3 %  2025-05-13T13:21:51    0.0 h  0
+6233410.python    32      1    58.8 %  2025-05-13T13:23:57    0.0 h  0
+
+Used CPU time:   2.2 CPU days
+Unused CPU time: 1.6 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6233410           59.0        
+6233410.batch     59.0     0.0
+6233410.python    59.0    10.2
+6233410.python    59.0     9.7
+6233410.python    59.0     9.8
+6233410.python    59.0     9.4
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.5
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.5
+6233410.python    59.0     9.5
+6233410.python    59.0     9.7
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.4
+6233410.python    59.0     9.7
+6233410.python    59.0     9.6
+6233410.python    59.0     9.5
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0    10.2
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.7
+6233410.python    59.0     9.5
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.7
+6233410.python    59.0     9.5
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.5
+6233410.python    59.0     9.5
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.5
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.7
+6233410.python    59.0     9.5
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.6
+6233410.python    59.0     9.5
+6233410.python    59.0     9.7
+
+Job 6233410 completed at Tue May 13 13:26:03 CEST 2025

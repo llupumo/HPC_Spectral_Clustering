@@ -1,0 +1,147 @@
+Starting job 6102410 on c4-10 on fram at Sun Feb 9 13:00:59 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+12
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6102410 ON c4-10 CANCELLED AT 2025-02-09T13:01:14 ***
+slurmstepd: error: *** STEP 6102410.0 ON c4-10 CANCELLED AT 2025-02-09T13:01:14 ***
+
+Job 6102410 consumed 0.1 billing hours from project nn8008k.
+
+Submitted 2025-02-09T13:00:58; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   15.0 seconds
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6102410           32            0.0 %  2025-02-09T13:00:59   15.0 s  0
+6102410.batch     32      1     0.1 %  2025-02-09T13:00:59   16.0 s  Signal 15
+6102410.python    32      8   113.5 %  2025-02-09T13:00:59   18.0 s  Signal 15
+
+Used CPU time:   10.9 CPU minutes
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6102410           59.0        
+6102410.batch     59.0     0.0
+6102410.python    59.0     8.1
+
+Job 6102410 completed at Sun Feb 9 13:01:18 CET 2025
+Starting job 6102411 on c4-10 on fram at Sun Feb 9 13:01:30 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+12
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+Starting job 6102412 on c5-7 on fram at Sun Feb 9 13:01:59 CET 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+12
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6102412 ON c5-7 CANCELLED AT 2025-02-09T13:02:09 ***
+slurmstepd: error: *** STEP 6102412.0 ON c5-7 CANCELLED AT 2025-02-09T13:02:09 ***
+
+Job 6102412 consumed 0.1 billing hours from project nn8008k.
+
+Submitted 2025-02-09T13:01:58; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   10.0 seconds
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6102412           32            0.0 %  2025-02-09T13:01:59   10.0 s  0
+6102412.batch     32      1     0.1 %  2025-02-09T13:01:59   11.0 s  Signal 15
+6102412.python    32      8    87.5 %  2025-02-09T13:02:00   13.0 s  Signal 15
+
+Used CPU time:   6.1 CPU minutes
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6102412           59.0        
+6102412.batch     59.0     0.0
+6102412.python    59.0     8.4
+
+Job 6102412 completed at Sun Feb 9 13:02:13 CET 2025
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6102411 ON c4-10 CANCELLED AT 2025-02-10T18:07:49 ***
+slurmstepd: error: *** STEP 6102411.0 ON c4-10 CANCELLED AT 2025-02-10T18:07:49 ***
+
+Job 6102411 consumed 931.4 billing hours from project nn8008k.
+
+Submitted 2025-02-09T13:01:29; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   1.2 days
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6102411           32            0.0 %  2025-02-09T13:01:30   29.1 h  0
+6102411.batch     32      1     0.0 %  2025-02-09T13:01:30   29.1 h  Signal 15
+6102411.python    32      8   197.7 %  2025-02-09T13:01:31   29.1 h  Signal 15
+
+Used CPU time:   76.7 CPU days
+Unused CPU time: 0.0 CPU seconds
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6102411           59.0        
+6102411.batch     59.0     0.0
+6102411.python    59.0    11.8
+
+Job 6102411 completed at Mon Feb 10 18:07:53 CET 2025

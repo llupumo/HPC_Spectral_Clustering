@@ -44,10 +44,10 @@ def cartesian_to_spherical(x, y, z):
     earthRadius = 6371*(10**3)
     
     # Polar angle (theta) from the top theta=0 in the pole 
-    theta = np.degrees(np.acos(z/earthRadius))
+    theta = np.degrees(np.arccos(z/earthRadius))
     
     # Azimuthal angle (phi)
-    phi = np.degrees(np.atan2(y, x))  # atan2 handles the correct quadrant for (y, x)
+    phi = np.degrees(np.arctan2(y, x))  # atan2 handles the correct quadrant for (y, x)
     
     return 90-theta, phi
 

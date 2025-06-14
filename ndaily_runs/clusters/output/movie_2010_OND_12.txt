@@ -1,0 +1,6 @@
+Processing year 2010, season OND
+Processing year 2010, season OND
+Reading regrided input data
+Number of points inside the polygons:
+281832
+Processing 2 clusters

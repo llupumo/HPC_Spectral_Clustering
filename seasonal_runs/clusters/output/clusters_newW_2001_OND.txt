@@ -1,0 +1,214 @@
+Processing year 2001, season OND
+Reading data
+Cutting the trajectories that we don't want
+Number of points inside the polygons:
+105846
+Finally finished generating interpolator!
+(531,) trajectories have been removed because they were too close to land or ending up too close to land
+Computing eigenvalues of the diagonalized matrix
+(0,) trajectories have been removed because they were not similar to any other trajectories
+The percentage of spercified elements is 0.0
+Computing first 100 eigenvalues
+(0,) trajectories have been removed because they were not similar to any other trajectories
+The percentage of spercified elements is 0.0
+Computing first 100 eigenvalues
+(0,) trajectories have been removed because they were not similar to any other trajectories
+The percentage of spercified elements is 0.0
+Computing first 100 eigenvalues
+Clustering
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results
+Applying k-means to define the clusters
+Saving results

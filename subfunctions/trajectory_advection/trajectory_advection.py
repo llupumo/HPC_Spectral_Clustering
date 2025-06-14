@@ -11,7 +11,7 @@ sys.path.append(parent_directory+"/subfunctions/Parallelisation")
 from parallelised_functions import split
 from integration_dFdt import parallel_Fmap
 
-def trajectory_advection(IC, time_data, Interpolant_u, Interpolant_v, lon_grid, lat_grid, timemod, dt, Ncores):
+def trajectory_advection(IC, time_data, Interpolant_u, Interpolant_v, lon_grid, lat_grid, timemod, dt, Ncores, melting=True):
 
     print("Advecting trajectories")
 
@@ -37,7 +37,7 @@ def trajectory_advection(IC, time_data, Interpolant_u, Interpolant_v, lon_grid, 
     x0_batch = list(split(IC[1], Ncores)) # lon
     y0_batch = list(split(IC[0], Ncores)) # lat
 
-    results = Parallel(n_jobs=Ncores, verbose = 0)(delayed(parallel_Fmap)(x0_batch[i], y0_batch[i], time_adv, lon_grid, lat_grid, Interpolant_u, Interpolant_v, periodic, bool_unsteady, time_data, timemod, verbose = False, linear=False) for i in range(len(x0_batch)))
+    results = Parallel(n_jobs=Ncores, verbose = 0)(delayed(parallel_Fmap)(x0_batch[i], y0_batch[i], time_adv, lon_grid, lat_grid, Interpolant_u, Interpolant_v, periodic, bool_unsteady, time_data, timemod, verbose = False, linear=False, melting=True) for i in range(len(x0_batch)))
     #results is a two dimensional list. First dimension stands for NCores and the result of each core. Second dimension stands for [0] Fmap and [1] dFdt. Then we access an array of
     #ntime x latlon x ntrajectories
 

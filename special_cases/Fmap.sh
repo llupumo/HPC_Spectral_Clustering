@@ -1,16 +1,16 @@
 #!/bin/bash
 # Define the parameters
 #SBATCH --account=nn8008k
-#SBATCH --job-name=special_case
+#SBATCH --job-name=fmap
 #SBATCH --time=1-0:0:0
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=32
-#SBATCH --output=beaufort_zoom_lead_febmars.out
+#SBATCH --output=beaufort_fmap.out
 Ncores=32
-IC_resolution=0.15
+IC_resolution=0.5
 dt=0.0025
-DT=0.05
+DT=0.025
 special_name="beaufort_zoom_lead_febmars"
 filename="OPA-neXtSIM_CREG025_ILBOXE140_2010_ice_90Rx_${special_name}.nc"
 
@@ -33,7 +33,7 @@ formatted_DT=$(printf "%.4f" "$DT")
 formatted_dt=$(printf "%.4f" "$dt")
 # Loop over years and seasons
 
-directory="/cluster/projects/nn8008k/lluisa/NextSIM/rotated_ice_velocities/special_cases/${special_name}/"
+directory="/cluster/projects/nn9970k/lluisa/NextSIM/rotated_ice_velocities/special_cases/${special_name}/"
 velocities_file_path="${directory}${filename}"
 Fmap_params="ic${IC_resolution}_"
 Fmap_params+="dt${formatted_dt}_"

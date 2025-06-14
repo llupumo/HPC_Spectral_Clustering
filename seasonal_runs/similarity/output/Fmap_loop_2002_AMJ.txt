@@ -1,0 +1,27 @@
+Directory '/cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap/2002_AMJ_ic0.5_dt0.0025_DT0.1000/' is ready.
+The velocity has not been regrided yet
+Reading the input data
+Interpolating to a regular grid
+Latitude grid shape: (507, 449)
+Longitude grid shape: (507, 449)
+Time taken for regriding the velocity field: 1707.07 seconds
+Interpolating to a regular grid
+Latitude grid shape: (507, 449)
+Longitude grid shape: (507, 449)
+Time taken for regriding the velocity field: 834.02 seconds
+Interpolating to a regular grid
+Latitude grid shape: (507, 449)
+Longitude grid shape: (507, 449)
+Time taken for regriding the velocity field: 842.96 seconds
+NetCDF file created successfully.
+Regrided velocity created.
+Reading the input data
+Finished generating the mask interpolator
+Generate interpolators for the advection
+Time taken for parallel computation to generate the velocity interpolator objects: 4.70 seconds
+Finished generating the mask interpolator
+The number of trajectories leaving the domain is: 25
+The number of trajectories leaving the domain is: 8
+Advecting trajectories
+Ploting the advected trajectories
+The number of trajectories with constant slow velocity is 149

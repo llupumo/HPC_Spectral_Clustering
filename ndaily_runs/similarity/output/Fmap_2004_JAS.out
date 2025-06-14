@@ -1,0 +1,784 @@
+Starting job 6228801 on c27-1 on fram at Sat May 3 00:03:44 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) GCCcore/13.3.0 => GCCcore/13.2.0
+  2) OpenSSL/3 => OpenSSL/1.1
+  3) Python/3.12.3-GCCcore-13.3.0 => Python/3.11.5-GCCcore-13.2.0
+  4) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.43.1-GCCcore-13.2.0
+  5) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.13-GCCcore-13.2.0
+  6) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.4.4-GCCcore-13.2.0
+  7) binutils/2.42-GCCcore-13.3.0 => binutils/2.40-GCCcore-13.2.0
+  8) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-13.2.0
+  9) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.4-GCCcore-13.2.0
+ 10) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.2-GCCcore-13.2.0
+ 11) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.4-GCCcore-13.2.0
+ 12) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.13-GCCcore-13.2.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/0_Fmap_matrix.npy
+
+real	0m35.246s
+user	0m0.015s
+sys	0m0.022s
+4
+44
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/1_Fmap_matrix.npy
+
+real	0m26.112s
+user	0m0.014s
+sys	0m0.014s
+8
+48
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/2_Fmap_matrix.npy
+
+real	0m26.563s
+user	0m0.010s
+sys	0m0.018s
+12
+52
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/3_Fmap_matrix.npy
+
+real	0m26.486s
+user	0m0.012s
+sys	0m0.015s
+16
+56
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/4_Fmap_matrix.npy
+
+real	0m25.843s
+user	0m0.016s
+sys	0m0.013s
+20
+60
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/5_Fmap_matrix.npy
+
+real	0m26.691s
+user	0m0.014s
+sys	0m0.015s
+24
+64
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/6_Fmap_matrix.npy
+
+real	0m26.077s
+user	0m0.014s
+sys	0m0.015s
+28
+68
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/7_Fmap_matrix.npy
+
+real	0m26.180s
+user	0m0.017s
+sys	0m0.011s
+32
+72
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/8_Fmap_matrix.npy
+
+real	0m26.496s
+user	0m0.012s
+sys	0m0.016s
+36
+76
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/9_Fmap_matrix.npy
+
+real	0m25.928s
+user	0m0.017s
+sys	0m0.011s
+40
+80
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/10_Fmap_matrix.npy
+
+real	0m26.052s
+user	0m0.016s
+sys	0m0.012s
+44
+84
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/11_Fmap_matrix.npy
+
+real	0m26.510s
+user	0m0.017s
+sys	0m0.010s
+48
+88
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/12_Fmap_matrix.npy
+
+real	0m25.941s
+user	0m0.015s
+sys	0m0.012s
+52
+92
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/13_Fmap_matrix.npy
+
+real	0m25.316s
+user	0m0.013s
+sys	0m0.015s
+56
+96
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/14_Fmap_matrix.npy
+
+real	0m25.883s
+user	0m0.017s
+sys	0m0.010s
+60
+100
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/15_Fmap_matrix.npy
+
+real	0m25.632s
+user	0m0.016s
+sys	0m0.013s
+64
+104
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/16_Fmap_matrix.npy
+
+real	0m25.737s
+user	0m0.011s
+sys	0m0.016s
+68
+108
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/17_Fmap_matrix.npy
+
+real	0m25.683s
+user	0m0.018s
+sys	0m0.010s
+72
+112
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/18_Fmap_matrix.npy
+
+real	0m25.502s
+user	0m0.012s
+sys	0m0.015s
+76
+116
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/19_Fmap_matrix.npy
+
+real	0m25.235s
+user	0m0.015s
+sys	0m0.012s
+80
+120
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/20_Fmap_matrix.npy
+
+real	0m25.724s
+user	0m0.015s
+sys	0m0.013s
+84
+124
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/21_Fmap_matrix.npy
+
+real	0m25.483s
+user	0m0.014s
+sys	0m0.013s
+88
+128
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/22_Fmap_matrix.npy
+
+real	0m25.242s
+user	0m0.012s
+sys	0m0.016s
+92
+132
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/23_Fmap_matrix.npy
+
+real	0m25.559s
+user	0m0.013s
+sys	0m0.015s
+96
+136
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/24_Fmap_matrix.npy
+
+real	0m25.251s
+user	0m0.013s
+sys	0m0.014s
+100
+140
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/25_Fmap_matrix.npy
+
+real	0m25.330s
+user	0m0.013s
+sys	0m0.013s
+104
+144
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/26_Fmap_matrix.npy
+
+real	0m25.251s
+user	0m0.013s
+sys	0m0.013s
+108
+148
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/27_Fmap_matrix.npy
+
+real	0m24.905s
+user	0m0.011s
+sys	0m0.016s
+112
+152
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/28_Fmap_matrix.npy
+
+real	0m25.525s
+user	0m0.011s
+sys	0m0.016s
+116
+156
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/29_Fmap_matrix.npy
+
+real	0m25.479s
+user	0m0.014s
+sys	0m0.013s
+120
+160
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/30_Fmap_matrix.npy
+
+real	0m25.073s
+user	0m0.013s
+sys	0m0.014s
+124
+164
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/31_Fmap_matrix.npy
+
+real	0m25.483s
+user	0m0.013s
+sys	0m0.014s
+128
+168
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/32_Fmap_matrix.npy
+
+real	0m25.254s
+user	0m0.014s
+sys	0m0.013s
+132
+172
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/33_Fmap_matrix.npy
+
+real	0m25.445s
+user	0m0.010s
+sys	0m0.017s
+136
+176
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/34_Fmap_matrix.npy
+
+real	0m25.161s
+user	0m0.014s
+sys	0m0.014s
+140
+180
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/35_Fmap_matrix.npy
+
+real	0m25.448s
+user	0m0.016s
+sys	0m0.011s
+144
+184
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/36_Fmap_matrix.npy
+
+real	0m25.272s
+user	0m0.017s
+sys	0m0.010s
+148
+188
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/37_Fmap_matrix.npy
+
+real	0m25.113s
+user	0m0.009s
+sys	0m0.018s
+152
+192
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/38_Fmap_matrix.npy
+
+real	0m24.900s
+user	0m0.014s
+sys	0m0.011s
+156
+196
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/39_Fmap_matrix.npy
+
+real	0m24.936s
+user	0m0.014s
+sys	0m0.013s
+160
+200
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/40_Fmap_matrix.npy
+
+real	0m25.025s
+user	0m0.013s
+sys	0m0.014s
+164
+204
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/41_Fmap_matrix.npy
+
+real	0m25.074s
+user	0m0.015s
+sys	0m0.013s
+168
+208
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/42_Fmap_matrix.npy
+
+real	0m25.055s
+user	0m0.014s
+sys	0m0.013s
+172
+212
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/43_Fmap_matrix.npy
+
+real	0m24.901s
+user	0m0.015s
+sys	0m0.012s
+176
+216
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/44_Fmap_matrix.npy
+
+real	0m24.666s
+user	0m0.013s
+sys	0m0.014s
+180
+220
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/45_Fmap_matrix.npy
+
+real	0m24.810s
+user	0m0.013s
+sys	0m0.014s
+184
+224
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/46_Fmap_matrix.npy
+
+real	0m24.778s
+user	0m0.014s
+sys	0m0.013s
+188
+228
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/47_Fmap_matrix.npy
+
+real	0m24.481s
+user	0m0.013s
+sys	0m0.015s
+192
+232
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/48_Fmap_matrix.npy
+
+real	0m24.377s
+user	0m0.009s
+sys	0m0.018s
+196
+236
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/49_Fmap_matrix.npy
+
+real	0m24.998s
+user	0m0.014s
+sys	0m0.013s
+200
+240
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/50_Fmap_matrix.npy
+
+real	0m24.843s
+user	0m0.015s
+sys	0m0.012s
+204
+244
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/51_Fmap_matrix.npy
+
+real	0m25.049s
+user	0m0.016s
+sys	0m0.011s
+208
+248
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/52_Fmap_matrix.npy
+
+real	0m24.441s
+user	0m0.013s
+sys	0m0.015s
+212
+252
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/53_Fmap_matrix.npy
+
+real	0m24.366s
+user	0m0.014s
+sys	0m0.013s
+216
+256
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/54_Fmap_matrix.npy
+
+real	0m24.847s
+user	0m0.014s
+sys	0m0.013s
+220
+260
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/55_Fmap_matrix.npy
+
+real	0m24.500s
+user	0m0.014s
+sys	0m0.013s
+224
+264
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/56_Fmap_matrix.npy
+
+real	0m24.155s
+user	0m0.017s
+sys	0m0.010s
+228
+268
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/57_Fmap_matrix.npy
+
+real	0m24.436s
+user	0m0.008s
+sys	0m0.019s
+232
+272
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/58_Fmap_matrix.npy
+
+real	0m24.615s
+user	0m0.013s
+sys	0m0.014s
+236
+276
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/59_Fmap_matrix.npy
+
+real	0m24.528s
+user	0m0.020s
+sys	0m0.009s
+240
+280
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/60_Fmap_matrix.npy
+
+real	0m24.362s
+user	0m0.011s
+sys	0m0.016s
+244
+284
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/61_Fmap_matrix.npy
+
+real	0m24.630s
+user	0m0.015s
+sys	0m0.013s
+248
+288
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/62_Fmap_matrix.npy
+
+real	0m24.488s
+user	0m0.011s
+sys	0m0.016s
+252
+292
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/63_Fmap_matrix.npy
+
+real	0m24.174s
+user	0m0.009s
+sys	0m0.017s
+256
+296
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/64_Fmap_matrix.npy
+
+real	0m24.554s
+user	0m0.015s
+sys	0m0.012s
+260
+300
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/65_Fmap_matrix.npy
+
+real	0m24.484s
+user	0m0.015s
+sys	0m0.012s
+264
+304
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/66_Fmap_matrix.npy
+
+real	0m24.244s
+user	0m0.014s
+sys	0m0.013s
+268
+308
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/67_Fmap_matrix.npy
+
+real	0m24.749s
+user	0m0.015s
+sys	0m0.012s
+272
+312
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/68_Fmap_matrix.npy
+
+real	0m24.540s
+user	0m0.013s
+sys	0m0.013s
+276
+316
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/69_Fmap_matrix.npy
+
+real	0m24.552s
+user	0m0.012s
+sys	0m0.015s
+280
+320
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/70_Fmap_matrix.npy
+
+real	0m24.592s
+user	0m0.011s
+sys	0m0.016s
+284
+324
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/71_Fmap_matrix.npy
+
+real	0m24.872s
+user	0m0.014s
+sys	0m0.013s
+288
+328
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/72_Fmap_matrix.npy
+
+real	0m24.980s
+user	0m0.014s
+sys	0m0.013s
+292
+332
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/73_Fmap_matrix.npy
+
+real	0m24.255s
+user	0m0.014s
+sys	0m0.014s
+296
+336
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/74_Fmap_matrix.npy
+
+real	0m24.869s
+user	0m0.012s
+sys	0m0.015s
+300
+340
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/75_Fmap_matrix.npy
+
+real	0m24.139s
+user	0m0.016s
+sys	0m0.011s
+304
+344
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/76_Fmap_matrix.npy
+
+real	0m24.318s
+user	0m0.014s
+sys	0m0.012s
+308
+348
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/77_Fmap_matrix.npy
+
+real	0m24.361s
+user	0m0.009s
+sys	0m0.018s
+312
+352
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/78_Fmap_matrix.npy
+
+real	0m24.199s
+user	0m0.012s
+sys	0m0.015s
+316
+356
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/79_Fmap_matrix.npy
+
+real	0m24.586s
+user	0m0.011s
+sys	0m0.016s
+320
+360
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2004_JAS_ic0.5_dt0.0025_DT0.0100/80_Fmap_matrix.npy
+
+real	0m24.096s
+user	0m0.013s
+sys	0m0.013s
+EBVERSIONNUMACTL=2.0.16
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.16-GCCcore-13.2.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.16-GCCcore-13.2.0/easybuild/numactl-2.0.16-GCCcore-13.2.0-easybuild-devel
+OMP_NUM_THREADS=32
+
+Job 6228801 consumed 18.2 billing hours from project nn8008k.
+
+Submitted 2025-05-03T00:03:20; waited 21.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   34.1 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+6228801           32            0.0 %  2025-05-03T00:03:41  2049.0 s  0
+6228801.batch     32      1     0.0 %  2025-05-03T00:03:41  2049.0 s  0
+6228801.python    32      1    20.5 %  2025-05-03T00:03:47    35.0 s  0
+6228801.python    32      1    27.5 %  2025-05-03T00:04:22    26.0 s  0
+6228801.python    32      1    26.0 %  2025-05-03T00:04:48    27.0 s  0
+6228801.python    32      1    27.0 %  2025-05-03T00:05:15    26.0 s  0
+6228801.python    32      1    27.0 %  2025-05-03T00:05:41    26.0 s  0
+6228801.python    32      1    26.2 %  2025-05-03T00:06:07    27.0 s  0
+6228801.python    32      1    26.9 %  2025-05-03T00:06:34    26.0 s  0
+6228801.python    32      1    26.8 %  2025-05-03T00:07:00    26.0 s  0
+6228801.python    32      1    27.4 %  2025-05-03T00:07:26    26.0 s  0
+6228801.python    32      1    26.8 %  2025-05-03T00:07:52    26.0 s  0
+6228801.python    32      1    26.6 %  2025-05-03T00:08:18    26.0 s  0
+6228801.python    32      1    25.7 %  2025-05-03T00:08:44    27.0 s  0
+6228801.python    32      1    26.5 %  2025-05-03T00:09:11    26.0 s  0
+6228801.python    32      1    27.3 %  2025-05-03T00:09:37    25.0 s  0
+6228801.python    32      1    26.3 %  2025-05-03T00:10:02    26.0 s  0
+6228801.python    32      1    26.2 %  2025-05-03T00:10:28    26.0 s  0
+6228801.python    32      1    27.0 %  2025-05-03T00:10:54    25.0 s  0
+6228801.python    32      1    25.8 %  2025-05-03T00:11:19    26.0 s  0
+6228801.python    32      1    25.6 %  2025-05-03T00:11:45    26.0 s  0
+6228801.python    32      1    26.6 %  2025-05-03T00:12:11    25.0 s  0
+6228801.python    32      1    26.5 %  2025-05-03T00:12:36    25.0 s  0
+6228801.python    32      1    25.3 %  2025-05-03T00:13:01    26.0 s  0
+6228801.python    32      1    26.3 %  2025-05-03T00:13:27    25.0 s  0
+6228801.python    32      1    25.4 %  2025-05-03T00:13:52    26.0 s  0
+6228801.python    32      1    26.1 %  2025-05-03T00:14:18    25.0 s  0
+6228801.python    32      1    25.8 %  2025-05-03T00:14:43    25.0 s  0
+6228801.python    32      1    24.9 %  2025-05-03T00:15:08    26.0 s  0
+6228801.python    32      1    26.8 %  2025-05-03T00:15:34    24.0 s  0
+6228801.python    32      1    25.4 %  2025-05-03T00:15:59    25.0 s  0
+6228801.python    32      1    25.6 %  2025-05-03T00:16:24    25.0 s  0
+6228801.python    32      1    25.4 %  2025-05-03T00:16:50    25.0 s  0
+6228801.python    32      1    25.7 %  2025-05-03T00:17:15    25.0 s  0
+6228801.python    32      1    25.3 %  2025-05-03T00:17:40    25.0 s  0
+6228801.python    32      1    24.3 %  2025-05-03T00:18:05    26.0 s  0
+6228801.python    32      1    25.2 %  2025-05-03T00:18:31    25.0 s  0
+6228801.python    32      1    25.1 %  2025-05-03T00:18:56    25.0 s  0
+6228801.python    32      1    24.2 %  2025-05-03T00:19:21    26.0 s  0
+6228801.python    32      1    24.7 %  2025-05-03T00:19:47    25.0 s  0
+6228801.python    32      1    24.8 %  2025-05-03T00:20:12    25.0 s  0
+6228801.python    32      1    24.6 %  2025-05-03T00:20:37    25.0 s  0
+6228801.python    32      1    24.8 %  2025-05-03T00:21:02    25.0 s  0
+6228801.python    32      1    24.6 %  2025-05-03T00:21:27    25.0 s  0
+6228801.python    32      1    24.6 %  2025-05-03T00:21:52    25.0 s  0
+6228801.python    32      1    24.6 %  2025-05-03T00:22:17    25.0 s  0
+6228801.python    32      1    25.7 %  2025-05-03T00:22:42    24.0 s  0
+6228801.python    32      1    24.6 %  2025-05-03T00:23:06    25.0 s  0
+6228801.python    32      1    24.6 %  2025-05-03T00:23:31    25.0 s  0
+6228801.python    32      1    25.3 %  2025-05-03T00:23:56    24.0 s  0
+6228801.python    32      1    24.4 %  2025-05-03T00:24:20    25.0 s  0
+6228801.python    32      1    24.4 %  2025-05-03T00:24:45    25.0 s  0
+6228801.python    32      1    24.2 %  2025-05-03T00:25:10    25.0 s  0
+6228801.python    32      1    24.2 %  2025-05-03T00:25:35    25.0 s  0
+6228801.python    32      1    24.8 %  2025-05-03T00:26:00    24.0 s  0
+6228801.python    32      1    24.6 %  2025-05-03T00:26:24    24.0 s  0
+6228801.python    32      1    23.7 %  2025-05-03T00:26:48    25.0 s  0
+6228801.python    32      1    23.6 %  2025-05-03T00:27:13    25.0 s  0
+6228801.python    32      1    24.4 %  2025-05-03T00:27:38    24.0 s  0
+6228801.python    32      1    24.3 %  2025-05-03T00:28:02    24.0 s  0
+6228801.python    32      1    23.3 %  2025-05-03T00:28:26    25.0 s  0
+6228801.python    32      1    23.3 %  2025-05-03T00:28:51    25.0 s  0
+6228801.python    32      1    24.2 %  2025-05-03T00:29:16    24.0 s  0
+6228801.python    32      1    23.5 %  2025-05-03T00:29:40    25.0 s  0
+6228801.python    32      1    24.1 %  2025-05-03T00:30:05    24.0 s  0
+6228801.python    32      1    24.0 %  2025-05-03T00:30:29    24.0 s  0
+6228801.python    32      1    23.2 %  2025-05-03T00:30:53    25.0 s  0
+6228801.python    32      1    24.2 %  2025-05-03T00:31:18    24.0 s  0
+6228801.python    32      1    24.1 %  2025-05-03T00:31:42    24.0 s  0
+6228801.python    32      1    24.0 %  2025-05-03T00:32:07    24.0 s  0
+6228801.python    32      1    23.2 %  2025-05-03T00:32:31    25.0 s  0
+6228801.python    32      1    24.2 %  2025-05-03T00:32:56    24.0 s  0
+6228801.python    32      1    22.9 %  2025-05-03T00:33:20    25.0 s  0
+6228801.python    32      1    23.3 %  2025-05-03T00:33:45    25.0 s  0
+6228801.python    32      1    23.3 %  2025-05-03T00:34:10    25.0 s  0
+6228801.python    32      1    23.9 %  2025-05-03T00:34:35    24.0 s  0
+6228801.python    32      1    23.1 %  2025-05-03T00:34:59    25.0 s  0
+6228801.python    32      1    23.9 %  2025-05-03T00:35:24    24.0 s  0
+6228801.python    32      1    23.9 %  2025-05-03T00:35:48    24.0 s  0
+6228801.python    32      1    22.9 %  2025-05-03T00:36:12    25.0 s  0
+6228801.python    32      1    23.6 %  2025-05-03T00:36:37    24.0 s  0
+6228801.python    32      1    22.9 %  2025-05-03T00:37:01    25.0 s  0
+6228801.python    32      1    23.6 %  2025-05-03T00:37:26    24.0 s  0
+
+Used CPU time:   4.5 CPU hours
+Unused CPU time: 13.7 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6228801           59.0        
+6228801.batch     59.0     0.0
+6228801.python    59.0     6.8
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+6228801.python    59.0     0.1
+
+Job 6228801 completed at Sat May 3 00:37:50 CEST 2025

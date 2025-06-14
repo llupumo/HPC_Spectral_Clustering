@@ -1,0 +1,3 @@
+reading
+shape of land mask
+(492, 499)

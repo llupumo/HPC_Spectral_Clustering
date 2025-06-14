@@ -14,6 +14,7 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 parent_directory = os.path.dirname(current_directory)
 sys.path.append(parent_directory+"/subfunctions/Parallelisation")
 
+
 from parallelised_functions import split3D
 
 def regrid_unsteady(lat_irr, lon_irr, U, V, lat_reg, lon_reg):
@@ -93,6 +94,108 @@ def generate_velocity_interpolants(interpolated_siu, interpolated_siv,lon_grid, 
     return Interpolant_u, Interpolant_v
 
 
+
+def interpolant_unsteady_land_ocean_mask(X, Y, land_ocean_mask, method = "cubic"):
+    '''
+    Unsteady wrapper for scipy.interpolate.RectBivariateSpline. Creates a list of interpolators for u and v velocities
+    
+    Parameters:
+        X: array (Ny, Nx), X-meshgrid
+        Y: array (Ny, Nx), Y-meshgrid
+        U: array (Ny, Nx, Nt), U velocity
+        V: array (Ny, Nx, Nt), V velocity
+        method: Method for interpolation. Default is 'cubic', can be 'linear'
+        
+    Returns:
+        Interpolant: list (2,), U and V  interpolators
+    '''
+    # Cubic interpolation
+    if method == "cubic":
+                
+        kx = 3
+        ky = 3
+               
+    # linear interpolation
+    elif method == "linear":
+            
+        kx = 1
+        ky = 1  
+            
+    # define u, v interpolants
+    Interpolant = []
+                    
+    for j in range(land_ocean_mask.shape[2]):
+                
+        Interpolant.append(RBS(Y[:,0], X[0,:], land_ocean_mask[:,:,j], kx=kx, ky=ky))
+    
+    return Interpolant
+
+def interpolant_unsteady_FTLE(X, Y, FTLE, method = "cubic"):
+    '''
+    Unsteady wrapper for scipy.interpolate.RectBivariateSpline. Creates a list of interpolators for u and v velocities
+    
+    Parameters:
+        X: array (Ny, Nx), X-meshgrid
+        Y: array (Ny, Nx), Y-meshgrid
+        U: array (Ny, Nx, Nt), U velocity
+        V: array (Ny, Nx, Nt), V velocity
+        method: Method for interpolation. Default is 'cubic', can be 'linear'
+        
+    Returns:
+        Interpolant: list (2,), U and V  interpolators
+    '''
+    # Cubic interpolation
+    if method == "cubic":
+                
+        kx = 3
+        ky = 3
+               
+    # linear interpolation
+    elif method == "linear":
+            
+        kx = 1
+        ky = 1  
+            
+    return RBS(Y[:,0], X[0,:], FTLE[:,:], kx=kx, ky=ky)
+
+def interpolant_FTLE(X, Y, FTLE, method="cubic"):
+    '''
+    Wrapper for scipy.interpolate.RectBivariateSpline to create an interpolator for FTLE fields.
+    
+    Parameters:
+        X: array (Ny, Nx), X-meshgrid
+        Y: array (Ny, Nx), Y-meshgrid
+        FTLE: array (Ny, Nx), FTLE field
+        method: str, optional
+            Method for interpolation. Default is 'cubic'. Can also be 'linear'.
+        
+    Returns:
+        interpolant: RectBivariateSpline
+            Interpolator for the FTLE field.
+    '''
+    # Determine spline degree based on the method
+    if method == "cubic":
+        kx = 3
+        ky = 3
+    elif method == "linear":
+        kx = 1
+        ky = 1
+    else:
+        raise ValueError("Invalid method. Choose 'cubic' or 'linear'.")
+    
+    # Ensure X and Y are 1D arrays for RectBivariateSpline
+    x = X[0, :]  # Extract unique x-coordinates
+    y = Y[:, 0]  # Extract unique y-coordinates
+    
+    # Create and return the interpolator
+    return RBS(x, y, FTLE, kx=kx, ky=ky)
+    
+
+
+def parallel_interpolant_unsteady_land_ocean_mask(lon_grid, lat_grid,land_ocean_mask_batch):
+    # Compute trajectories
+    Interpolant = interpolant_unsteady_land_ocean_mask(lon_grid, lat_grid, land_ocean_mask_batch) # method = "linear" leads to linear interpolation
+    return Interpolant
 
 
 
@@ -217,5 +320,39 @@ def generate_mask_interpolator(lat_grid,lon_grid,interpolated_siu,interpolated_s
     return vel_land_interpolator
 
 
+def generate_land_mask_interpolator(lat_grid,lon_grid,land_mask):
+
+    # Initialize the vel_land_mask array with False
+    vel_land_mask = np.full(lat_grid.shape, False, dtype=bool)
+    # Compute indices where the velocity is 0 
+    zero_indices = np.where(land_mask == 1)
+    # Set the specified indices to True
+    vel_land_mask[zero_indices] = True
+    #Generate an interpolator
+    vel_land_interpolator = LNDI(list(zip(lat_grid.ravel(), lon_grid.ravel())), vel_land_mask.ravel(),fill_value=1)
+
+    return vel_land_interpolator
 
 
+
+
+
+def generate_land_ocean_interpolant(land_ocean_mask, lon_grid, lat_grid, Ncores):
+    ### Generate interpolators for advection
+
+    print("Generate interpolators for the advection")
+    land_ocean_mask_batch = list(split3D(land_ocean_mask, Ncores)) # list (Nx*Ny)
+
+    start_time = time.time()
+    results = Parallel(n_jobs=Ncores, verbose = 0)(delayed(parallel_interpolant_unsteady_land_ocean_mask)(lon_grid, lat_grid, land_ocean_mask_batch[i]) for i in range(len(land_ocean_mask_batch)))
+
+    # Calculate the elapsed time
+    elapsed_time = time.time() - start_time
+    # Print the elapsed time
+    print(f"Time taken for parallel computation to generate the velocity interpolator objects: {elapsed_time:.2f} seconds")
+
+    Interpolant_u = results[0]
+    for res in results[1:]:
+        Interpolant_u = np.append(Interpolant_u, res)
+
+    return Interpolant_u

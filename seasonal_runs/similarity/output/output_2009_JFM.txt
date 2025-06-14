@@ -1,0 +1,43 @@
+Starting job 6228380 on c36-8 on fram at Fri May 2 13:42:16 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+real	2m46.821s
+user	0m0.012s
+sys	0m0.007s
+SLURM_JOB_NUM_NODES=1
+OMP_NUM_THREADS=32
+
+Job 6228380 consumed 1.5 billing hours from project nn8008k.
+
+Submitted 2025-05-02T13:42:10; waited 3.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 3.0 days
+Elapsed wallclock time:   2.9 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6228380           32            0.0 %  2025-05-02T13:42:13  171.0 s  0
+6228380.batch     32      1     0.0 %  2025-05-02T13:42:13  171.0 s  0
+6228380.python    32      1    31.9 %  2025-05-02T13:42:17  167.0 s  0
+
+Used CPU time:   28.4 CPU minutes
+Unused CPU time: 1.0 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6228380           59.0        
+6228380.batch     59.0     0.0
+6228380.python    59.0    28.8
+
+Job 6228380 completed at Fri May 2 13:45:04 CEST 2025

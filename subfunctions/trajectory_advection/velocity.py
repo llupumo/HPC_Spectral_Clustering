@@ -99,3 +99,92 @@ def velocity(t, x, X, Y, Interpolant_u, Interpolant_v, periodic, bool_unsteady, 
     vel = np.array([u, v])
     
     return vel
+
+
+def land_mask_t(t, x, X, Y, Interpolant_land_mask, periodic, bool_unsteady, time_data, linear = False):
+    '''
+    Evaluate the interpolated velocity field over the specified spatial locations at the specified time.
+    
+    Parameters:
+        t:              float,  time instant  
+        x:              array (2,Npoints),  array of ICs
+        X:              array (NY, NX)  X-meshgrid of data domain
+        Y:              array (NY, NX)  Y-meshgrid of data domain
+        Interpolant_land_mask:  Interpolant object for v(x, t)
+        periodic:       list of 3 bools, periodic[i] is True if the flow is periodic in the ith coordinate. Time is i=3.
+        bool_unsteady:  bool, specifies if velocity field is unsteady/steady
+        time_data:      array(NT) time of velocity data
+        linear:         bool, set to true if Interpolant_land_mask is LNDI interpolant_unsteady_uneven_linear_...
+    Returns:
+
+        vel:            array(2,Npoints), velocities, vel[0,:] --> x-coordinate of velocity, vel[1,:] --> y-coordinate of velocity
+    '''
+    x_eval = x.copy()
+    
+    # check if periodic in x
+    if periodic[0]:
+        
+        x_eval[0,:] = (x[0,:]-X[0, 0])%(X[0, -1]-X[0, 0])+X[0, 0]
+    
+    # check if periodic in y
+    if periodic[1]:
+        
+        x_eval[1,:] = (x[1,:]-Y[0, 0])%(Y[-1, 0]-Y[0, 0])+Y[0, 0]
+        
+    if periodic[2]:
+        
+        t = t%(time_data[-1]-time_data[0])+time_data[0]
+    
+    dt_data = time_data[1]-time_data[0]
+
+    
+    
+    if linear:
+        x_eval = x_eval[::-1,:] #change the order of x and y (Interpolant was defined for order x, y) 
+        # Unsteady case
+        if bool_unsteady:
+
+            k = int((t-time_data[0])/dt_data)
+            # evaluate velocity field at time t_eval
+            if k >= len(Interpolant_land_mask)-1:
+                land_mask = Interpolant_land_mask[-1](x_eval[1,:], x_eval[0,:])
+                
+            else: 
+
+                vi = Interpolant_land_mask[k](x_eval[1,:], x_eval[0,:])
+                vf = Interpolant_land_mask[k+1](x_eval[1,:], x_eval[0,:])
+                land_mask = ((k+1)*dt_data-(t-time_data[0]))/dt_data*vi + ((t-time_data[0])-k*dt_data)/dt_data*vf
+            
+        # Steady case        
+        elif bool_unsteady == False:
+
+            land_mask = Interpolant_land_mask(x_eval[1,:], x_eval[0,:])
+            
+    else:
+        # Unsteady case
+        if bool_unsteady:
+
+            k = int((t-time_data[0])/dt_data)
+        
+            # evaluate velocity field at time t_eval
+            if k >= len(Interpolant_land_mask)-1:
+            
+                land_mask = Interpolant_land_mask[-1](x_eval[1,:], x_eval[0,:], grid = False)
+                
+            else: 
+        
+                vi = Interpolant_land_mask[k](x_eval[1,:], x_eval[0,:], grid = False)
+                vf = Interpolant_land_mask[k+1](x_eval[1,:], x_eval[0,:], grid = False)
+                land_mask = ((k+1)*dt_data-(t-time_data[0]))/dt_data*vi + ((t-time_data[0])-k*dt_data)/dt_data*vf
+            
+        # Steady case        
+        elif bool_unsteady == False:
+     
+            land_mask = Interpolant_land_mask(x_eval[1,:], x_eval[0,:], grid = False)
+           
+    
+    return (land_mask  >= 0.5) #True (1) if ice and false (0) if land or ocean
+
+
+
+

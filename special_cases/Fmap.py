@@ -38,7 +38,7 @@ results_directory = args.results_directory
 ic_resolution = args.ic_resolution
 dt = args.dt
 DT = args.DT
-timemod = int(DT/dt) #10
+timemod = int(DT/dt) 
 latitude_resolution = 0.15
 longitude_resolution = 0.15
 
@@ -66,48 +66,21 @@ from Interpolant import regrid_unsteady , generate_mask_interpolator , generate_
 from integration_dFdt import integration_dFdt
 from outflow_detector import outflow_detector
 from initialize_ic import initialize_ic
-from regular_regrid import regular_grid_interpolation
+from regular_regrid import regular_grid_interpolation, regular_grid_interpolation_scalar
 from trajectory_advection import trajectory_advection
 #Parallelisation folder
 from parallelised_functions import split3D , split 
-from NetCDF_generator import save_velocities_to_netCDF 
+from NetCDF_generator import save_velocities_to_netCDF, save_velocities_sicsit_to_netCDF, generate_regrided
 
 #########################################################################################
 
 # Interpolate to a regular grid to then generate the interpolator objects.
 reg_vel_file_path = velocities_file_path[:-3]+'_regrided.nc'
 
-
-
-
-def generate_regrided_velocities(reg_vel_file_path,velocities_file_path):
-    # Read dataset
-    print("Reading the input data")
-    dataset = nc.Dataset(velocities_file_path, mode='r')
-    #from m/s to m/day
-    siu = dataset.variables['vlon'][:,:,:]
-    siv = dataset.variables['vlat'][:,:,:]
-    siu = np.transpose(siu, axes=(1, 2, 0))
-    siv = np.transpose(siv, axes=(1, 2, 0))
-    land_mask=siv[:,:,0].mask
-    # Access coordinates
-    latitude = dataset.variables['rot_lat'][:]  
-    longitude = dataset.variables['rot_lon'][:]
-    # Access specific variables
-    time_data = dataset.variables['time'][:] 
-    dataset.close()
-
-    #### Define a regular grid both for the IC and to use to generate the interpolators
-    interpolated_siu, interpolated_siv, lat_grid, lon_grid, regrided_land_mask = regular_grid_interpolation(latitude, longitude, siu, siv,latitude_resolution,longitude_resolution,land_mask,Ncores)
-    vel_fillvalue = siu.fill_value
-    coord_fillvalue = latitude.fill_value
-    save_velocities_to_netCDF(reg_vel_file_path,time_data,interpolated_siu,interpolated_siv,regrided_land_mask, lon_grid,lat_grid,coord_fillvalue,vel_fillvalue)
-    print(f"Regrided velocity created.")
-
 # Check if the files exist and save them if they don't
 if not os.path.exists(reg_vel_file_path):
     print("The velocity has not been regrided yet")
-    generate_regrided_velocities(reg_vel_file_path,velocities_file_path)
+    generate_regrided(reg_vel_file_path,velocities_file_path,latitude_resolution,longitude_resolution,Ncores)
 
 else:
     print("The velocity has allready been regrided. We read the files")
@@ -137,8 +110,11 @@ Interpolant_u, Interpolant_v = generate_velocity_interpolants(interpolated_siu, 
 del interpolated_siu
 del interpolated_siv
 
-lat_min, lat_max = lat_grid.min(), lat_grid.max()
-lon_min, lon_max = lon_grid.min(), lon_grid.max()
+#lat_min, lat_max = lat_grid.min(), lat_grid.max()
+#lon_min, lon_max = lon_grid.min(), lon_grid.max()
+
+lat_min, lat_max = -16, -5
+lon_min, lon_max = -110, -70
 
 #### Define initial conditions for advection and keep only sea ice IC (not null velocity, over water)
 IC = initialize_ic(lat_min,lat_max,lon_min,lon_max,ic_resolution,vel_land_interpolator)
@@ -147,6 +123,8 @@ IC = outflow_detector(IC,7,30,-68,-40)
 #Remove conditions in saint laurens sea
 IC = outflow_detector(IC,-40,-35,-70,-60)
 
+lat_min, lat_max = lat_grid.min(), lat_grid.max()
+lon_min, lon_max = lon_grid.min(), lon_grid.max()
 # Plot the trajectories
 # Create a colormap from blue to red
 fig = plt.figure(figsize=(5, 5), dpi=200)

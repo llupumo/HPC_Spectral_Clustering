@@ -1,0 +1,1792 @@
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop
+Preparing the parallel loop to compute the Similarity matrix
+3897 trajectories are being processed. Each trajectory has 908 time steps.
+Number of elements in W triangular:
+7595253.0
+Length of the parallelised arrays of w:
+()
+Computing the similarity matrix with the parallel loop

@@ -1,0 +1,1397 @@
+Starting job 6259388 on c59-7 on fram at Tue May 27 23:17:42 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+Processing year: 2009, period: OND, time: 0
+
+real	0m19.302s
+user	0m0.018s
+sys	0m0.046s
+Processing year: 2009, period: OND, time: 4
+
+real	0m12.513s
+user	0m0.017s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 8
+
+real	0m12.037s
+user	0m0.017s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 12
+
+real	0m12.402s
+user	0m0.017s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 16
+
+real	0m11.656s
+user	0m0.018s
+sys	0m0.061s
+Processing year: 2009, period: OND, time: 20
+
+real	0m12.410s
+user	0m0.022s
+sys	0m0.051s
+Processing year: 2009, period: OND, time: 24
+
+real	0m12.997s
+user	0m0.020s
+sys	0m0.061s
+Processing year: 2009, period: OND, time: 28
+
+real	0m12.985s
+user	0m0.021s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 32
+
+real	0m12.808s
+user	0m0.015s
+sys	0m0.063s
+Processing year: 2009, period: OND, time: 36
+Traceback (most recent call last):
+  File "/cluster/work/users/llpui9007/ndaily_runs/similarity/clean_Fmap.py", line 154, in <module>
+    W_disp_cleaned = cleaner(n,n_cleaned,kill_trajectories,W_disp)
+NameError: name 'W_disp' is not defined
+srun: error: c59-7: task 0: Exited with exit code 1
+srun: Terminating StepId=6259388.9
+
+real	0m12.361s
+user	0m0.020s
+sys	0m0.063s
+
+Job 6259388 consumed 1.2 billing hours from project nn8008k.
+
+Submitted 2025-05-27T23:17:41; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   2.3 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6259388           32            0.0 %  2025-05-27T23:17:42  136.0 s  1
+6259388.batch     32      1     0.1 %  2025-05-27T23:17:42  136.0 s  1
+6259388.python    32      1     4.4 %  2025-05-27T23:17:47   19.0 s  0
+6259388.python    32      1     5.9 %  2025-05-27T23:18:06   13.0 s  0
+6259388.python    32      1     6.4 %  2025-05-27T23:18:19   12.0 s  0
+6259388.python    32      1     6.4 %  2025-05-27T23:18:31   12.0 s  0
+6259388.python    32      1     6.4 %  2025-05-27T23:18:43   12.0 s  0
+6259388.python    32      1     6.9 %  2025-05-27T23:18:55   12.0 s  0
+6259388.python    32      1     6.0 %  2025-05-27T23:19:07   13.0 s  0
+6259388.python    32      1     6.0 %  2025-05-27T23:19:20   13.0 s  0
+6259388.python    32      1     6.3 %  2025-05-27T23:19:33   13.0 s  0
+6259388.python    32      1     6.3 %  2025-05-27T23:19:46   12.0 s  1
+
+Used CPU time:   4.3 CPU minutes
+Unused CPU time: 1.1 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6259388           59.0        
+6259388.batch     59.0     0.0
+6259388.python    59.0     0.7
+6259388.python    59.0     0.2
+6259388.python    59.0     0.1
+6259388.python    59.0     0.2
+6259388.python    59.0     0.1
+6259388.python    59.0     0.2
+6259388.python    59.0     0.2
+6259388.python    59.0     0.2
+6259388.python    59.0     0.2
+6259388.python    59.0     0.1
+
+Job 6259388 completed at Tue May 27 23:19:59 CEST 2025
+Starting job 6259432 on c40-12 on fram at Tue May 27 23:22:41 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+Processing year: 2009, period: OND, time: 0
+
+real	0m18.275s
+user	0m0.021s
+sys	0m0.040s
+Processing year: 2009, period: OND, time: 4
+
+real	0m11.730s
+user	0m0.019s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 8
+
+real	0m12.684s
+user	0m0.018s
+sys	0m0.051s
+Processing year: 2009, period: OND, time: 12
+
+real	0m12.679s
+user	0m0.019s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 16
+
+real	0m12.523s
+user	0m0.023s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 20
+
+real	0m12.816s
+user	0m0.017s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 24
+
+real	0m12.377s
+user	0m0.019s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 28
+
+real	0m12.443s
+user	0m0.020s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 32
+
+real	0m12.224s
+user	0m0.020s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 36
+
+real	0m12.749s
+user	0m0.018s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 40
+
+real	0m12.207s
+user	0m0.016s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 44
+
+real	0m12.987s
+user	0m0.016s
+sys	0m0.063s
+Processing year: 2009, period: OND, time: 48
+
+real	0m13.061s
+user	0m0.017s
+sys	0m0.072s
+Processing year: 2009, period: OND, time: 52
+
+real	0m12.848s
+user	0m0.024s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 56
+
+real	0m12.994s
+user	0m0.024s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 60
+
+real	0m12.696s
+user	0m0.027s
+sys	0m0.049s
+Processing year: 2009, period: OND, time: 64
+
+real	0m13.253s
+user	0m0.022s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 68
+
+real	0m13.086s
+user	0m0.017s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 72
+
+real	0m13.118s
+user	0m0.019s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 76
+
+real	0m13.108s
+user	0m0.020s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 80
+
+real	0m13.406s
+user	0m0.016s
+sys	0m0.063s
+Processing year: 2009, period: OND, time: 84
+
+real	0m12.305s
+user	0m0.026s
+sys	0m0.050s
+Processing year: 2009, period: OND, time: 88
+
+real	0m13.221s
+user	0m0.020s
+sys	0m0.049s
+Processing year: 2009, period: OND, time: 92
+
+real	0m14.204s
+user	0m0.014s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 96
+
+real	0m14.747s
+user	0m0.020s
+sys	0m0.069s
+Processing year: 2009, period: OND, time: 100
+
+real	0m13.944s
+user	0m0.011s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 104
+
+real	0m13.656s
+user	0m0.017s
+sys	0m0.060s
+Processing year: 2009, period: OND, time: 108
+
+real	0m13.526s
+user	0m0.013s
+sys	0m0.061s
+Processing year: 2009, period: OND, time: 112
+
+real	0m14.180s
+user	0m0.018s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 116
+
+real	0m13.769s
+user	0m0.017s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 120
+
+real	0m13.925s
+user	0m0.017s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 124
+
+real	0m13.955s
+user	0m0.021s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 128
+
+real	0m14.582s
+user	0m0.018s
+sys	0m0.071s
+Processing year: 2009, period: OND, time: 132
+
+real	0m14.100s
+user	0m0.019s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 136
+
+real	0m14.046s
+user	0m0.016s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 140
+
+real	0m15.219s
+user	0m0.018s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 144
+
+real	0m14.449s
+user	0m0.018s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 148
+
+real	0m14.026s
+user	0m0.021s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 152
+
+real	0m14.257s
+user	0m0.022s
+sys	0m0.066s
+Processing year: 2009, period: OND, time: 156
+
+real	0m14.223s
+user	0m0.018s
+sys	0m0.050s
+Processing year: 2009, period: OND, time: 160
+
+real	0m14.359s
+user	0m0.021s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 164
+
+real	0m14.257s
+user	0m0.018s
+sys	0m0.060s
+Processing year: 2009, period: OND, time: 168
+
+real	0m14.277s
+user	0m0.017s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 172
+
+real	0m14.443s
+user	0m0.015s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 176
+
+real	0m14.559s
+user	0m0.024s
+sys	0m0.066s
+Processing year: 2009, period: OND, time: 180
+
+real	0m14.682s
+user	0m0.017s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 184
+
+real	0m14.425s
+user	0m0.018s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 188
+
+real	0m14.595s
+user	0m0.020s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 192
+
+real	0m14.755s
+user	0m0.021s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 196
+
+real	0m14.601s
+user	0m0.017s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 200
+
+real	0m13.586s
+user	0m0.017s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 204
+
+real	0m14.504s
+user	0m0.022s
+sys	0m0.046s
+Processing year: 2009, period: OND, time: 208
+
+real	0m14.837s
+user	0m0.018s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 212
+
+real	0m13.649s
+user	0m0.021s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 216
+
+real	0m14.923s
+user	0m0.016s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 220
+
+real	0m14.748s
+user	0m0.018s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 224
+
+real	0m14.761s
+user	0m0.022s
+sys	0m0.060s
+Processing year: 2009, period: OND, time: 228
+
+real	0m15.007s
+user	0m0.021s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 232
+
+real	0m14.900s
+user	0m0.019s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 236
+
+real	0m15.259s
+user	0m0.016s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 240
+
+real	0m14.659s
+user	0m0.022s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 244
+
+real	0m14.950s
+user	0m0.019s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 248
+
+real	0m14.732s
+user	0m0.017s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 252
+
+real	0m14.977s
+user	0m0.018s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 256
+
+real	0m14.109s
+user	0m0.021s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 260
+
+real	0m15.166s
+user	0m0.019s
+sys	0m0.050s
+Processing year: 2009, period: OND, time: 264
+
+real	0m14.777s
+user	0m0.021s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 268
+
+real	0m15.108s
+user	0m0.016s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 272
+
+real	0m15.013s
+user	0m0.022s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 276
+
+real	0m15.287s
+user	0m0.021s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 280
+
+real	0m15.193s
+user	0m0.022s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 284
+
+real	0m15.363s
+user	0m0.017s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 288
+
+real	0m15.273s
+user	0m0.019s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 292
+
+real	0m15.119s
+user	0m0.020s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 296
+
+real	0m15.528s
+user	0m0.020s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 300
+
+real	0m15.606s
+user	0m0.024s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 304
+
+real	0m15.089s
+user	0m0.021s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 308
+
+real	0m15.560s
+user	0m0.020s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 312
+
+real	0m15.786s
+user	0m0.022s
+sys	0m0.051s
+Processing year: 2009, period: OND, time: 316
+
+real	0m15.581s
+user	0m0.018s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 320
+
+real	0m15.753s
+user	0m0.019s
+sys	0m0.058s
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=32
+
+Job 6259432 consumed 10.3 billing hours from project nn8008k.
+
+Submitted 2025-05-27T23:22:40; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   19.2 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+6259432           32            0.0 %  2025-05-27T23:22:41  1154.0 s  0
+6259432.batch     32      1     0.0 %  2025-05-27T23:22:41  1154.0 s  0
+6259432.python    32      1     4.5 %  2025-05-27T23:22:46    18.0 s  0
+6259432.python    32      1     6.8 %  2025-05-27T23:23:04    12.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:23:16    13.0 s  0
+6259432.python    32      1     6.4 %  2025-05-27T23:23:29    12.0 s  0
+6259432.python    32      1     6.4 %  2025-05-27T23:23:41    13.0 s  0
+6259432.python    32      1     6.0 %  2025-05-27T23:23:54    13.0 s  0
+6259432.python    32      1     6.4 %  2025-05-27T23:24:07    12.0 s  0
+6259432.python    32      1     6.4 %  2025-05-27T23:24:19    12.0 s  0
+6259432.python    32      1     6.9 %  2025-05-27T23:24:32    12.0 s  0
+6259432.python    32      1     6.8 %  2025-05-27T23:24:44    12.0 s  0
+6259432.python    32      1     6.7 %  2025-05-27T23:24:57    12.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:25:09    13.0 s  0
+6259432.python    32      1     6.2 %  2025-05-27T23:25:22    13.0 s  0
+6259432.python    32      1     6.2 %  2025-05-27T23:25:35    13.0 s  0
+6259432.python    32      1     6.3 %  2025-05-27T23:25:48    13.0 s  0
+6259432.python    32      1     6.8 %  2025-05-27T23:26:01    12.0 s  0
+6259432.python    32      1     6.0 %  2025-05-27T23:26:13    13.0 s  0
+6259432.python    32      1     6.0 %  2025-05-27T23:26:27    13.0 s  0
+6259432.python    32      1     6.3 %  2025-05-27T23:26:40    13.0 s  0
+6259432.python    32      1     6.2 %  2025-05-27T23:26:53    13.0 s  0
+6259432.python    32      1     6.3 %  2025-05-27T23:27:06    13.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:27:19    13.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:27:32    13.0 s  0
+6259432.python    32      1     6.0 %  2025-05-27T23:27:45    14.0 s  0
+6259432.python    32      1     5.3 %  2025-05-27T23:27:59    15.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:28:14    14.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:28:28    13.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:28:41    14.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:28:55    14.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:29:09    14.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:29:23    14.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:29:37    14.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:29:51    14.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:30:05    14.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:30:19    14.0 s  0
+6259432.python    32      1     5.4 %  2025-05-27T23:30:34    15.0 s  0
+6259432.python    32      1     6.2 %  2025-05-27T23:30:49    14.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:31:03    14.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:31:17    14.0 s  0
+6259432.python    32      1     5.4 %  2025-05-27T23:31:31    15.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:31:46    14.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:32:00    14.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:32:14    14.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:32:29    14.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:32:43    14.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:32:58    14.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:33:12    15.0 s  0
+6259432.python    32      1     6.0 %  2025-05-27T23:33:27    14.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:33:41    15.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:33:56    15.0 s  0
+6259432.python    32      1     6.6 %  2025-05-27T23:34:11    13.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:34:24    15.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:34:39    14.0 s  0
+6259432.python    32      1     6.4 %  2025-05-27T23:34:54    13.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:35:07    15.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:35:22    15.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:35:37    15.0 s  0
+6259432.python    32      1     5.6 %  2025-05-27T23:35:52    15.0 s  0
+6259432.python    32      1     6.0 %  2025-05-27T23:36:07    14.0 s  0
+6259432.python    32      1     5.6 %  2025-05-27T23:36:22    15.0 s  0
+6259432.python    32      1     6.0 %  2025-05-27T23:36:37    14.0 s  0
+6259432.python    32      1     6.0 %  2025-05-27T23:36:51    15.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:37:06    15.0 s  0
+6259432.python    32      1     5.5 %  2025-05-27T23:37:21    15.0 s  0
+6259432.python    32      1     6.3 %  2025-05-27T23:37:36    14.0 s  0
+6259432.python    32      1     5.6 %  2025-05-27T23:37:50    15.0 s  0
+6259432.python    32      1     5.6 %  2025-05-27T23:38:05    15.0 s  0
+6259432.python    32      1     5.6 %  2025-05-27T23:38:20    15.0 s  0
+6259432.python    32      1     5.6 %  2025-05-27T23:38:35    15.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:38:50    15.0 s  0
+6259432.python    32      1     5.6 %  2025-05-27T23:39:06    15.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:39:21    15.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:39:36    15.0 s  0
+6259432.python    32      1     5.6 %  2025-05-27T23:39:51    15.0 s  0
+6259432.python    32      1     5.9 %  2025-05-27T23:40:07    15.0 s  0
+6259432.python    32      1     5.4 %  2025-05-27T23:40:22    16.0 s  0
+6259432.python    32      1     5.8 %  2025-05-27T23:40:38    15.0 s  0
+6259432.python    32      1     6.1 %  2025-05-27T23:40:53    15.0 s  0
+6259432.python    32      1     5.4 %  2025-05-27T23:41:08    16.0 s  0
+6259432.python    32      1     5.5 %  2025-05-27T23:41:24    16.0 s  0
+6259432.python    32      1     5.7 %  2025-05-27T23:41:40    15.0 s  0
+
+Used CPU time:   36.1 CPU minutes
+Unused CPU time: 9.7 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6259432           59.0        
+6259432.batch     59.0     0.0
+6259432.python    59.0     0.7
+6259432.python    59.0     0.1
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.1
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.2
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.3
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.3
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.3
+6259432.python    59.0     0.4
+6259432.python    59.0     0.3
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+6259432.python    59.0     0.4
+
+Job 6259432 completed at Tue May 27 23:41:56 CEST 2025
+Starting job 6268933 on c85-10 on fram at Sun Jun 8 17:02:31 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+Processing year: 2009, period: OND, time: 0
+
+real	0m27.274s
+user	0m0.017s
+sys	0m0.040s
+Processing year: 2009, period: OND, time: 4
+
+real	0m20.480s
+user	0m0.023s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 8
+
+real	0m20.565s
+user	0m0.013s
+sys	0m0.060s
+Processing year: 2009, period: OND, time: 12
+
+real	0m20.446s
+user	0m0.024s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 16
+
+real	0m20.299s
+user	0m0.020s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 20
+
+real	0m20.273s
+user	0m0.016s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 24
+
+real	0m20.516s
+user	0m0.022s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 28
+
+real	0m20.511s
+user	0m0.019s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 32
+
+real	0m20.380s
+user	0m0.021s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 36
+
+real	0m20.496s
+user	0m0.021s
+sys	0m0.051s
+Processing year: 2009, period: OND, time: 40
+
+real	0m20.555s
+user	0m0.019s
+sys	0m0.060s
+Processing year: 2009, period: OND, time: 44
+
+real	0m20.647s
+user	0m0.018s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 48
+
+real	0m20.498s
+user	0m0.021s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 52
+
+real	0m20.627s
+user	0m0.017s
+sys	0m0.064s
+Processing year: 2009, period: OND, time: 56
+
+real	0m20.750s
+user	0m0.022s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 60
+
+real	0m20.687s
+user	0m0.020s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 64
+
+real	0m21.081s
+user	0m0.021s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 68
+
+real	0m21.374s
+user	0m0.020s
+sys	0m0.060s
+Processing year: 2009, period: OND, time: 72
+
+real	0m21.357s
+user	0m0.017s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 76
+
+real	0m21.204s
+user	0m0.023s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 80
+
+real	0m21.517s
+user	0m0.016s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 84
+
+real	0m21.568s
+user	0m0.020s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 88
+
+real	0m21.597s
+user	0m0.022s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 92
+
+real	0m21.584s
+user	0m0.017s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 96
+
+real	0m21.341s
+user	0m0.015s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 100
+
+real	0m21.873s
+user	0m0.023s
+sys	0m0.051s
+Processing year: 2009, period: OND, time: 104
+
+real	0m21.774s
+user	0m0.020s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 108
+
+real	0m22.094s
+user	0m0.018s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 112
+
+real	0m21.871s
+user	0m0.022s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 116
+
+real	0m22.339s
+user	0m0.017s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 120
+
+real	0m21.856s
+user	0m0.019s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 124
+
+real	0m22.050s
+user	0m0.022s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 128
+
+real	0m22.111s
+user	0m0.023s
+sys	0m0.051s
+Processing year: 2009, period: OND, time: 132
+
+real	0m22.307s
+user	0m0.022s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 136
+
+real	0m22.217s
+user	0m0.019s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 140
+
+real	0m22.006s
+user	0m0.020s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 144
+
+real	0m22.232s
+user	0m0.020s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 148
+
+real	0m22.467s
+user	0m0.017s
+sys	0m0.065s
+Processing year: 2009, period: OND, time: 152
+
+real	0m22.288s
+user	0m0.020s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 156
+
+real	0m22.361s
+user	0m0.014s
+sys	0m0.060s
+Processing year: 2009, period: OND, time: 160
+
+real	0m22.546s
+user	0m0.018s
+sys	0m0.062s
+Processing year: 2009, period: OND, time: 164
+
+real	0m22.316s
+user	0m0.019s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 168
+
+real	0m22.385s
+user	0m0.017s
+sys	0m0.065s
+Processing year: 2009, period: OND, time: 172
+
+real	0m22.819s
+user	0m0.017s
+sys	0m0.064s
+Processing year: 2009, period: OND, time: 176
+
+real	0m22.559s
+user	0m0.023s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 180
+
+real	0m22.516s
+user	0m0.024s
+sys	0m0.050s
+Processing year: 2009, period: OND, time: 184
+
+real	0m22.528s
+user	0m0.024s
+sys	0m0.051s
+Processing year: 2009, period: OND, time: 188
+
+real	0m22.394s
+user	0m0.020s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 192
+
+real	0m22.386s
+user	0m0.018s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 196
+
+real	0m22.616s
+user	0m0.020s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 200
+
+real	0m22.614s
+user	0m0.020s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 204
+
+real	0m22.556s
+user	0m0.019s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 208
+
+real	0m22.625s
+user	0m0.021s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 212
+
+real	0m22.868s
+user	0m0.015s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 216
+
+real	0m22.797s
+user	0m0.018s
+sys	0m0.063s
+Processing year: 2009, period: OND, time: 220
+
+real	0m23.017s
+user	0m0.016s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 224
+
+real	0m22.635s
+user	0m0.015s
+sys	0m0.060s
+Processing year: 2009, period: OND, time: 228
+
+real	0m22.728s
+user	0m0.019s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 232
+
+real	0m22.858s
+user	0m0.016s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 236
+
+real	0m22.942s
+user	0m0.020s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 240
+
+real	0m22.816s
+user	0m0.016s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 244
+
+real	0m22.827s
+user	0m0.022s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 248
+
+real	0m22.855s
+user	0m0.024s
+sys	0m0.051s
+Processing year: 2009, period: OND, time: 252
+
+real	0m22.945s
+user	0m0.022s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 256
+
+real	0m23.098s
+user	0m0.021s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 260
+
+real	0m23.266s
+user	0m0.020s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 264
+
+real	0m22.841s
+user	0m0.016s
+sys	0m0.058s
+Processing year: 2009, period: OND, time: 268
+
+real	0m23.353s
+user	0m0.017s
+sys	0m0.061s
+Processing year: 2009, period: OND, time: 272
+
+real	0m23.184s
+user	0m0.017s
+sys	0m0.063s
+Processing year: 2009, period: OND, time: 276
+
+real	0m23.229s
+user	0m0.020s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 280
+
+real	0m23.282s
+user	0m0.018s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 284
+
+real	0m23.550s
+user	0m0.023s
+sys	0m0.052s
+Processing year: 2009, period: OND, time: 288
+
+real	0m23.129s
+user	0m0.017s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 292
+
+real	0m23.649s
+user	0m0.017s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 296
+
+real	0m23.858s
+user	0m0.022s
+sys	0m0.059s
+Processing year: 2009, period: OND, time: 300
+
+real	0m23.659s
+user	0m0.020s
+sys	0m0.056s
+Processing year: 2009, period: OND, time: 304
+
+real	0m23.695s
+user	0m0.020s
+sys	0m0.053s
+Processing year: 2009, period: OND, time: 308
+
+real	0m23.553s
+user	0m0.018s
+sys	0m0.055s
+Processing year: 2009, period: OND, time: 312
+
+real	0m23.821s
+user	0m0.021s
+sys	0m0.054s
+Processing year: 2009, period: OND, time: 316
+
+real	0m23.523s
+user	0m0.018s
+sys	0m0.057s
+Processing year: 2009, period: OND, time: 320
+
+real	0m23.480s
+user	0m0.019s
+sys	0m0.053s
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=1
+
+Job 6268933 consumed 16.1 billing hours from project nn8008k.
+
+Submitted 2025-06-08T17:02:12; waited 19.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   30.1 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+6268933           32            0.0 %  2025-06-08T17:02:31  1807.0 s  0
+6268933.batch     32      1     0.0 %  2025-06-08T17:02:31  1807.0 s  0
+6268933.python     1      1   111.7 %  2025-06-08T17:02:36    28.0 s  0
+6268933.python     1      1   150.8 %  2025-06-08T17:03:04    20.0 s  0
+6268933.python     1      1   144.6 %  2025-06-08T17:03:24    21.0 s  0
+6268933.python     1      1   150.9 %  2025-06-08T17:03:45    20.0 s  0
+6268933.python     1      1   150.4 %  2025-06-08T17:04:05    20.0 s  0
+6268933.python     1      1   150.4 %  2025-06-08T17:04:26    20.0 s  0
+6268933.python     1      1   151.6 %  2025-06-08T17:04:46    20.0 s  0
+6268933.python     1      1   144.8 %  2025-06-08T17:05:06    21.0 s  0
+6268933.python     1      1   151.5 %  2025-06-08T17:05:27    20.0 s  0
+6268933.python     1      1   144.2 %  2025-06-08T17:05:47    21.0 s  0
+6268933.python     1      1   152.0 %  2025-06-08T17:06:08    20.0 s  0
+6268933.python     1      1   144.7 %  2025-06-08T17:06:28    21.0 s  0
+6268933.python     1      1   151.2 %  2025-06-08T17:06:49    20.0 s  0
+6268933.python     1      1   145.1 %  2025-06-08T17:07:09    21.0 s  0
+6268933.python     1      1   150.9 %  2025-06-08T17:07:30    21.0 s  0
+6268933.python     1      1   157.9 %  2025-06-08T17:07:51    20.0 s  0
+6268933.python     1      1   150.9 %  2025-06-08T17:08:11    21.0 s  0
+6268933.python     1      1   147.0 %  2025-06-08T17:08:33    21.0 s  0
+6268933.python     1      1   147.9 %  2025-06-08T17:08:54    21.0 s  0
+6268933.python     1      1   143.5 %  2025-06-08T17:09:15    21.0 s  0
+6268933.python     1      1   148.0 %  2025-06-08T17:09:37    21.0 s  0
+6268933.python     1      1   147.9 %  2025-06-08T17:09:58    21.0 s  0
+6268933.python     1      1   148.1 %  2025-06-08T17:10:20    21.0 s  0
+6268933.python     1      1   147.4 %  2025-06-08T17:10:41    22.0 s  0
+6268933.python     1      1   148.3 %  2025-06-08T17:11:03    21.0 s  0
+6268933.python     1      1   142.6 %  2025-06-08T17:11:24    22.0 s  0
+6268933.python     1      1   143.7 %  2025-06-08T17:11:46    22.0 s  0
+6268933.python     1      1   148.0 %  2025-06-08T17:12:08    22.0 s  0
+6268933.python     1      1   144.0 %  2025-06-08T17:12:30    22.0 s  0
+6268933.python     1      1   144.3 %  2025-06-08T17:12:52    22.0 s  0
+6268933.python     1      1   148.1 %  2025-06-08T17:13:14    22.0 s  0
+6268933.python     1      1   147.9 %  2025-06-08T17:13:36    22.0 s  0
+6268933.python     1      1   145.3 %  2025-06-08T17:13:58    22.0 s  0
+6268933.python     1      1   144.9 %  2025-06-08T17:14:20    22.0 s  0
+6268933.python     1      1   145.1 %  2025-06-08T17:14:42    22.0 s  0
+6268933.python     1      1   148.7 %  2025-06-08T17:15:05    22.0 s  0
+6268933.python     1      1   145.2 %  2025-06-08T17:15:27    22.0 s  0
+6268933.python     1      1   149.6 %  2025-06-08T17:15:49    22.0 s  0
+6268933.python     1      1   142.0 %  2025-06-08T17:16:11    22.0 s  0
+6268933.python     1      1   141.8 %  2025-06-08T17:16:34    22.0 s  0
+6268933.python     1      1   145.7 %  2025-06-08T17:16:56    22.0 s  0
+6268933.python     1      1   145.4 %  2025-06-08T17:17:19    22.0 s  0
+6268933.python     1      1   145.9 %  2025-06-08T17:17:41    22.0 s  0
+6268933.python     1      1   136.5 %  2025-06-08T17:18:03    23.0 s  0
+6268933.python     1      1   141.6 %  2025-06-08T17:18:26    22.0 s  0
+6268933.python     1      1   142.2 %  2025-06-08T17:18:49    22.0 s  0
+6268933.python     1      1   136.3 %  2025-06-08T17:19:11    23.0 s  0
+6268933.python     1      1   146.1 %  2025-06-08T17:19:34    22.0 s  0
+6268933.python     1      1   141.8 %  2025-06-08T17:19:56    22.0 s  0
+6268933.python     1      1   136.7 %  2025-06-08T17:20:18    23.0 s  0
+6268933.python     1      1   136.1 %  2025-06-08T17:20:41    23.0 s  0
+6268933.python     1      1   142.8 %  2025-06-08T17:21:04    22.0 s  0
+6268933.python     1      1   136.5 %  2025-06-08T17:21:26    23.0 s  0
+6268933.python     1      1   136.8 %  2025-06-08T17:21:49    23.0 s  0
+6268933.python     1      1   142.7 %  2025-06-08T17:22:12    22.0 s  0
+6268933.python     1      1   143.6 %  2025-06-08T17:22:35    22.0 s  0
+6268933.python     1      1   143.2 %  2025-06-08T17:22:58    22.0 s  0
+6268933.python     1      1   141.5 %  2025-06-08T17:23:20    23.0 s  0
+6268933.python     1      1   142.2 %  2025-06-08T17:23:43    23.0 s  0
+6268933.python     1      1   142.6 %  2025-06-08T17:24:06    23.0 s  0
+6268933.python     1      1   148.6 %  2025-06-08T17:24:29    22.0 s  0
+6268933.python     1      1   148.2 %  2025-06-08T17:24:52    22.0 s  0
+6268933.python     1      1   142.3 %  2025-06-08T17:25:14    23.0 s  0
+6268933.python     1      1   141.8 %  2025-06-08T17:25:37    23.0 s  0
+6268933.python     1      1   142.0 %  2025-06-08T17:26:00    23.0 s  0
+6268933.python     1      1   143.0 %  2025-06-08T17:26:23    23.0 s  0
+6268933.python     1      1   142.1 %  2025-06-08T17:26:46    23.0 s  0
+6268933.python     1      1   137.7 %  2025-06-08T17:27:09    24.0 s  0
+6268933.python     1      1   142.6 %  2025-06-08T17:27:33    23.0 s  0
+6268933.python     1      1   143.4 %  2025-06-08T17:27:56    23.0 s  0
+6268933.python     1      1   144.3 %  2025-06-08T17:28:19    23.0 s  0
+6268933.python     1      1   137.5 %  2025-06-08T17:28:42    24.0 s  0
+6268933.python     1      1   143.2 %  2025-06-08T17:29:06    23.0 s  0
+6268933.python     1      1   138.8 %  2025-06-08T17:29:29    24.0 s  0
+6268933.python     1      1   140.8 %  2025-06-08T17:29:53    23.0 s  0
+6268933.python     1      1   144.1 %  2025-06-08T17:30:17    23.0 s  0
+6268933.python     1      1   138.9 %  2025-06-08T17:30:40    24.0 s  0
+6268933.python     1      1   140.6 %  2025-06-08T17:31:04    23.0 s  0
+6268933.python     1      1   135.8 %  2025-06-08T17:31:27    24.0 s  0
+6268933.python     1      1   134.5 %  2025-06-08T17:31:51    24.0 s  0
+6268933.python     1      1   140.2 %  2025-06-08T17:32:15    23.0 s  0
+
+Used CPU time:   43.0 CPU minutes
+Unused CPU time: 15.3 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6268933           59.0        
+6268933.batch     59.0     0.0
+6268933.python    59.0     0.6
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.1
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.2
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.3
+6268933.python    59.0     0.4
+6268933.python    59.0     0.4
+6268933.python    59.0     0.4
+6268933.python    59.0     0.4
+6268933.python    59.0     0.4
+6268933.python    59.0     0.4
+6268933.python    59.0     0.4
+6268933.python    59.0     0.4
+
+Job 6268933 completed at Sun Jun 8 17:32:39 CEST 2025

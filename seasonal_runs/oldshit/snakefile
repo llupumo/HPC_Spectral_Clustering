@@ -1,0 +1,31 @@
+# Define the variables
+Ncores = 32
+IC_resolution = 0.5
+dt = 0.0025
+DT = 0.1
+formatted_DT = f"{DT:.4f}"
+formatted_dt = f"{dt:.4f}"
+parent_directory = "/cluster/home/llpui9007/Programs/HPC_Spectral_Clustering"
+# Define the years and seasons
+years = [2009, 2010]
+seasons = ["AMJ", "OND", "JAS", "JFM"]
+# Define the rule for running the Fmap script
+rule run_fmap:
+    input:
+        velocities_file=lambda wildcards: f"/cluster/projects/nn9970k/lluisa/NextSIM/rotated_ice_velocities/seas/{wildcards.season}/OPA-neXtSIM_CREG025_ILBOXE140_{wildcards.year}_ice_90Rx_{wildcards.season}.nc"
+    output:
+        log=lambda wildcards: f"month_Fmap_loop_{wildcards.year}_{wildcards.season}.txt"
+    params:
+        Fmap_results_directory=lambda wildcards: f"/cluster/projects/nn9970k/lluisa/NextSIM/rotated_ice_velocities/seas/{wildcards.season}/Fmap/{wildcards.year}_{wildcards.season}_ic{IC_resolution}_dt{formatted_dt}_DT{formatted_DT}/"
+    shell:
+        """
+        source /cluster/home/llpui9007/venvs/Spectral_clustering_venv/bin/activate
+        srun --exclusive --nodes=1 --ntasks=1 --cpus-per-task={Ncores} time python Fmap.py \
+            {Ncores} \
+            {input.velocities_file} \
+            {parent_directory} \
+            {params.Fmap_results_directory} \
+            {IC_resolution} \
+            {dt} \
+            {DT} > {output.log}
+        """

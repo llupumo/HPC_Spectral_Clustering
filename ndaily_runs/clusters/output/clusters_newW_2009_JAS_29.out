@@ -1,0 +1,266 @@
+
+Job 6269503 consumed 94.7 billing hours from project nn8008k.
+
+Submitted 2025-06-09T13:26:22; waited 8.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 1.0 days
+Elapsed wallclock time:   3.0 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6269503           32            0.0 %  2025-06-09T13:26:30    3.0 h  0
+6269503.batch     32      1     0.0 %  2025-06-09T13:26:30    3.0 h  0
+6269503.python     1      1    99.4 %  2025-06-09T13:26:35    3.0 h  0
+
+Used CPU time:   2.9 CPU hours
+Unused CPU time: 3.8 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6269503           59.0        
+6269503.batch     59.0     0.0
+6269503.python    59.0     0.9
+
+Job 6269503 completed at Mon Jun 9 16:24:05 CEST 2025
+Starting job 6269580 on c82-11 on fram at Mon Jun 9 16:48:34 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+Processing year: 2009, period: JAS, time: 29
+
+Job 6269496 consumed 129.8 billing hours from project nn8008k.
+
+Submitted 2025-06-09T12:49:26; waited 3.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 1.0 days
+Elapsed wallclock time:   4.1 hours
+
+Job was cancelled.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6269496           32            0.0 %  2025-06-09T12:49:29    4.1 h  0
+6269496.batch     32      1     0.0 %  2025-06-09T12:49:29    4.1 h  Signal 15
+6269496.python     1      1    99.4 %  2025-06-09T12:49:34    4.1 h  Signal 15
+
+Used CPU time:   4.0 CPU hours
+Unused CPU time: 5.2 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6269496           59.0        
+6269496.batch     59.0     0.0
+6269496.python    59.0     0.9
+
+Job 6269496 completed at Mon Jun 9 16:52:58 CEST 2025
+
+real	68m12.523s
+user	0m0.021s
+sys	0m0.052s
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=1
+
+Job 6269580 consumed 36.5 billing hours from project nn8008k.
+
+Submitted 2025-06-09T16:48:25; waited 4.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 1.0 days
+Elapsed wallclock time:   1.1 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6269580           32            0.0 %  2025-06-09T16:48:29    1.1 h  0
+6269580.batch     32      1     0.0 %  2025-06-09T16:48:29    1.1 h  0
+6269580.python     1      1    99.3 %  2025-06-09T16:48:39    1.1 h  0
+
+Used CPU time:   1.1 CPU hours
+Unused CPU time: 1.5 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6269580           59.0        
+6269580.batch     59.0     0.0
+6269580.python    59.0     0.9
+
+Job 6269580 completed at Mon Jun 9 17:56:52 CEST 2025
+Starting job 6270165 on c60-11 on fram at Mon Jun 9 19:22:24 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+Processing year: 2009, period: JAS, time: 29
+Traceback (most recent call last):
+  File "/cluster/work/users/llpui9007/ndaily_runs/clusters/clusters_newW3.py", line 175, in <module>
+    np.fill_diagonal(W,K)
+NameError: name 'W' is not defined
+srun: error: c60-11: task 0: Exited with exit code 1
+srun: Terminating StepId=6270165.0
+
+real	1m3.764s
+user	0m0.027s
+sys	0m0.051s
+
+Job 6270165 consumed 0.6 billing hours from project nn8008k.
+
+Submitted 2025-06-09T19:21:53; waited 29.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 1.0 days
+Elapsed wallclock time:   1.2 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6270165           32            0.0 %  2025-06-09T19:22:22   72.0 s  1
+6270165.batch     32      1     0.2 %  2025-06-09T19:22:22   72.0 s  1
+6270165.python     1      1    62.5 %  2025-06-09T19:22:30   64.0 s  1
+
+Used CPU time:   44.6 CPU seconds
+Unused CPU time: 37.7 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6270165           59.0        
+6270165.batch     59.0     0.0
+6270165.python    59.0     0.9
+
+Job 6270165 completed at Mon Jun 9 19:23:34 CEST 2025
+Starting job 6270489 on c61-2 on fram at Mon Jun 9 19:30:02 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+Processing year: 2009, period: JAS, time: 29
+
+real	52m13.605s
+user	0m0.023s
+sys	0m0.101s
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=1
+
+Job 6270489 consumed 28.0 billing hours from project nn8008k.
+
+Submitted 2025-06-09T19:29:41; waited 14.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 1.0 days
+Elapsed wallclock time:   52.4 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+6270489           32            0.0 %  2025-06-09T19:29:55  3146.0 s  0
+6270489.batch     32      1     0.0 %  2025-06-09T19:29:55  3146.0 s  0
+6270489.python     1      1    99.2 %  2025-06-09T19:30:08  3133.0 s  0
+
+Used CPU time:   51.9 CPU minutes
+Unused CPU time: 1.1 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6270489           59.0        
+6270489.batch     59.0     0.0
+6270489.python    59.0     0.9
+
+Job 6270489 completed at Mon Jun 9 20:22:21 CEST 2025

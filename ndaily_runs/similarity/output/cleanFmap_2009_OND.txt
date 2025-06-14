@@ -1,0 +1,3 @@
+Processing year 2009, season OND
+Generate interpolators for the advection
+Time taken for parallel computation to generate the velocity interpolator objects: 12.19 seconds

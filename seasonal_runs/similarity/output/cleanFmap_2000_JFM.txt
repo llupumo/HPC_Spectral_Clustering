@@ -1,0 +1,4 @@
+Processing year 2000, season JFM
+Reading data
+Generate interpolators for the advection
+Time taken for parallel computation to generate the velocity interpolator objects: 3.51 seconds

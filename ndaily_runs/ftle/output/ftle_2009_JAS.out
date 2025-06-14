@@ -1,0 +1,3646 @@
+Starting job 6233443 on c7-12 on fram at Tue May 13 10:35:58 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0100_FTLE.npy
+
+real	2m39.042s
+user	0m0.020s
+sys	0m0.053s
+4
+44
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0101_FTLE.npy
+
+real	2m6.575s
+user	0m0.015s
+sys	0m0.068s
+8
+48
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0102_FTLE.npy
+
+real	2m6.290s
+user	0m0.015s
+sys	0m0.073s
+12
+52
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0103_FTLE.npy
+
+real	2m6.951s
+user	0m0.023s
+sys	0m0.066s
+16
+56
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0104_FTLE.npy
+
+real	2m5.645s
+user	0m0.020s
+sys	0m0.064s
+20
+60
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0105_FTLE.npy
+
+real	2m6.080s
+user	0m0.018s
+sys	0m0.069s
+24
+64
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0106_FTLE.npy
+
+real	2m6.857s
+user	0m0.022s
+sys	0m0.070s
+28
+68
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0107_FTLE.npy
+
+real	2m5.864s
+user	0m0.019s
+sys	0m0.072s
+32
+72
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0108_FTLE.npy
+
+real	2m6.213s
+user	0m0.018s
+sys	0m0.073s
+36
+76
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.0109_FTLE.npy
+
+real	2m6.157s
+user	0m0.016s
+sys	0m0.079s
+40
+80
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01010_FTLE.npy
+
+real	2m5.237s
+user	0m0.023s
+sys	0m0.059s
+44
+84
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01011_FTLE.npy
+
+real	2m4.692s
+user	0m0.017s
+sys	0m0.072s
+48
+88
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01012_FTLE.npy
+
+real	2m6.370s
+user	0m0.021s
+sys	0m0.064s
+52
+92
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01013_FTLE.npy
+
+real	2m5.442s
+user	0m0.019s
+sys	0m0.071s
+56
+96
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01014_FTLE.npy
+
+real	2m4.599s
+user	0m0.018s
+sys	0m0.071s
+60
+100
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01015_FTLE.npy
+
+real	2m5.864s
+user	0m0.027s
+sys	0m0.068s
+64
+104
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01016_FTLE.npy
+
+real	2m4.973s
+user	0m0.025s
+sys	0m0.066s
+68
+108
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01017_FTLE.npy
+
+real	2m5.207s
+user	0m0.014s
+sys	0m0.079s
+72
+112
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01018_FTLE.npy
+
+real	2m6.127s
+user	0m0.022s
+sys	0m0.074s
+76
+116
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01019_FTLE.npy
+
+real	2m5.012s
+user	0m0.016s
+sys	0m0.076s
+80
+120
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01020_FTLE.npy
+
+real	2m5.524s
+user	0m0.019s
+sys	0m0.071s
+84
+124
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01021_FTLE.npy
+
+real	2m6.227s
+user	0m0.021s
+sys	0m0.064s
+88
+128
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01022_FTLE.npy
+
+real	2m5.692s
+user	0m0.022s
+sys	0m0.069s
+92
+132
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01023_FTLE.npy
+
+real	2m5.235s
+user	0m0.023s
+sys	0m0.070s
+96
+136
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01024_FTLE.npy
+
+real	2m4.626s
+user	0m0.017s
+sys	0m0.072s
+100
+140
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01025_FTLE.npy
+
+real	2m4.908s
+user	0m0.019s
+sys	0m0.074s
+104
+144
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01026_FTLE.npy
+
+real	2m5.895s
+user	0m0.020s
+sys	0m0.074s
+108
+148
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01027_FTLE.npy
+
+real	2m5.684s
+user	0m0.021s
+sys	0m0.061s
+112
+152
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01028_FTLE.npy
+
+real	2m5.886s
+user	0m0.024s
+sys	0m0.069s
+116
+156
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01029_FTLE.npy
+
+real	2m5.073s
+user	0m0.023s
+sys	0m0.069s
+120
+160
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01030_FTLE.npy
+
+real	2m5.347s
+user	0m0.022s
+sys	0m0.069s
+124
+164
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01031_FTLE.npy
+
+real	2m7.645s
+user	0m0.027s
+sys	0m0.064s
+128
+168
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01032_FTLE.npy
+
+real	2m4.589s
+user	0m0.016s
+sys	0m0.074s
+132
+172
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01033_FTLE.npy
+
+real	2m5.305s
+user	0m0.023s
+sys	0m0.071s
+136
+176
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01034_FTLE.npy
+
+real	2m8.143s
+user	0m0.018s
+sys	0m0.075s
+140
+180
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01035_FTLE.npy
+
+real	2m5.968s
+user	0m0.020s
+sys	0m0.068s
+144
+184
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01036_FTLE.npy
+
+real	2m5.663s
+user	0m0.028s
+sys	0m0.065s
+148
+188
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01037_FTLE.npy
+
+real	2m6.315s
+user	0m0.019s
+sys	0m0.075s
+152
+192
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01038_FTLE.npy
+
+real	2m5.488s
+user	0m0.019s
+sys	0m0.066s
+156
+196
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01039_FTLE.npy
+
+real	2m5.120s
+user	0m0.018s
+sys	0m0.065s
+160
+200
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01040_FTLE.npy
+
+real	2m6.958s
+user	0m0.017s
+sys	0m0.064s
+164
+204
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01041_FTLE.npy
+
+real	2m4.538s
+user	0m0.018s
+sys	0m0.067s
+168
+208
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01042_FTLE.npy
+
+real	2m5.648s
+user	0m0.019s
+sys	0m0.070s
+172
+212
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01043_FTLE.npy
+
+real	2m6.234s
+user	0m0.017s
+sys	0m0.066s
+176
+216
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01044_FTLE.npy
+
+real	2m5.470s
+user	0m0.017s
+sys	0m0.064s
+180
+220
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01045_FTLE.npy
+
+real	2m5.180s
+user	0m0.023s
+sys	0m0.058s
+184
+224
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01046_FTLE.npy
+
+real	2m6.652s
+user	0m0.023s
+sys	0m0.062s
+188
+228
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01047_FTLE.npy
+
+real	2m4.838s
+user	0m0.023s
+sys	0m0.060s
+192
+232
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01048_FTLE.npy
+
+real	2m5.915s
+user	0m0.021s
+sys	0m0.068s
+196
+236
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01049_FTLE.npy
+
+real	2m5.329s
+user	0m0.020s
+sys	0m0.064s
+200
+240
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01050_FTLE.npy
+
+real	2m5.672s
+user	0m0.021s
+sys	0m0.066s
+204
+244
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01051_FTLE.npy
+
+real	2m6.191s
+user	0m0.017s
+sys	0m0.075s
+208
+248
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01052_FTLE.npy
+
+real	2m5.948s
+user	0m0.019s
+sys	0m0.065s
+212
+252
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01053_FTLE.npy
+
+real	2m5.919s
+user	0m0.023s
+sys	0m0.071s
+216
+256
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01054_FTLE.npy
+
+real	2m5.906s
+user	0m0.021s
+sys	0m0.076s
+220
+260
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01055_FTLE.npy
+
+real	2m5.274s
+user	0m0.022s
+sys	0m0.071s
+224
+264
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01056_FTLE.npy
+
+real	2m5.398s
+user	0m0.024s
+sys	0m0.069s
+228
+268
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01057_FTLE.npy
+
+real	2m4.434s
+user	0m0.021s
+sys	0m0.072s
+232
+272
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01058_FTLE.npy
+
+real	2m4.789s
+user	0m0.024s
+sys	0m0.060s
+236
+276
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01059_FTLE.npy
+
+real	2m7.356s
+user	0m0.026s
+sys	0m0.064s
+240
+280
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01060_FTLE.npy
+
+real	2m4.633s
+user	0m0.020s
+sys	0m0.074s
+244
+284
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01061_FTLE.npy
+
+real	2m5.451s
+user	0m0.018s
+sys	0m0.075s
+248
+288
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01062_FTLE.npy
+
+real	2m5.784s
+user	0m0.022s
+sys	0m0.070s
+252
+292
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01063_FTLE.npy
+
+real	2m7.599s
+user	0m0.018s
+sys	0m0.073s
+256
+296
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01064_FTLE.npy
+
+real	2m5.571s
+user	0m0.020s
+sys	0m0.064s
+260
+300
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.01065_FTLE.npy
+Traceback (most recent call last):
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLEIce.py", line 281, in <module>
+    plotpolar_scatter_masked_ftle(X_domain, Y_domain, masked_ftle, time[0], time[-1], results_directory+'/'+str(int(tmin/time_steps_per_day))+"_FTLE.png","viridis",0.4)
+TypeError: plotpolar_scatter_masked_ftle() missing 1 required positional argument: 'vmax'
+srun: error: c7-12: task 0: Exited with exit code 1
+srun: Terminating StepId=6233443.65
+
+real	1m59.104s
+user	0m0.020s
+sys	0m0.062s
+
+Job 6233443 consumed 74.1 billing hours from project nn8008k.
+
+Submitted 2025-05-13T10:35:54; waited 3.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   2.3 hours
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6233443           32            0.0 %  2025-05-13T10:35:57    2.3 h  1
+6233443.batch     32      1     0.0 %  2025-05-13T10:35:57    2.3 h  1
+6233443.python    32      1    46.2 %  2025-05-13T10:36:03    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T10:38:43    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T10:40:49    0.0 h  0
+6233443.python    32      1    57.9 %  2025-05-13T10:42:55    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T10:45:02    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T10:47:08    0.0 h  0
+6233443.python    32      1    57.8 %  2025-05-13T10:49:14    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T10:51:21    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T10:53:27    0.0 h  0
+6233443.python    32      1    58.1 %  2025-05-13T10:55:33    0.0 h  0
+6233443.python    32      1    58.8 %  2025-05-13T10:57:39    0.0 h  0
+6233443.python    32      1    59.2 %  2025-05-13T10:59:45    0.0 h  0
+6233443.python    32      1    57.7 %  2025-05-13T11:01:49    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T11:03:56    0.0 h  0
+6233443.python    32      1    58.6 %  2025-05-13T11:06:01    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T11:08:06    0.0 h  0
+6233443.python    32      1    59.4 %  2025-05-13T11:10:12    0.0 h  0
+6233443.python    32      1    58.6 %  2025-05-13T11:12:17    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T11:14:22    0.0 h  0
+6233443.python    32      1    58.6 %  2025-05-13T11:16:28    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T11:18:33    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T11:20:39    0.0 h  0
+6233443.python    32      1    58.8 %  2025-05-13T11:22:45    0.0 h  0
+6233443.python    32      1    58.9 %  2025-05-13T11:24:51    0.0 h  0
+6233443.python    32      1    59.2 %  2025-05-13T11:26:56    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T11:29:00    0.0 h  0
+6233443.python    32      1    58.4 %  2025-05-13T11:31:05    0.0 h  0
+6233443.python    32      1    58.1 %  2025-05-13T11:33:11    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T11:35:17    0.0 h  0
+6233443.python    32      1    58.6 %  2025-05-13T11:37:23    0.0 h  0
+6233443.python    32      1    58.6 %  2025-05-13T11:39:28    0.0 h  0
+6233443.python    32      1    57.4 %  2025-05-13T11:41:33    0.0 h  0
+6233443.python    32      1    59.1 %  2025-05-13T11:43:41    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T11:45:46    0.0 h  0
+6233443.python    32      1    57.3 %  2025-05-13T11:47:51    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T11:49:59    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T11:52:05    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T11:54:11    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T11:56:17    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T11:58:23    0.0 h  0
+6233443.python    32      1    57.7 %  2025-05-13T12:00:28    0.0 h  0
+6233443.python    32      1    59.0 %  2025-05-13T12:02:35    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T12:04:39    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T12:06:45    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T12:08:51    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T12:10:57    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T12:13:02    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T12:15:08    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T12:17:13    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T12:19:19    0.0 h  0
+6233443.python    32      1    58.8 %  2025-05-13T12:21:25    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T12:23:30    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T12:25:36    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T12:27:42    0.0 h  0
+6233443.python    32      1    58.3 %  2025-05-13T12:29:48    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T12:31:54    0.0 h  0
+6233443.python    32      1    58.6 %  2025-05-13T12:34:00    0.0 h  0
+6233443.python    32      1    59.1 %  2025-05-13T12:36:05    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T12:38:09    0.0 h  0
+6233443.python    32      1    57.8 %  2025-05-13T12:40:14    0.0 h  0
+6233443.python    32      1    59.1 %  2025-05-13T12:42:22    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T12:44:26    0.0 h  0
+6233443.python    32      1    58.7 %  2025-05-13T12:46:32    0.0 h  0
+6233443.python    32      1    57.8 %  2025-05-13T12:48:38    0.0 h  0
+6233443.python    32      1    58.2 %  2025-05-13T12:50:45    0.0 h  0
+6233443.python    32      1    61.4 %  2025-05-13T12:52:51    0.0 h  1
+
+Used CPU time:   1.8 CPU days
+Unused CPU time: 1.3 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6233443           59.0        
+6233443.batch     59.0     0.0
+6233443.python    59.0    10.2
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.5
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.5
+6233443.python    59.0     9.4
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.5
+6233443.python    59.0     9.3
+6233443.python    59.0     9.7
+6233443.python    59.0     9.7
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.3
+6233443.python    59.0    10.1
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.5
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.5
+6233443.python    59.0     9.6
+6233443.python    59.0     9.4
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.4
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.6
+6233443.python    59.0     9.5
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.7
+6233443.python    59.0     9.7
+6233443.python    59.0     9.7
+6233443.python    59.0     9.6
+6233443.python    59.0     9.4
+6233443.python    59.0     9.6
+6233443.python    59.0     9.5
+
+Job 6233443 completed at Tue May 13 12:54:50 CEST 2025
+Starting job 6236982 on c79-8 on fram at Thu May 15 15:53:24 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy allready  exist. Skipping...
+4
+44
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/1_FTLE.npy allready  exist. Skipping...
+8
+48
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/2_FTLE.npy allready  exist. Skipping...
+12
+52
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/3_FTLE.npy allready  exist. Skipping...
+16
+56
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/4_FTLE.npy allready  exist. Skipping...
+20
+60
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/5_FTLE.npy allready  exist. Skipping...
+24
+64
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/6_FTLE.npy allready  exist. Skipping...
+28
+68
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/7_FTLE.npy allready  exist. Skipping...
+32
+72
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/8_FTLE.npy allready  exist. Skipping...
+36
+76
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/9_FTLE.npy allready  exist. Skipping...
+40
+80
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/10_FTLE.npy allready  exist. Skipping...
+44
+84
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/11_FTLE.npy allready  exist. Skipping...
+48
+88
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/12_FTLE.npy allready  exist. Skipping...
+52
+92
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/13_FTLE.npy allready  exist. Skipping...
+56
+96
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/14_FTLE.npy allready  exist. Skipping...
+60
+100
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/15_FTLE.npy allready  exist. Skipping...
+64
+104
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/16_FTLE.npy allready  exist. Skipping...
+68
+108
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/17_FTLE.npy allready  exist. Skipping...
+72
+112
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/18_FTLE.npy allready  exist. Skipping...
+76
+116
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/19_FTLE.npy allready  exist. Skipping...
+80
+120
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/20_FTLE.npy allready  exist. Skipping...
+84
+124
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/21_FTLE.npy allready  exist. Skipping...
+88
+128
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/22_FTLE.npy allready  exist. Skipping...
+92
+132
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/23_FTLE.npy allready  exist. Skipping...
+96
+136
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/24_FTLE.npy allready  exist. Skipping...
+100
+140
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/25_FTLE.npy allready  exist. Skipping...
+104
+144
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/26_FTLE.npy allready  exist. Skipping...
+108
+148
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/27_FTLE.npy allready  exist. Skipping...
+112
+152
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/28_FTLE.npy allready  exist. Skipping...
+116
+156
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/29_FTLE.npy allready  exist. Skipping...
+120
+160
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/30_FTLE.npy allready  exist. Skipping...
+124
+164
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/31_FTLE.npy allready  exist. Skipping...
+128
+168
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/32_FTLE.npy allready  exist. Skipping...
+132
+172
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/33_FTLE.npy allready  exist. Skipping...
+136
+176
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/34_FTLE.npy allready  exist. Skipping...
+140
+180
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/35_FTLE.npy allready  exist. Skipping...
+144
+184
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/36_FTLE.npy allready  exist. Skipping...
+148
+188
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/37_FTLE.npy allready  exist. Skipping...
+152
+192
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/38_FTLE.npy allready  exist. Skipping...
+156
+196
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/39_FTLE.npy allready  exist. Skipping...
+160
+200
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/40_FTLE.npy allready  exist. Skipping...
+164
+204
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/41_FTLE.npy allready  exist. Skipping...
+168
+208
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/42_FTLE.npy allready  exist. Skipping...
+172
+212
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/43_FTLE.npy allready  exist. Skipping...
+176
+216
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/44_FTLE.npy allready  exist. Skipping...
+180
+220
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/45_FTLE.npy allready  exist. Skipping...
+184
+224
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/46_FTLE.npy allready  exist. Skipping...
+188
+228
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/47_FTLE.npy allready  exist. Skipping...
+192
+232
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/48_FTLE.npy allready  exist. Skipping...
+196
+236
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/49_FTLE.npy allready  exist. Skipping...
+200
+240
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/50_FTLE.npy allready  exist. Skipping...
+204
+244
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/51_FTLE.npy allready  exist. Skipping...
+208
+248
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/52_FTLE.npy allready  exist. Skipping...
+212
+252
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/53_FTLE.npy allready  exist. Skipping...
+216
+256
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/54_FTLE.npy allready  exist. Skipping...
+220
+260
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/55_FTLE.npy allready  exist. Skipping...
+224
+264
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/56_FTLE.npy allready  exist. Skipping...
+228
+268
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/57_FTLE.npy allready  exist. Skipping...
+232
+272
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/58_FTLE.npy allready  exist. Skipping...
+236
+276
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/59_FTLE.npy allready  exist. Skipping...
+240
+280
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/60_FTLE.npy allready  exist. Skipping...
+244
+284
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/61_FTLE.npy allready  exist. Skipping...
+248
+288
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/62_FTLE.npy allready  exist. Skipping...
+252
+292
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/63_FTLE.npy allready  exist. Skipping...
+256
+296
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/64_FTLE.npy allready  exist. Skipping...
+260
+300
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/65_FTLE.npy allready  exist. Skipping...
+264
+304
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/66_FTLE.npy
+
+real	4m26.762s
+user	0m0.031s
+sys	0m0.059s
+268
+308
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/67_FTLE.npy
+
+real	2m6.748s
+user	0m0.027s
+sys	0m0.054s
+272
+312
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/68_FTLE.npy
+
+real	2m5.058s
+user	0m0.023s
+sys	0m0.055s
+276
+316
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/69_FTLE.npy
+
+real	2m4.963s
+user	0m0.021s
+sys	0m0.059s
+280
+320
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/70_FTLE.npy
+
+real	2m4.492s
+user	0m0.022s
+sys	0m0.061s
+284
+324
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/71_FTLE.npy
+
+real	2m5.960s
+user	0m0.015s
+sys	0m0.065s
+288
+328
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/72_FTLE.npy
+
+real	2m5.959s
+user	0m0.022s
+sys	0m0.069s
+292
+332
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/73_FTLE.npy
+
+real	2m6.536s
+user	0m0.024s
+sys	0m0.059s
+296
+336
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/74_FTLE.npy
+
+real	2m6.733s
+user	0m0.019s
+sys	0m0.069s
+300
+340
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/75_FTLE.npy
+
+real	2m6.156s
+user	0m0.018s
+sys	0m0.074s
+304
+344
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/76_FTLE.npy
+
+real	2m4.910s
+user	0m0.016s
+sys	0m0.072s
+308
+348
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/77_FTLE.npy
+
+real	2m5.461s
+user	0m0.017s
+sys	0m0.074s
+312
+352
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/78_FTLE.npy
+
+real	2m4.716s
+user	0m0.022s
+sys	0m0.068s
+316
+356
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/79_FTLE.npy
+
+real	2m4.943s
+user	0m0.018s
+sys	0m0.063s
+320
+360
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/80_FTLE.npy
+
+real	2m4.597s
+user	0m0.015s
+sys	0m0.065s
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=32
+
+Job 6236982 consumed 18.1 billing hours from project nn8008k.
+
+Submitted 2025-05-15T15:53:23; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   33.9 minutes
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+6236982           32            0.0 %  2025-05-15T15:53:24  2031.0 s  0
+6236982.batch     32      1     0.0 %  2025-05-15T15:53:24  2031.0 s  0
+6236982.python    32      1    27.5 %  2025-05-15T15:53:31   266.0 s  0
+6236982.python    32      1    57.7 %  2025-05-15T15:57:57   127.0 s  0
+6236982.python    32      1    58.7 %  2025-05-15T16:00:04   125.0 s  0
+6236982.python    32      1    58.6 %  2025-05-15T16:02:09   125.0 s  0
+6236982.python    32      1    58.8 %  2025-05-15T16:04:14   125.0 s  0
+6236982.python    32      1    58.2 %  2025-05-15T16:06:19   126.0 s  0
+6236982.python    32      1    58.2 %  2025-05-15T16:08:25   126.0 s  0
+6236982.python    32      1    58.2 %  2025-05-15T16:10:31   126.0 s  0
+6236982.python    32      1    57.8 %  2025-05-15T16:12:37   127.0 s  0
+6236982.python    32      1    58.2 %  2025-05-15T16:14:44   126.0 s  0
+6236982.python    32      1    58.6 %  2025-05-15T16:16:50   125.0 s  0
+6236982.python    32      1    58.3 %  2025-05-15T16:18:55   126.0 s  0
+6236982.python    32      1    59.0 %  2025-05-15T16:21:01   124.0 s  0
+6236982.python    32      1    58.8 %  2025-05-15T16:23:05   125.0 s  0
+6236982.python    32      1    58.7 %  2025-05-15T16:25:10   125.0 s  0
+
+Used CPU time:   9.8 CPU hours
+Unused CPU time: 8.3 CPU hours
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6236982           59.0        
+6236982.batch     59.0     0.0
+6236982.python    59.0     9.7
+6236982.python    59.0     9.7
+6236982.python    59.0     9.4
+6236982.python    59.0     9.6
+6236982.python    59.0     9.6
+6236982.python    59.0     9.6
+6236982.python    59.0     9.6
+6236982.python    59.0     9.6
+6236982.python    59.0     9.7
+6236982.python    59.0     9.4
+6236982.python    59.0     9.6
+6236982.python    59.0     9.6
+6236982.python    59.0     9.5
+6236982.python    59.0     9.5
+6236982.python    59.0     9.5
+
+Job 6236982 completed at Thu May 15 16:27:15 CEST 2025
+Starting job 6237028 on c62-6 on fram at Thu May 15 17:10:39 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy
+
+real	2m6.210s
+user	0m0.021s
+sys	0m0.046s
+4
+44
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/1_FTLE.npy
+
+real	1m59.175s
+user	0m0.024s
+sys	0m0.062s
+8
+48
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/2_FTLE.npy
+
+real	2m0.766s
+user	0m0.019s
+sys	0m0.062s
+12
+52
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/3_FTLE.npy
+
+real	1m59.963s
+user	0m0.017s
+sys	0m0.065s
+16
+56
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/4_FTLE.npy
+
+real	2m0.955s
+user	0m0.017s
+sys	0m0.061s
+20
+60
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/5_FTLE.npy
+
+real	2m0.126s
+user	0m0.019s
+sys	0m0.063s
+24
+64
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/6_FTLE.npy
+
+real	2m0.099s
+user	0m0.017s
+sys	0m0.061s
+28
+68
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/7_FTLE.npy
+
+real	2m0.191s
+user	0m0.018s
+sys	0m0.070s
+32
+72
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/8_FTLE.npy
+
+real	1m59.430s
+user	0m0.022s
+sys	0m0.068s
+36
+76
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/9_FTLE.npy
+
+real	2m0.400s
+user	0m0.025s
+sys	0m0.055s
+40
+80
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/10_FTLE.npy
+
+real	2m0.587s
+user	0m0.016s
+sys	0m0.070s
+44
+84
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/11_FTLE.npy
+
+real	2m2.418s
+user	0m0.016s
+sys	0m0.065s
+48
+88
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/12_FTLE.npy
+
+real	2m1.210s
+user	0m0.022s
+sys	0m0.069s
+52
+92
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/13_FTLE.npy
+
+real	2m0.613s
+user	0m0.018s
+sys	0m0.074s
+56
+96
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/14_FTLE.npy
+
+real	1m59.896s
+user	0m0.018s
+sys	0m0.075s
+60
+100
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/15_FTLE.npy
+
+real	2m0.247s
+user	0m0.013s
+sys	0m0.076s
+64
+104
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/16_FTLE.npy
+
+real	1m59.940s
+user	0m0.022s
+sys	0m0.066s
+68
+108
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/17_FTLE.npy
+
+real	2m0.840s
+user	0m0.016s
+sys	0m0.066s
+72
+112
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/18_FTLE.npy
+
+real	2m2.441s
+user	0m0.025s
+sys	0m0.054s
+76
+116
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/19_FTLE.npy
+
+real	1m59.688s
+user	0m0.023s
+sys	0m0.061s
+80
+120
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/20_FTLE.npy
+
+real	1m59.378s
+user	0m0.020s
+sys	0m0.068s
+84
+124
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/21_FTLE.npy
+
+real	1m59.421s
+user	0m0.015s
+sys	0m0.076s
+88
+128
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/22_FTLE.npy
+
+real	1m59.413s
+user	0m0.021s
+sys	0m0.070s
+92
+132
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/23_FTLE.npy
+
+real	1m59.370s
+user	0m0.019s
+sys	0m0.074s
+96
+136
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/24_FTLE.npy
+
+real	2m0.262s
+user	0m0.019s
+sys	0m0.072s
+100
+140
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/25_FTLE.npy
+
+real	2m1.407s
+user	0m0.020s
+sys	0m0.072s
+104
+144
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/26_FTLE.npy
+
+real	1m59.374s
+user	0m0.022s
+sys	0m0.066s
+108
+148
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/27_FTLE.npy
+
+real	2m0.576s
+user	0m0.021s
+sys	0m0.068s
+112
+152
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/28_FTLE.npy
+
+real	2m0.341s
+user	0m0.018s
+sys	0m0.066s
+116
+156
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/29_FTLE.npy
+
+real	2m0.192s
+user	0m0.021s
+sys	0m0.067s
+120
+160
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/30_FTLE.npy
+
+real	2m0.581s
+user	0m0.023s
+sys	0m0.069s
+124
+164
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/31_FTLE.npy
+
+real	2m0.737s
+user	0m0.019s
+sys	0m0.068s
+128
+168
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/32_FTLE.npy
+
+real	2m0.255s
+user	0m0.018s
+sys	0m0.073s
+132
+172
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/33_FTLE.npy
+
+real	2m1.317s
+user	0m0.022s
+sys	0m0.071s
+136
+176
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/34_FTLE.npy
+
+real	2m0.776s
+user	0m0.019s
+sys	0m0.074s
+140
+180
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/35_FTLE.npy
+
+real	1m59.808s
+user	0m0.022s
+sys	0m0.064s
+144
+184
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/36_FTLE.npy
+
+real	1m59.588s
+user	0m0.022s
+sys	0m0.065s
+148
+188
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/37_FTLE.npy
+
+real	2m0.395s
+user	0m0.019s
+sys	0m0.070s
+152
+192
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/38_FTLE.npy
+
+real	2m0.593s
+user	0m0.017s
+sys	0m0.071s
+156
+196
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/39_FTLE.npy
+
+real	1m59.665s
+user	0m0.017s
+sys	0m0.067s
+160
+200
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/40_FTLE.npy
+
+real	1m59.702s
+user	0m0.017s
+sys	0m0.064s
+164
+204
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/41_FTLE.npy
+
+real	2m1.230s
+user	0m0.022s
+sys	0m0.066s
+168
+208
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/42_FTLE.npy
+
+real	2m0.857s
+user	0m0.017s
+sys	0m0.072s
+172
+212
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/43_FTLE.npy
+
+real	1m59.466s
+user	0m0.019s
+sys	0m0.060s
+176
+216
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/44_FTLE.npy
+
+real	1m59.176s
+user	0m0.019s
+sys	0m0.060s
+180
+220
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/45_FTLE.npy
+
+real	1m59.575s
+user	0m0.018s
+sys	0m0.062s
+184
+224
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/46_FTLE.npy
+
+real	2m1.365s
+user	0m0.022s
+sys	0m0.057s
+188
+228
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/47_FTLE.npy
+
+real	2m0.420s
+user	0m0.020s
+sys	0m0.058s
+192
+232
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/48_FTLE.npy
+
+real	1m59.468s
+user	0m0.018s
+sys	0m0.061s
+196
+236
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/49_FTLE.npy
+
+real	2m0.046s
+user	0m0.023s
+sys	0m0.054s
+200
+240
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/50_FTLE.npy
+
+real	1m59.786s
+user	0m0.022s
+sys	0m0.063s
+204
+244
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/51_FTLE.npy
+
+real	1m59.969s
+user	0m0.018s
+sys	0m0.058s
+208
+248
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/52_FTLE.npy
+
+real	1m59.798s
+user	0m0.019s
+sys	0m0.065s
+212
+252
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/53_FTLE.npy
+
+real	1m59.449s
+user	0m0.021s
+sys	0m0.056s
+216
+256
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/54_FTLE.npy
+
+real	1m59.232s
+user	0m0.025s
+sys	0m0.055s
+220
+260
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/55_FTLE.npy
+
+real	1m59.300s
+user	0m0.018s
+sys	0m0.062s
+224
+264
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/56_FTLE.npy
+
+real	2m0.058s
+user	0m0.020s
+sys	0m0.060s
+228
+268
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/57_FTLE.npy
+
+real	2m0.136s
+user	0m0.021s
+sys	0m0.056s
+232
+272
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/58_FTLE.npy
+
+real	1m58.748s
+user	0m0.020s
+sys	0m0.065s
+236
+276
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/59_FTLE.npy
+
+real	1m59.955s
+user	0m0.017s
+sys	0m0.062s
+240
+280
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/60_FTLE.npy
+
+real	1m59.500s
+user	0m0.016s
+sys	0m0.063s
+244
+284
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/61_FTLE.npy
+
+real	2m1.444s
+user	0m0.016s
+sys	0m0.061s
+248
+288
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/62_FTLE.npy
+
+real	1m59.955s
+user	0m0.020s
+sys	0m0.058s
+252
+292
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/63_FTLE.npy
+
+real	2m0.126s
+user	0m0.020s
+sys	0m0.057s
+256
+296
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/64_FTLE.npy
+
+real	2m0.846s
+user	0m0.021s
+sys	0m0.057s
+260
+300
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/65_FTLE.npy
+
+real	1m59.474s
+user	0m0.022s
+sys	0m0.065s
+264
+304
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/66_FTLE.npy
+
+real	1m59.945s
+user	0m0.019s
+sys	0m0.063s
+268
+308
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/67_FTLE.npy
+
+real	1m59.912s
+user	0m0.022s
+sys	0m0.056s
+272
+312
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/68_FTLE.npy
+
+real	2m0.294s
+user	0m0.022s
+sys	0m0.058s
+276
+316
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/69_FTLE.npy
+
+real	1m59.194s
+user	0m0.026s
+sys	0m0.052s
+280
+320
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/70_FTLE.npy
+
+real	2m0.196s
+user	0m0.014s
+sys	0m0.074s
+284
+324
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/71_FTLE.npy
+
+real	2m1.956s
+user	0m0.020s
+sys	0m0.062s
+288
+328
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/72_FTLE.npy
+
+real	1m59.820s
+user	0m0.014s
+sys	0m0.065s
+292
+332
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/73_FTLE.npy
+
+real	2m0.043s
+user	0m0.025s
+sys	0m0.062s
+296
+336
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/74_FTLE.npy
+
+real	2m0.332s
+user	0m0.021s
+sys	0m0.059s
+300
+340
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/75_FTLE.npy
+
+real	1m59.589s
+user	0m0.022s
+sys	0m0.056s
+304
+344
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/76_FTLE.npy
+
+real	2m0.114s
+user	0m0.018s
+sys	0m0.060s
+308
+348
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/77_FTLE.npy
+
+real	1m59.872s
+user	0m0.019s
+sys	0m0.062s
+312
+352
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/78_FTLE.npy
+
+real	2m1.047s
+user	0m0.029s
+sys	0m0.054s
+316
+356
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/79_FTLE.npy
+
+real	2m0.991s
+user	0m0.016s
+sys	0m0.065s
+320
+360
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/80_FTLE.npy
+
+real	2m0.308s
+user	0m0.022s
+sys	0m0.057s
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=32
+
+Job 6237028 consumed 86.6 billing hours from project nn8008k.
+
+Submitted 2025-05-15T17:10:38; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   2.7 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6237028           32            0.0 %  2025-05-15T17:10:39    2.7 h  0
+6237028.batch     32      1     0.0 %  2025-05-15T17:10:39    2.7 h  0
+6237028.python    32      1    58.1 %  2025-05-15T17:10:44    0.0 h  0
+6237028.python    32      1    61.4 %  2025-05-15T17:12:50    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T17:14:50    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T17:16:50    0.0 h  0
+6237028.python    32      1    60.6 %  2025-05-15T17:18:50    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T17:20:51    0.0 h  0
+6237028.python    32      1    61.1 %  2025-05-15T17:22:51    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T17:24:52    0.0 h  0
+6237028.python    32      1    61.5 %  2025-05-15T17:26:52    0.0 h  0
+6237028.python    32      1    61.2 %  2025-05-15T17:28:51    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T17:30:52    0.0 h  0
+6237028.python    32      1    60.1 %  2025-05-15T17:32:52    0.0 h  0
+6237028.python    32      1    60.6 %  2025-05-15T17:34:55    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T17:36:56    0.0 h  0
+6237028.python    32      1    61.4 %  2025-05-15T17:38:57    0.0 h  0
+6237028.python    32      1    60.6 %  2025-05-15T17:40:56    0.0 h  0
+6237028.python    32      1    61.4 %  2025-05-15T17:42:57    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T17:44:57    0.0 h  0
+6237028.python    32      1    59.6 %  2025-05-15T17:46:57    0.0 h  0
+6237028.python    32      1    61.6 %  2025-05-15T17:49:00    0.0 h  0
+6237028.python    32      1    61.5 %  2025-05-15T17:51:00    0.0 h  0
+6237028.python    32      1    61.5 %  2025-05-15T17:52:59    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T17:54:58    0.0 h  0
+6237028.python    32      1    61.5 %  2025-05-15T17:56:58    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T17:58:57    0.0 h  0
+6237028.python    32      1    60.5 %  2025-05-15T18:00:58    0.0 h  0
+6237028.python    32      1    61.5 %  2025-05-15T18:02:59    0.0 h  0
+6237028.python    32      1    60.5 %  2025-05-15T18:04:58    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T18:06:59    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T18:08:59    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T18:11:00    0.0 h  0
+6237028.python    32      1    60.4 %  2025-05-15T18:13:00    0.0 h  0
+6237028.python    32      1    61.1 %  2025-05-15T18:15:01    0.0 h  0
+6237028.python    32      1    60.6 %  2025-05-15T18:17:01    0.0 h  0
+6237028.python    32      1    60.5 %  2025-05-15T18:19:02    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T18:21:03    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T18:23:03    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T18:25:03    0.0 h  0
+6237028.python    32      1    60.4 %  2025-05-15T18:27:03    0.0 h  0
+6237028.python    32      1    61.4 %  2025-05-15T18:29:04    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T18:31:03    0.0 h  0
+6237028.python    32      1    60.4 %  2025-05-15T18:33:03    0.0 h  0
+6237028.python    32      1    60.5 %  2025-05-15T18:35:04    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T18:37:05    0.0 h  0
+6237028.python    32      1    61.5 %  2025-05-15T18:39:05    0.0 h  0
+6237028.python    32      1    61.4 %  2025-05-15T18:41:04    0.0 h  0
+6237028.python    32      1    60.4 %  2025-05-15T18:43:04    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T18:45:05    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T18:47:05    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T18:49:05    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T18:51:05    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T18:53:05    0.0 h  0
+6237028.python    32      1    61.6 %  2025-05-15T18:55:05    0.0 h  0
+6237028.python    32      1    61.4 %  2025-05-15T18:57:05    0.0 h  0
+6237028.python    32      1    61.4 %  2025-05-15T18:59:04    0.0 h  0
+6237028.python    32      1    61.6 %  2025-05-15T19:01:03    0.0 h  0
+6237028.python    32      1    61.6 %  2025-05-15T19:03:03    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T19:05:03    0.0 h  0
+6237028.python    32      1    62.0 %  2025-05-15T19:07:03    0.0 h  0
+6237028.python    32      1    61.6 %  2025-05-15T19:09:02    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T19:11:01    0.0 h  0
+6237028.python    32      1    60.5 %  2025-05-15T19:13:01    0.0 h  0
+6237028.python    32      1    61.1 %  2025-05-15T19:15:02    0.0 h  0
+6237028.python    32      1    61.1 %  2025-05-15T19:17:02    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T19:19:03    0.0 h  0
+6237028.python    32      1    61.1 %  2025-05-15T19:21:03    0.0 h  0
+6237028.python    32      1    61.1 %  2025-05-15T19:23:03    0.0 h  0
+6237028.python    32      1    61.1 %  2025-05-15T19:25:03    0.0 h  0
+6237028.python    32      1    61.2 %  2025-05-15T19:27:03    0.0 h  0
+6237028.python    32      1    61.5 %  2025-05-15T19:29:03    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T19:31:02    0.0 h  0
+6237028.python    32      1    60.5 %  2025-05-15T19:33:03    0.0 h  0
+6237028.python    32      1    61.4 %  2025-05-15T19:35:05    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T19:37:04    0.0 h  0
+6237028.python    32      1    60.4 %  2025-05-15T19:39:04    0.0 h  0
+6237028.python    32      1    61.5 %  2025-05-15T19:41:05    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T19:43:04    0.0 h  0
+6237028.python    32      1    61.6 %  2025-05-15T19:45:05    0.0 h  0
+6237028.python    32      1    60.5 %  2025-05-15T19:47:04    0.0 h  0
+6237028.python    32      1    61.0 %  2025-05-15T19:49:06    0.0 h  0
+6237028.python    32      1    60.9 %  2025-05-15T19:51:07    0.0 h  0
+
+Used CPU time:   2.2 CPU days
+Unused CPU time: 1.4 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6237028           59.0        
+6237028.batch     59.0     0.0
+6237028.python    59.0    10.3
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.5
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.5
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.7
+6237028.python    59.0    10.0
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.5
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.5
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.5
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.3
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.5
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.7
+6237028.python    59.0     9.4
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.6
+6237028.python    59.0     9.5
+
+Job 6237028 completed at Thu May 15 19:53:07 CEST 2025
+Starting job 6260989 on c5-12 on fram at Sun Jun 1 21:39:23 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+    r = call_item()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 598, in __call__
+    return [func(*args, **kwargs)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 598, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLE.py", line 83, in parallel_FTLE_cleaned
+    kill_trajectories_XDend = kill_trajectories_index(time, XDend, lon_grid, lat_grid, Interpolant_land_mask, periodic, bool_unsteady, time_data, linear = False)
+NameError: name 'lon_grid' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLEIce_cleaned.py", line 262, in <module>
+    results = Parallel(n_jobs=Ncores, verbose = 50)(delayed(parallel_FTLE_cleaned)(time, x0_batch[i], y0_batch[i], X, Y, Interpolant_u, Interpolant_v, periodic, defined_domain, bool_unsteady, time_data, aux_grid) for i in range(len(x0_batch)))
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 2007, in __call__
+    return output if self.return_generator else list(output)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1650, in _get_outputs
+    yield from self._retrieve()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1754, in _retrieve
+    self._raise_error_fast()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1789, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 745, in get_result
+    return self._return_or_raise()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 763, in _return_or_raise
+    raise self._result
+NameError: name 'lon_grid' is not defined
+srun: error: c5-12: task 0: Exited with exit code 1
+srun: Terminating StepId=6260989.0
+
+real	0m54.265s
+user	0m0.019s
+sys	0m0.051s
+
+Job 6260989 consumed 0.5 billing hours from project nn8008k.
+
+Submitted 2025-06-01T21:39:22; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   59.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6260989           32            0.0 %  2025-06-01T21:39:23   59.0 s  1
+6260989.batch     32      1     0.2 %  2025-06-01T21:39:23   59.0 s  1
+6260989.python    32      1    64.9 %  2025-06-01T21:39:28   54.0 s  1
+
+Used CPU time:   18.8 CPU minutes
+Unused CPU time: 12.7 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6260989           59.0        
+6260989.batch     59.0     0.0
+6260989.python    59.0     8.4
+
+Job 6260989 completed at Sun Jun 1 21:40:23 CEST 2025
+Starting job 6260999 on c5-12 on fram at Sun Jun 1 21:50:09 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+    r = call_item()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 598, in __call__
+    return [func(*args, **kwargs)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 598, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLE.py", line 83, in parallel_FTLE_cleaned
+    kill_trajectories_XDend = kill_trajectories_index(time, XDend, lon_grid, lat_grid, Interpolant_land_mask, periodic, bool_unsteady, time_data, linear = False)
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLE.py", line 69, in kill_trajectories_index
+    l.append(land_mask_t(time[i], Fmap[i], lon_grid, lat_grid, Interpolant_land_mask, periodic, bool_unsteady, time_data[0], linear = False))
+NameError: name 'land_mask_t' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLEIce_cleaned.py", line 265, in <module>
+    results = Parallel(n_jobs=Ncores, verbose = 50)(delayed(parallel_FTLE_cleaned)(time, x0_batch[i], y0_batch[i], X, Y, Interpolant_u, Interpolant_v, periodic, defined_domain, bool_unsteady, time_data, aux_grid, lon_grid, lat_grid, Interpolant_land_mask) for i in range(len(x0_batch)))
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 2007, in __call__
+    return output if self.return_generator else list(output)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1650, in _get_outputs
+    yield from self._retrieve()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1754, in _retrieve
+    self._raise_error_fast()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1789, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 745, in get_result
+    return self._return_or_raise()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 763, in _return_or_raise
+    raise self._result
+NameError: name 'land_mask_t' is not defined
+srun: error: c5-12: task 0: Exited with exit code 1
+srun: Terminating StepId=6260999.0
+
+real	0m55.593s
+user	0m0.016s
+sys	0m0.051s
+
+Job 6260999 consumed 0.5 billing hours from project nn8008k.
+
+Submitted 2025-06-01T21:50:08; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   60.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6260999           32            0.0 %  2025-06-01T21:50:09   60.0 s  1
+6260999.batch     32      1     0.2 %  2025-06-01T21:50:09   60.0 s  1
+6260999.python    32      1    60.3 %  2025-06-01T21:50:14   55.0 s  1
+
+Used CPU time:   17.8 CPU minutes
+Unused CPU time: 14.2 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6260999           59.0        
+6260999.batch     59.0     0.0
+6260999.python    59.0    10.5
+
+Job 6260999 completed at Sun Jun 1 21:51:10 CEST 2025
+Starting job 6261010 on c7-4 on fram at Sun Jun 1 21:58:13 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+    r = call_item()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 598, in __call__
+    return [func(*args, **kwargs)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 598, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLE.py", line 83, in parallel_FTLE_cleaned
+    kill_trajectories_XDend = kill_trajectories_index(time, XDend, lon_grid, lat_grid, Interpolant_land_mask, periodic, bool_unsteady, time_data, linear = False)
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLE.py", line 69, in kill_trajectories_index
+    l.append(land_mask_t(time[i], Fmap[i], lon_grid, lat_grid, Interpolant_land_mask, periodic, bool_unsteady, time_data[0], linear = False))
+NameError: name 'land_mask_t' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLEIce_cleaned.py", line 265, in <module>
+    results = Parallel(n_jobs=Ncores, verbose = 50)(delayed(parallel_FTLE_cleaned)(time, x0_batch[i], y0_batch[i], X, Y, Interpolant_u, Interpolant_v, periodic, defined_domain, bool_unsteady, time_data, aux_grid, lon_grid, lat_grid, Interpolant_land_mask) for i in range(len(x0_batch)))
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 2007, in __call__
+    return output if self.return_generator else list(output)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1650, in _get_outputs
+    yield from self._retrieve()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1754, in _retrieve
+    self._raise_error_fast()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 1789, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 745, in get_result
+    return self._return_or_raise()
+  File "/cluster/software/Python-bundle-PyPI/2024.06-GCCcore-13.3.0/lib/python3.12/site-packages/joblib/parallel.py", line 763, in _return_or_raise
+    raise self._result
+NameError: name 'land_mask_t' is not defined
+srun: error: c7-4: task 0: Exited with exit code 1
+srun: Terminating StepId=6261010.0
+
+real	0m53.825s
+user	0m0.024s
+sys	0m0.041s
+
+Job 6261010 consumed 0.5 billing hours from project nn8008k.
+
+Submitted 2025-06-01T21:58:12; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   59.0 seconds
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6261010           32            0.0 %  2025-06-01T21:58:13   59.0 s  1
+6261010.batch     32      1     0.2 %  2025-06-01T21:58:13   59.0 s  1
+6261010.python    32      1    61.4 %  2025-06-01T21:58:18   54.0 s  1
+
+Used CPU time:   17.7 CPU minutes
+Unused CPU time: 13.7 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6261010           59.0        
+6261010.batch     59.0     0.0
+6261010.python    59.0    10.4
+
+Job 6261010 completed at Sun Jun 1 21:59:12 CEST 2025
+Starting job 6261018 on c7-4 on fram at Sun Jun 1 22:01:49 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy
+Traceback (most recent call last):
+  File "/cluster/home/llpui9007/Programs/FTLE/FTLEIce_cleaned.py", line 274, in <module>
+    FTLE = FTLE.reshape((X_domain.shape[0], X_domain.shape[1])) # array (Ny, Nx)
+ValueError: cannot reshape array of size 76944 into shape (761,674)
+srun: error: c7-4: task 0: Exited with exit code 1
+srun: Terminating StepId=6261018.0
+
+real	2m3.479s
+user	0m0.017s
+sys	0m0.050s
+
+Job 6261018 consumed 1.1 billing hours from project nn8008k.
+
+Submitted 2025-06-01T22:01:48; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   2.1 minutes
+
+Job failed.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6261018           32            0.0 %  2025-06-01T22:01:49  128.0 s  1
+6261018.batch     32      1     0.1 %  2025-06-01T22:01:49  128.0 s  1
+6261018.python    32      1    57.6 %  2025-06-01T22:01:54  123.0 s  1
+
+Used CPU time:   37.9 CPU minutes
+Unused CPU time: 30.4 CPU minutes
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6261018           59.0        
+6261018.batch     59.0     0.0
+6261018.python    59.0    12.0
+
+Job 6261018 completed at Sun Jun 1 22:03:58 CEST 2025
+Starting job 6261293 on c40-2 on fram at Mon Jun 2 12:26:47 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy
+
+real	2m21.106s
+user	0m0.019s
+sys	0m0.044s
+4
+44
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/1_FTLE.npy
+
+real	2m8.430s
+user	0m0.019s
+sys	0m0.063s
+8
+48
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/2_FTLE.npy
+
+real	2m15.946s
+user	0m0.019s
+sys	0m0.066s
+12
+52
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/3_FTLE.npy
+
+real	2m7.811s
+user	0m0.016s
+sys	0m0.073s
+16
+56
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/4_FTLE.npy
+
+real	2m7.389s
+user	0m0.023s
+sys	0m0.059s
+20
+60
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/5_FTLE.npy
+
+real	2m6.298s
+user	0m0.024s
+sys	0m0.058s
+24
+64
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/6_FTLE.npy
+
+real	2m8.818s
+user	0m0.019s
+sys	0m0.063s
+28
+68
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/7_FTLE.npy
+
+real	2m7.531s
+user	0m0.016s
+sys	0m0.064s
+32
+72
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/8_FTLE.npy
+
+real	2m8.665s
+user	0m0.019s
+sys	0m0.063s
+36
+76
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/9_FTLE.npy
+
+real	2m15.649s
+user	0m0.020s
+sys	0m0.064s
+40
+80
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/10_FTLE.npy
+
+real	2m7.086s
+user	0m0.022s
+sys	0m0.060s
+44
+84
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/11_FTLE.npy
+
+real	2m7.081s
+user	0m0.023s
+sys	0m0.062s
+48
+88
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/12_FTLE.npy
+
+real	2m7.040s
+user	0m0.019s
+sys	0m0.071s
+52
+92
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/13_FTLE.npy
+
+real	2m7.166s
+user	0m0.017s
+sys	0m0.071s
+56
+96
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/14_FTLE.npy
+
+real	2m7.282s
+user	0m0.020s
+sys	0m0.071s
+60
+100
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/15_FTLE.npy
+
+real	2m8.343s
+user	0m0.016s
+sys	0m0.066s
+64
+104
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/16_FTLE.npy
+
+real	2m14.098s
+user	0m0.017s
+sys	0m0.072s
+68
+108
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/17_FTLE.npy
+
+real	2m7.535s
+user	0m0.025s
+sys	0m0.057s
+72
+112
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/18_FTLE.npy
+
+real	2m7.220s
+user	0m0.021s
+sys	0m0.061s
+76
+116
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/19_FTLE.npy
+
+real	2m8.639s
+user	0m0.022s
+sys	0m0.061s
+80
+120
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/20_FTLE.npy
+
+real	2m6.620s
+user	0m0.024s
+sys	0m0.057s
+84
+124
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/21_FTLE.npy
+
+real	2m6.550s
+user	0m0.016s
+sys	0m0.065s
+88
+128
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/22_FTLE.npy
+
+real	2m7.754s
+user	0m0.023s
+sys	0m0.057s
+92
+132
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/23_FTLE.npy
+
+real	2m6.348s
+user	0m0.019s
+sys	0m0.061s
+96
+136
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/24_FTLE.npy
+
+real	2m7.662s
+user	0m0.021s
+sys	0m0.060s
+100
+140
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/25_FTLE.npy
+
+real	2m7.909s
+user	0m0.024s
+sys	0m0.064s
+104
+144
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/26_FTLE.npy
+
+real	2m6.621s
+user	0m0.019s
+sys	0m0.070s
+108
+148
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/27_FTLE.npy
+
+real	2m7.741s
+user	0m0.018s
+sys	0m0.071s
+112
+152
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/28_FTLE.npy
+
+real	2m7.844s
+user	0m0.022s
+sys	0m0.071s
+116
+156
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/29_FTLE.npy
+
+real	2m8.266s
+user	0m0.017s
+sys	0m0.072s
+120
+160
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/30_FTLE.npy
+
+real	2m8.416s
+user	0m0.023s
+sys	0m0.066s
+124
+164
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/31_FTLE.npy
+
+real	2m10.576s
+user	0m0.017s
+sys	0m0.064s
+128
+168
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/32_FTLE.npy
+
+real	2m7.065s
+user	0m0.017s
+sys	0m0.067s
+132
+172
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/33_FTLE.npy
+
+real	2m6.811s
+user	0m0.021s
+sys	0m0.068s
+136
+176
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/34_FTLE.npy
+
+real	2m8.131s
+user	0m0.019s
+sys	0m0.064s
+140
+180
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/35_FTLE.npy
+
+real	2m7.270s
+user	0m0.016s
+sys	0m0.073s
+144
+184
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/36_FTLE.npy
+
+real	2m8.864s
+user	0m0.019s
+sys	0m0.071s
+148
+188
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/37_FTLE.npy
+
+real	2m15.538s
+user	0m0.024s
+sys	0m0.067s
+152
+192
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/38_FTLE.npy
+
+real	2m8.036s
+user	0m0.020s
+sys	0m0.069s
+156
+196
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/39_FTLE.npy
+
+real	2m6.403s
+user	0m0.021s
+sys	0m0.063s
+160
+200
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/40_FTLE.npy
+
+real	2m6.717s
+user	0m0.019s
+sys	0m0.070s
+164
+204
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/41_FTLE.npy
+
+real	2m7.202s
+user	0m0.020s
+sys	0m0.068s
+168
+208
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/42_FTLE.npy
+
+real	2m8.355s
+user	0m0.022s
+sys	0m0.069s
+172
+212
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/43_FTLE.npy
+
+real	2m8.947s
+user	0m0.017s
+sys	0m0.073s
+176
+216
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/44_FTLE.npy
+
+real	2m7.528s
+user	0m0.021s
+sys	0m0.064s
+180
+220
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/45_FTLE.npy
+
+real	2m7.460s
+user	0m0.024s
+sys	0m0.060s
+184
+224
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/46_FTLE.npy
+
+real	2m7.536s
+user	0m0.022s
+sys	0m0.058s
+188
+228
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/47_FTLE.npy
+
+real	2m6.697s
+user	0m0.022s
+sys	0m0.060s
+192
+232
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/48_FTLE.npy
+
+real	2m7.875s
+user	0m0.020s
+sys	0m0.064s
+196
+236
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/49_FTLE.npy
+
+real	2m8.356s
+user	0m0.022s
+sys	0m0.061s
+200
+240
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/50_FTLE.npy
+
+real	2m7.167s
+user	0m0.022s
+sys	0m0.063s
+204
+244
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/51_FTLE.npy
+
+real	2m8.449s
+user	0m0.020s
+sys	0m0.064s
+208
+248
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/52_FTLE.npy
+
+real	2m6.695s
+user	0m0.021s
+sys	0m0.061s
+212
+252
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/53_FTLE.npy
+
+real	2m6.958s
+user	0m0.023s
+sys	0m0.059s
+216
+256
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/54_FTLE.npy
+
+real	2m7.410s
+user	0m0.022s
+sys	0m0.060s
+220
+260
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/55_FTLE.npy
+
+real	2m7.286s
+user	0m0.018s
+sys	0m0.065s
+224
+264
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/56_FTLE.npy
+
+real	2m7.426s
+user	0m0.016s
+sys	0m0.065s
+228
+268
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/57_FTLE.npy
+
+real	2m7.835s
+user	0m0.025s
+sys	0m0.056s
+232
+272
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/58_FTLE.npy
+
+real	2m5.750s
+user	0m0.018s
+sys	0m0.062s
+236
+276
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/59_FTLE.npy
+
+real	2m7.320s
+user	0m0.024s
+sys	0m0.061s
+240
+280
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/60_FTLE.npy
+
+real	2m7.238s
+user	0m0.025s
+sys	0m0.058s
+244
+284
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/61_FTLE.npy
+
+real	2m7.707s
+user	0m0.023s
+sys	0m0.060s
+248
+288
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/62_FTLE.npy
+
+real	2m6.665s
+user	0m0.020s
+sys	0m0.062s
+252
+292
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/63_FTLE.npy
+
+real	2m7.654s
+user	0m0.018s
+sys	0m0.066s
+256
+296
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/64_FTLE.npy
+
+real	2m6.991s
+user	0m0.023s
+sys	0m0.062s
+260
+300
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/65_FTLE.npy
+
+real	2m7.035s
+user	0m0.022s
+sys	0m0.061s
+264
+304
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/66_FTLE.npy
+
+real	2m8.508s
+user	0m0.022s
+sys	0m0.060s
+268
+308
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/67_FTLE.npy
+
+real	2m7.283s
+user	0m0.016s
+sys	0m0.070s
+272
+312
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/68_FTLE.npy
+
+real	2m7.238s
+user	0m0.021s
+sys	0m0.062s
+276
+316
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/69_FTLE.npy
+
+real	2m7.417s
+user	0m0.024s
+sys	0m0.062s
+280
+320
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/70_FTLE.npy
+
+real	2m8.068s
+user	0m0.020s
+sys	0m0.064s
+284
+324
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/71_FTLE.npy
+
+real	2m6.803s
+user	0m0.022s
+sys	0m0.059s
+288
+328
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/72_FTLE.npy
+
+real	2m18.638s
+user	0m0.020s
+sys	0m0.062s
+292
+332
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/73_FTLE.npy
+
+real	2m7.759s
+user	0m0.015s
+sys	0m0.067s
+296
+336
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/74_FTLE.npy
+
+real	2m6.831s
+user	0m0.021s
+sys	0m0.058s
+300
+340
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/75_FTLE.npy
+
+real	2m7.217s
+user	0m0.019s
+sys	0m0.065s
+304
+344
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/76_FTLE.npy
+
+real	2m7.362s
+user	0m0.018s
+sys	0m0.067s
+308
+348
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/77_FTLE.npy
+
+real	2m7.112s
+user	0m0.018s
+sys	0m0.067s
+312
+352
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/78_FTLE.npy
+
+real	2m7.320s
+user	0m0.019s
+sys	0m0.073s
+316
+356
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/79_FTLE.npy
+
+real	2m18.736s
+user	0m0.020s
+sys	0m0.071s
+320
+360
+Generating /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/80_FTLE.npy
+
+real	2m7.843s
+user	0m0.021s
+sys	0m0.062s
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=32
+
+Job 6261293 consumed 92.5 billing hours from project nn8008k.
+
+Submitted 2025-06-02T12:26:46; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   2.9 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID              CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6261293           32            0.0 %  2025-06-02T12:26:47    2.9 h  0
+6261293.batch     32      1     0.0 %  2025-06-02T12:26:47    2.9 h  0
+6261293.python    32      1    51.2 %  2025-06-02T12:26:52    0.0 h  0
+6261293.python    32      1    55.8 %  2025-06-02T12:29:13    0.0 h  0
+6261293.python    32      1    53.3 %  2025-06-02T12:31:22    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T12:33:38    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T12:35:45    0.0 h  0
+6261293.python    32      1    57.0 %  2025-06-02T12:37:53    0.0 h  0
+6261293.python    32      1    56.0 %  2025-06-02T12:39:59    0.0 h  0
+6261293.python    32      1    56.8 %  2025-06-02T12:42:08    0.0 h  0
+6261293.python    32      1    56.3 %  2025-06-02T12:44:16    0.0 h  0
+6261293.python    32      1    53.3 %  2025-06-02T12:46:24    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T12:48:40    0.0 h  0
+6261293.python    32      1    56.8 %  2025-06-02T12:50:47    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T12:52:54    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T12:55:01    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T12:57:08    0.0 h  0
+6261293.python    32      1    56.3 %  2025-06-02T12:59:16    0.0 h  0
+6261293.python    32      1    54.0 %  2025-06-02T13:01:24    0.0 h  0
+6261293.python    32      1    56.3 %  2025-06-02T13:03:38    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T13:05:46    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T13:07:53    0.0 h  0
+6261293.python    32      1    57.1 %  2025-06-02T13:10:02    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T13:12:08    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T13:14:15    0.0 h  0
+6261293.python    32      1    57.0 %  2025-06-02T13:16:23    0.0 h  0
+6261293.python    32      1    56.8 %  2025-06-02T13:18:29    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T13:20:37    0.0 h  0
+6261293.python    32      1    57.1 %  2025-06-02T13:22:45    0.0 h  0
+6261293.python    32      1    56.3 %  2025-06-02T13:24:51    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T13:26:59    0.0 h  0
+6261293.python    32      1    56.3 %  2025-06-02T13:29:07    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T13:31:15    0.0 h  0
+6261293.python    32      1    55.4 %  2025-06-02T13:33:24    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T13:35:34    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T13:37:41    0.0 h  0
+6261293.python    32      1    56.3 %  2025-06-02T13:39:48    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T13:41:56    0.0 h  0
+6261293.python    32      1    55.9 %  2025-06-02T13:44:03    0.0 h  0
+6261293.python    32      1    53.2 %  2025-06-02T13:46:12    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T13:48:28    0.0 h  0
+6261293.python    32      1    57.0 %  2025-06-02T13:50:36    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T13:52:42    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T13:54:49    0.0 h  0
+6261293.python    32      1    55.8 %  2025-06-02T13:56:56    0.0 h  0
+6261293.python    32      1    55.8 %  2025-06-02T13:59:05    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T14:01:14    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T14:03:21    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T14:05:29    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T14:07:36    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T14:09:43    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T14:11:51    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T14:13:59    0.0 h  0
+6261293.python    32      1    55.8 %  2025-06-02T14:16:06    0.0 h  0
+6261293.python    32      1    57.2 %  2025-06-02T14:18:15    0.0 h  0
+6261293.python    32      1    57.1 %  2025-06-02T14:20:22    0.0 h  0
+6261293.python    32      1    56.8 %  2025-06-02T14:22:29    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T14:24:36    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T14:26:43    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T14:28:51    0.0 h  0
+6261293.python    32      1    57.6 %  2025-06-02T14:30:59    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T14:33:04    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T14:35:12    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T14:37:19    0.0 h  0
+6261293.python    32      1    57.1 %  2025-06-02T14:39:27    0.0 h  0
+6261293.python    32      1    56.4 %  2025-06-02T14:41:33    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T14:43:41    0.0 h  0
+6261293.python    32      1    56.8 %  2025-06-02T14:45:48    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T14:47:55    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T14:50:04    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T14:52:11    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T14:54:18    0.0 h  0
+6261293.python    32      1    56.2 %  2025-06-02T14:56:26    0.0 h  0
+6261293.python    32      1    57.0 %  2025-06-02T14:58:34    0.0 h  0
+6261293.python    32      1    52.3 %  2025-06-02T15:00:40    0.0 h  0
+6261293.python    32      1    56.3 %  2025-06-02T15:02:59    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T15:05:07    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T15:07:14    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T15:09:21    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T15:11:28    0.0 h  0
+6261293.python    32      1    56.6 %  2025-06-02T15:13:36    0.0 h  0
+6261293.python    32      1    52.6 %  2025-06-02T15:15:43    0.0 h  0
+6261293.python    32      1    56.7 %  2025-06-02T15:18:02    0.0 h  0
+
+Used CPU time:   2.2 CPU days
+Unused CPU time: 1.7 CPU days
+
+Memory statistics, in GiB:
+ID               Alloc   Usage
+6261293           59.0        
+6261293.batch     59.0     0.0
+6261293.python    59.0    11.6
+6261293.python    59.0    11.4
+6261293.python    59.0    11.3
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.5
+6261293.python    59.0    11.6
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.9
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.5
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.5
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.3
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+6261293.python    59.0    11.4
+
+Job 6261293 completed at Mon Jun 2 15:20:10 CEST 2025
+Starting job 6261409 on c40-3 on fram at Mon Jun 2 15:52:37 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy allready  exist. Skipping...
+4
+44
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/1_FTLE.npy allready  exist. Skipping...
+8
+48
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/2_FTLE.npy allready  exist. Skipping...
+12
+52
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/3_FTLE.npy allready  exist. Skipping...
+16
+56
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/4_FTLE.npy allready  exist. Skipping...
+20
+60
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/5_FTLE.npy allready  exist. Skipping...
+24
+64
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/6_FTLE.npy allready  exist. Skipping...
+28
+68
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/7_FTLE.npy allready  exist. Skipping...
+32
+72
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/8_FTLE.npy allready  exist. Skipping...
+36
+76
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/9_FTLE.npy allready  exist. Skipping...
+40
+80
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/10_FTLE.npy allready  exist. Skipping...
+44
+84
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/11_FTLE.npy allready  exist. Skipping...
+48
+88
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/12_FTLE.npy allready  exist. Skipping...
+52
+92
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/13_FTLE.npy allready  exist. Skipping...
+56
+96
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/14_FTLE.npy allready  exist. Skipping...
+60
+100
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/15_FTLE.npy allready  exist. Skipping...
+64
+104
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/16_FTLE.npy allready  exist. Skipping...
+68
+108
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/17_FTLE.npy allready  exist. Skipping...
+72
+112
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/18_FTLE.npy allready  exist. Skipping...
+76
+116
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/19_FTLE.npy allready  exist. Skipping...
+80
+120
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/20_FTLE.npy allready  exist. Skipping...
+84
+124
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/21_FTLE.npy allready  exist. Skipping...
+88
+128
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/22_FTLE.npy allready  exist. Skipping...
+92
+132
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/23_FTLE.npy allready  exist. Skipping...
+96
+136
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/24_FTLE.npy allready  exist. Skipping...
+100
+140
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/25_FTLE.npy allready  exist. Skipping...
+104
+144
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/26_FTLE.npy allready  exist. Skipping...
+108
+148
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/27_FTLE.npy allready  exist. Skipping...
+112
+152
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/28_FTLE.npy allready  exist. Skipping...
+116
+156
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/29_FTLE.npy allready  exist. Skipping...
+120
+160
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/30_FTLE.npy allready  exist. Skipping...
+124
+164
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/31_FTLE.npy allready  exist. Skipping...
+128
+168
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/32_FTLE.npy allready  exist. Skipping...
+132
+172
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/33_FTLE.npy allready  exist. Skipping...
+136
+176
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/34_FTLE.npy allready  exist. Skipping...
+140
+180
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/35_FTLE.npy allready  exist. Skipping...
+144
+184
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/36_FTLE.npy allready  exist. Skipping...
+148
+188
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/37_FTLE.npy allready  exist. Skipping...
+152
+192
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/38_FTLE.npy allready  exist. Skipping...
+156
+196
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/39_FTLE.npy allready  exist. Skipping...
+160
+200
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/40_FTLE.npy allready  exist. Skipping...
+164
+204
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/41_FTLE.npy allready  exist. Skipping...
+168
+208
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/42_FTLE.npy allready  exist. Skipping...
+172
+212
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/43_FTLE.npy allready  exist. Skipping...
+176
+216
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/44_FTLE.npy allready  exist. Skipping...
+180
+220
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/45_FTLE.npy allready  exist. Skipping...
+184
+224
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/46_FTLE.npy allready  exist. Skipping...
+188
+228
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/47_FTLE.npy allready  exist. Skipping...
+192
+232
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/48_FTLE.npy allready  exist. Skipping...
+196
+236
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/49_FTLE.npy allready  exist. Skipping...
+200
+240
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/50_FTLE.npy allready  exist. Skipping...
+204
+244
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/51_FTLE.npy allready  exist. Skipping...
+208
+248
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/52_FTLE.npy allready  exist. Skipping...
+212
+252
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/53_FTLE.npy allready  exist. Skipping...
+216
+256
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/54_FTLE.npy allready  exist. Skipping...
+220
+260
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/55_FTLE.npy allready  exist. Skipping...
+224
+264
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/56_FTLE.npy allready  exist. Skipping...
+228
+268
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/57_FTLE.npy allready  exist. Skipping...
+232
+272
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/58_FTLE.npy allready  exist. Skipping...
+236
+276
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/59_FTLE.npy allready  exist. Skipping...
+240
+280
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/60_FTLE.npy allready  exist. Skipping...
+244
+284
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/61_FTLE.npy allready  exist. Skipping...
+248
+288
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/62_FTLE.npy allready  exist. Skipping...
+252
+292
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/63_FTLE.npy allready  exist. Skipping...
+256
+296
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/64_FTLE.npy allready  exist. Skipping...
+260
+300
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/65_FTLE.npy allready  exist. Skipping...
+264
+304
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/66_FTLE.npy allready  exist. Skipping...
+268
+308
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/67_FTLE.npy allready  exist. Skipping...
+272
+312
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/68_FTLE.npy allready  exist. Skipping...
+276
+316
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/69_FTLE.npy allready  exist. Skipping...
+280
+320
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/70_FTLE.npy allready  exist. Skipping...
+284
+324
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/71_FTLE.npy allready  exist. Skipping...
+288
+328
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/72_FTLE.npy allready  exist. Skipping...
+292
+332
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/73_FTLE.npy allready  exist. Skipping...
+296
+336
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/74_FTLE.npy allready  exist. Skipping...
+300
+340
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/75_FTLE.npy allready  exist. Skipping...
+304
+344
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/76_FTLE.npy allready  exist. Skipping...
+308
+348
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/77_FTLE.npy allready  exist. Skipping...
+312
+352
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/78_FTLE.npy allready  exist. Skipping...
+316
+356
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/79_FTLE.npy allready  exist. Skipping...
+320
+360
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/80_FTLE.npy allready  exist. Skipping...
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=32
+
+Job 6261409 consumed 0.0 billing hours from project nn8008k.
+
+Submitted 2025-06-02T15:52:36; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   5.0 seconds
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6261409          32            0.0 %  2025-06-02T15:52:37    5.0 s  0
+6261409.batch    32      1     2.9 %  2025-06-02T15:52:37    5.0 s  0
+
+Used CPU time:   4.7 CPU seconds
+Unused CPU time: 2.6 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+6261409          59.0        
+6261409.batch    59.0     0.0
+
+Job 6261409 completed at Mon Jun 2 15:52:43 CEST 2025
+Starting job 6261430 on c40-7 on fram at Mon Jun 2 16:13:13 CEST 2025
+
+
+Currently Loaded Modules:
+  1) StdEnv (S)
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+The following have been reloaded with a version change:
+  1) FFTW/3.3.10-GCC-13.3.0 => FFTW/3.3.10-GCC-11.3.0
+  2) FlexiBLAS/3.4.4-GCC-13.3.0 => FlexiBLAS/3.2.0-GCC-11.3.0
+  3) GCC/13.3.0 => GCC/11.3.0
+  4) GCCcore/13.3.0 => GCCcore/11.3.0
+  5) OpenBLAS/0.3.27-GCC-13.3.0 => OpenBLAS/0.3.20-GCC-11.3.0
+  6) OpenSSL/3 => OpenSSL/1.1
+  7) Python/3.12.3-GCCcore-13.3.0 => Python/3.10.4-GCCcore-11.3.0
+  8) SQLite/3.45.3-GCCcore-13.3.0 => SQLite/3.38.3-GCCcore-11.3.0
+  9) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2022.05-foss-2022a
+ 10) Tcl/8.6.14-GCCcore-13.3.0 => Tcl/8.6.12-GCCcore-11.3.0
+ 11) XZ/5.4.5-GCCcore-13.3.0 => XZ/5.2.5-GCCcore-11.3.0
+ 12) binutils/2.42-GCCcore-13.3.0 => binutils/2.38-GCCcore-11.3.0
+ 13) bzip2/1.0.8-GCCcore-13.3.0 => bzip2/1.0.8-GCCcore-11.3.0
+ 14) gzip/1.13-GCCcore-13.3.0 => gzip/1.12-GCCcore-11.3.0
+ 15) libffi/3.4.5-GCCcore-13.3.0 => libffi/3.4.2-GCCcore-11.3.0
+ 16) libreadline/8.2-GCCcore-13.3.0 => libreadline/8.1.2-GCCcore-11.3.0
+ 17) lz4/1.9.4-GCCcore-13.3.0 => lz4/1.9.3-GCCcore-11.3.0
+ 18) ncurses/6.5-GCCcore-13.3.0 => ncurses/6.3-GCCcore-11.3.0
+ 19) pybind11/2.12.0-GCC-13.3.0 => pybind11/2.9.2-GCCcore-11.3.0
+ 20) zlib/1.3.1-GCCcore-13.3.0 => zlib/1.2.12-GCCcore-11.3.0
+ 21) zstd/1.5.6-GCCcore-13.3.0 => zstd/1.5.2-GCCcore-11.3.0
+
+0
+40
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/0_FTLE.npy allready  exist. Skipping...
+4
+44
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/1_FTLE.npy allready  exist. Skipping...
+8
+48
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/2_FTLE.npy allready  exist. Skipping...
+12
+52
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/3_FTLE.npy allready  exist. Skipping...
+16
+56
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/4_FTLE.npy allready  exist. Skipping...
+20
+60
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/5_FTLE.npy allready  exist. Skipping...
+24
+64
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/6_FTLE.npy allready  exist. Skipping...
+28
+68
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/7_FTLE.npy allready  exist. Skipping...
+32
+72
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/8_FTLE.npy allready  exist. Skipping...
+36
+76
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/9_FTLE.npy allready  exist. Skipping...
+40
+80
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/10_FTLE.npy allready  exist. Skipping...
+44
+84
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/11_FTLE.npy allready  exist. Skipping...
+48
+88
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/12_FTLE.npy allready  exist. Skipping...
+52
+92
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/13_FTLE.npy allready  exist. Skipping...
+56
+96
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/14_FTLE.npy allready  exist. Skipping...
+60
+100
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/15_FTLE.npy allready  exist. Skipping...
+64
+104
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/16_FTLE.npy allready  exist. Skipping...
+68
+108
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/17_FTLE.npy allready  exist. Skipping...
+72
+112
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/18_FTLE.npy allready  exist. Skipping...
+76
+116
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/19_FTLE.npy allready  exist. Skipping...
+80
+120
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/20_FTLE.npy allready  exist. Skipping...
+84
+124
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/21_FTLE.npy allready  exist. Skipping...
+88
+128
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/22_FTLE.npy allready  exist. Skipping...
+92
+132
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/23_FTLE.npy allready  exist. Skipping...
+96
+136
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/24_FTLE.npy allready  exist. Skipping...
+100
+140
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/25_FTLE.npy allready  exist. Skipping...
+104
+144
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/26_FTLE.npy allready  exist. Skipping...
+108
+148
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/27_FTLE.npy allready  exist. Skipping...
+112
+152
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/28_FTLE.npy allready  exist. Skipping...
+116
+156
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/29_FTLE.npy allready  exist. Skipping...
+120
+160
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/30_FTLE.npy allready  exist. Skipping...
+124
+164
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/31_FTLE.npy allready  exist. Skipping...
+128
+168
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/32_FTLE.npy allready  exist. Skipping...
+132
+172
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/33_FTLE.npy allready  exist. Skipping...
+136
+176
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/34_FTLE.npy allready  exist. Skipping...
+140
+180
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/35_FTLE.npy allready  exist. Skipping...
+144
+184
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/36_FTLE.npy allready  exist. Skipping...
+148
+188
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/37_FTLE.npy allready  exist. Skipping...
+152
+192
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/38_FTLE.npy allready  exist. Skipping...
+156
+196
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/39_FTLE.npy allready  exist. Skipping...
+160
+200
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/40_FTLE.npy allready  exist. Skipping...
+164
+204
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/41_FTLE.npy allready  exist. Skipping...
+168
+208
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/42_FTLE.npy allready  exist. Skipping...
+172
+212
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/43_FTLE.npy allready  exist. Skipping...
+176
+216
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/44_FTLE.npy allready  exist. Skipping...
+180
+220
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/45_FTLE.npy allready  exist. Skipping...
+184
+224
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/46_FTLE.npy allready  exist. Skipping...
+188
+228
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/47_FTLE.npy allready  exist. Skipping...
+192
+232
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/48_FTLE.npy allready  exist. Skipping...
+196
+236
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/49_FTLE.npy allready  exist. Skipping...
+200
+240
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/50_FTLE.npy allready  exist. Skipping...
+204
+244
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/51_FTLE.npy allready  exist. Skipping...
+208
+248
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/52_FTLE.npy allready  exist. Skipping...
+212
+252
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/53_FTLE.npy allready  exist. Skipping...
+216
+256
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/54_FTLE.npy allready  exist. Skipping...
+220
+260
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/55_FTLE.npy allready  exist. Skipping...
+224
+264
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/56_FTLE.npy allready  exist. Skipping...
+228
+268
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/57_FTLE.npy allready  exist. Skipping...
+232
+272
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/58_FTLE.npy allready  exist. Skipping...
+236
+276
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/59_FTLE.npy allready  exist. Skipping...
+240
+280
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/60_FTLE.npy allready  exist. Skipping...
+244
+284
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/61_FTLE.npy allready  exist. Skipping...
+248
+288
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/62_FTLE.npy allready  exist. Skipping...
+252
+292
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/63_FTLE.npy allready  exist. Skipping...
+256
+296
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/64_FTLE.npy allready  exist. Skipping...
+260
+300
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/65_FTLE.npy allready  exist. Skipping...
+264
+304
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/66_FTLE.npy allready  exist. Skipping...
+268
+308
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/67_FTLE.npy allready  exist. Skipping...
+272
+312
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/68_FTLE.npy allready  exist. Skipping...
+276
+316
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/69_FTLE.npy allready  exist. Skipping...
+280
+320
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/70_FTLE.npy allready  exist. Skipping...
+284
+324
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/71_FTLE.npy allready  exist. Skipping...
+288
+328
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/72_FTLE.npy allready  exist. Skipping...
+292
+332
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/73_FTLE.npy allready  exist. Skipping...
+296
+336
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/74_FTLE.npy allready  exist. Skipping...
+300
+340
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/75_FTLE.npy allready  exist. Skipping...
+304
+344
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/76_FTLE.npy allready  exist. Skipping...
+308
+348
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/77_FTLE.npy allready  exist. Skipping...
+312
+352
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/78_FTLE.npy allready  exist. Skipping...
+316
+356
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/79_FTLE.npy allready  exist. Skipping...
+320
+360
+File /cluster/projects/nn8008k/lluisa/NextSIM/seas//Fmap_10days/cleaned_FTLE_2009_JAS_dx0.100_dy0.100_dt0.100_grid_ratio0.010/80_FTLE.npy allready  exist. Skipping...
+EBVERSIONNUMACTL=2.0.14
+SLURM_JOB_NUM_NODES=1
+EBROOTNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0
+EBDEVELNUMACTL=/cluster/software/numactl/2.0.14-GCCcore-11.3.0/easybuild/numactl-2.0.14-GCCcore-11.3.0-easybuild-devel
+OMP_NUM_THREADS=32
+
+Job 6261430 consumed 0.1 billing hours from project nn8008k.
+
+Submitted 2025-06-02T16:13:12; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 6.3 hours
+Elapsed wallclock time:   7.0 seconds
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+6261430          32            0.0 %  2025-06-02T16:13:12    7.0 s  0
+6261430.batch    32      1     2.1 %  2025-06-02T16:13:12    7.0 s  0
+
+Used CPU time:   4.7 CPU seconds
+Unused CPU time: 3.7 CPU minutes
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+6261430          59.0        
+6261430.batch    59.0     0.0
+
+Job 6261430 completed at Mon Jun 2 16:13:19 CEST 2025
