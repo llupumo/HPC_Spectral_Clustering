@@ -1,3 +1,0 @@
-Processing year 2010, season AMJ, tmin 320
-Reading data
-The files /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2010_AMJ_ic0.5_dt0.0025_DT0.0100//80_W_reweigthed.npy and /cluster/projects/nn8008k/lluisa/NextSIM/seas/Fmap_10days/2010_AMJ_ic0.5_dt0.0025_DT0.0100//80_W_disp.npy allready exists

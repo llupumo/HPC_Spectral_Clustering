@@ -1,6 +1,0 @@
-Processing year 2010, season AMJ
-Processing year 2010, season AMJ
-Reading regrided input data
-Number of points inside the polygons:
-281832
-Processing 2 clusters

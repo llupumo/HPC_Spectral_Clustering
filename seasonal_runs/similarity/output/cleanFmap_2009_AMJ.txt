@@ -1,4 +1,0 @@
-Processing year 2009, season AMJ
-Reading data
-Generate interpolators for the advection
-Time taken for parallel computation to generate the velocity interpolator objects: 12.25 seconds
